@@ -1,0 +1,39 @@
+/* Layout: hero with a sun rising behind lotus-bud chedi, then a vertical timeline whose spine fills as you scroll; large year numerals sit opposite each card. */
+:root{
+  --bg:#E8EEE9; --surface:#F1F5F0; --raise:#FBFDFA; --ink:#14241D; --muted:#4A5F55; --line:#C0CEC4;
+  --celadon:#3C7C6B; --gold:#C2831C; --laterite:#9C4C30; --slate:#4A6A8E;
+  --e1:var(--celadon); --e2:var(--gold); --e3:var(--laterite); --e4:var(--slate);
+  --sky-a:#CFE3D8; --sky-b:#F1E3BC; --sun:#F0A93E; --sun-glow:rgba(240,169,62,.35);
+  --ground:#2E5A4C; --chedi:#1E3E35; --gild:#E9B85B; --cloud:rgba(255,255,255,.6); --ray:rgba(240,169,62,.2); --art-dk:#1E3E35; --art-hill1:#6F9A86; --art-hill2:#9DBDAB; --art-ground2:#1F4538; --art-water:#5E9E9A; --art-wave:rgba(255,255,255,.55); --art-ledge:#7B5B3C; --art-ledge2:#A07A52; --art-stone:#CFC8B2; --art-ink:#14241D; --art-moon:#F6EBC4; --art-smoke:rgba(60,64,64,.55); --art-fire:#E8622A; --art-fire2:#F6B03C; --art-robe:#D88A2B; --art-brick:#B8643C; --art-white:#F6F1E4; --art-red:#A5362B; --art-leaf:#3F7A5E; --art-lotus:#E8A0B4; --art-parch:#E3D2A2; --sk-dawn-a:#BFD8CC; --sk-dawn-b:#F6E2AC; --sk-day-a:#B9D6E6; --sk-day-b:#F3ECD3; --sk-dusk-a:#7E5C86; --sk-dusk-b:#F0B77E; --sk-night-a:#0E1A33; --sk-night-b:#34476F; --sk-fire-a:#2B0F0C; --sk-fire-b:#D9632A; --sk-storm-a:#6E8390; --sk-storm-b:#C3CDCB; --menu-h:56px;
+  --shadow:0 1px 2px rgba(20,36,29,.08),0 10px 28px rgba(20,36,29,.09);
+  --font-display:'Chonburi','Noto Serif Thai',serif;
+  --font-body:'Sarabun','Noto Sans Thai',system-ui,sans-serif;
+  --font-util:'IBM Plex Sans Thai','Sarabun',system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0C1613; --surface:#121F1B; --raise:#16251F; --ink:#E6EEE8; --muted:#9BB1A5; --line:#2A3C34;
+    --celadon:#6FB8A3; --gold:#E3A83F; --laterite:#DB8C6A; --slate:#8FB0D6;
+    --sky-a:#0B1512; --sky-b:#2A2716; --sun:#E9A23B; --sun-glow:rgba(233,162,59,.28);
+    --ground:#0A1411; --chedi:#050B09; --gild:#D8A64B; --cloud:rgba(176,200,188,.12); --ray:rgba(233,162,59,.14); --art-dk:#08110E; --art-hill1:#1A3029; --art-hill2:#25423A; --art-ground2:#050B09; --art-water:#1C4846; --art-wave:rgba(150,200,190,.35); --art-ledge:#2A1E14; --art-ledge2:#3D2C1E; --art-stone:#8E8A78; --art-ink:#E6EEE8; --art-moon:#F6EBC4; --art-smoke:rgba(20,22,22,.6); --art-fire:#E8622A; --art-fire2:#F6B03C; --art-robe:#C07A22; --art-brick:#8A4A30; --art-white:#D9D6C6; --art-red:#8E2E25; --art-leaf:#17332A; --art-lotus:#C86A88; --art-parch:#B9A878; --sk-dawn-a:#1E3A33; --sk-dawn-b:#6E6234; --sk-day-a:#27485A; --sk-day-b:#667662; --sk-dusk-a:#3A2848; --sk-dusk-b:#A8643C; --sk-night-a:#070E1E; --sk-night-b:#1F2D4E; --sk-fire-a:#1A0806; --sk-fire-b:#A8461E; --sk-storm-a:#27333B; --sk-storm-b:#566A6C;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.35);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0C1613; --surface:#121F1B; --raise:#16251F; --ink:#E6EEE8; --muted:#9BB1A5; --line:#2A3C34;
+  --celadon:#6FB8A3; --gold:#E3A83F; --laterite:#DB8C6A; --slate:#8FB0D6;
+  --sky-a:#0B1512; --sky-b:#2A2716; --sun:#E9A23B; --sun-glow:rgba(233,162,59,.28);
+  --ground:#0A1411; --chedi:#050B09; --gild:#D8A64B; --cloud:rgba(176,200,188,.12); --ray:rgba(233,162,59,.14); --art-dk:#08110E; --art-hill1:#1A3029; --art-hill2:#25423A; --art-ground2:#050B09; --art-water:#1C4846; --art-wave:rgba(150,200,190,.35); --art-ledge:#2A1E14; --art-ledge2:#3D2C1E; --art-stone:#8E8A78; --art-ink:#E6EEE8; --art-moon:#F6EBC4; --art-smoke:rgba(20,22,22,.6); --art-fire:#E8622A; --art-fire2:#F6B03C; --art-robe:#C07A22; --art-brick:#8A4A30; --art-white:#D9D6C6; --art-red:#8E2E25; --art-leaf:#17332A; --art-lotus:#C86A88; --art-parch:#B9A878; --sk-dawn-a:#1E3A33; --sk-dawn-b:#6E6234; --sk-day-a:#27485A; --sk-day-b:#667662; --sk-dusk-a:#3A2848; --sk-dusk-b:#A8643C; --sk-night-a:#070E1E; --sk-night-b:#1F2D4E; --sk-fire-a:#1A0806; --sk-fire-b:#A8461E; --sk-storm-a:#27333B; --sk-storm-b:#566A6C;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.35);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:17px;line-height:1.75;margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+body.has-player{padding-bottom:104px}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:6px}
+.in{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.ic{width:1.15em;height:1.15em;flex:none;display:inline-block;vertical-align:middle}

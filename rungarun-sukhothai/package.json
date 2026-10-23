@@ -1,0 +1,17 @@
+{
+  "name": "rungarun-sukhothai",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs && wrangler pages dev dist --d1 DB=fd9065a4-835f-4457-9b9f-1d79c50613d8 --local",
+    "db:schema": "wrangler d1 execute DB --remote --file=db/schema.sql",
+    "db:seed": "node build.mjs && wrangler d1 execute DB --remote --file=db/seed.sql",
+    "db:schema:local": "wrangler d1 execute DB --local --file=db/schema.sql",
+    "db:seed:local": "node build.mjs && wrangler d1 execute DB --local --file=db/seed.sql",
+    "deploy": "node build.mjs && wrangler pages deploy dist --project-name rungarun-sukhothai"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

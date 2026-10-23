@@ -1,0 +1,31 @@
+/* ---- Illustrations ---- */
+.pic{position:relative;aspect-ratio:16/9;overflow:hidden;background:var(--surface)}
+.pic .art{position:absolute;inset:0;width:100%;height:100%;display:block;transition:transform .9s cubic-bezier(.2,.8,.2,1)}
+.card .pic{margin:-20px -20px 16px;border-radius:13px 13px 0 0}
+.card:hover .pic .art{transform:scale(1.05)}
+.sheet .pic{margin:-26px calc(-1*clamp(18px,4vw,34px)) 18px;border-radius:19px 19px 0 0;aspect-ratio:16/8}
+.art .dk{fill:var(--art-dk)}
+.art .gd{fill:none;stroke:var(--gild);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.art .gf{fill:var(--gild)}
+.art .st{fill:var(--art-stone)}
+.art .cloud ellipse{fill:var(--cloud)}
+.art .smoke{animation:cloudA 22s ease-in-out infinite alternate}
+.art .smoke ellipse{fill:var(--art-smoke)}
+.art .gl{font-family:var(--font-display);animation:flt 6s ease-in-out infinite alternate}
+@keyframes flt{to{transform:translateY(-10px)}}
+.art .swing{transform-box:fill-box;transform-origin:50% 0;animation:swing 3s ease-in-out infinite alternate}
+@keyframes swing{from{transform:rotate(-9deg)}to{transform:rotate(9deg)}}
+.art .wv{transform-box:fill-box;transform-origin:0 50%;animation:wv 1s ease-in-out infinite alternate}
+@keyframes wv{from{transform:scaleX(.92) skewY(-2deg)}to{transform:scaleX(1.04) skewY(2deg)}}
+.art .flame{transform-box:fill-box;transform-origin:50% 100%;animation:flick .5s ease-in-out infinite alternate}
+@keyframes flick{from{transform:scale(.85,.9)}to{transform:scale(1.1,1.15)}}
+.art .twk{animation:twk 3s ease-in-out infinite}
+@keyframes twk{50%{opacity:.25}}
+.art .wave{animation:dash 6s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-140}}
+.art .plane{animation:fl2 5s ease-in-out infinite alternate}
+@keyframes fl2{to{transform:translateY(8px)}}
+.pic .art *{animation-play-state:paused}
+.item.active .pic .art *,.pic:hover .art *,.sheet .pic .art *{animation-play-state:running}
+.hero-art .art{display:block;width:100%;height:auto;max-width:580px;margin-left:auto;overflow:visible}
+h1.long{font-size:clamp(2.6rem,7.4vw,4.9rem)}

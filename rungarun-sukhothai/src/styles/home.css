@@ -1,0 +1,25 @@
+/* ---- Home ---- */
+.home{padding-top:40px;padding-bottom:56px;position:relative;z-index:1}
+.sec-title{font-family:var(--font-display);font-weight:400;font-size:clamp(1.6rem,3.6vw,2.3rem);line-height:1.4;margin:0 0 6px;text-wrap:balance}
+.sec-sub{color:var(--muted);max-width:44em;margin:0 0 26px}
+.cards4{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:20px}
+.pcard{display:flex;flex-direction:column;min-width:0;background:var(--raise);border:1px solid var(--line);border-radius:16px;overflow:hidden;color:var(--ink);text-decoration:none;box-shadow:var(--shadow);transition:transform .35s cubic-bezier(.2,.8,.2,1);animation:fadeUp .7s calc(var(--i) * .1s) cubic-bezier(.2,.8,.2,1) both}
+.pcard:hover{transform:translateY(-6px)}
+.pcard .pic{aspect-ratio:16/10}
+.pcard:hover .pic .art{transform:scale(1.06);}
+.pcard:hover .pic .art *{animation-play-state:running}
+.pcard .body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:6px;flex:1}
+.pcard .rng{font-family:var(--font-util);font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.pcard h3{font-family:var(--font-display);font-weight:400;font-size:1.4rem;line-height:1.4;margin:0}
+.pcard p{margin:0;color:var(--muted);font-size:.95rem;line-height:1.65}
+.pcard .go{margin-top:auto;padding-top:12px;display:flex;align-items:center;justify-content:space-between;gap:8px;font-weight:600;font-family:var(--font-util);font-size:.92rem}
+.pcard .go .ic{transition:transform .3s}
+.pcard:hover .go .ic{transform:translateX(4px)}
+.overlap-note{margin:24px 0 0;font-family:var(--font-util);font-size:.88rem;color:var(--muted)}
+.view-in{animation:viewIn .6s cubic-bezier(.2,.8,.2,1) both}
+@keyframes viewIn{from{opacity:0;transform:translateY(16px)}}
+@supports (color:color-mix(in srgb,red,blue)){
+  body[data-p="ayutthaya"] .hero{background:linear-gradient(180deg,color-mix(in srgb,var(--laterite) 24%,var(--sky-a)),color-mix(in srgb,var(--gold) 34%,var(--sky-b)))}
+  body[data-p="thonburi"] .hero{background:linear-gradient(180deg,color-mix(in srgb,var(--slate) 30%,var(--sky-a)),color-mix(in srgb,var(--gold) 26%,var(--sky-b)))}
+  body[data-p="rattanakosin"] .hero{background:linear-gradient(180deg,color-mix(in srgb,var(--gold) 20%,var(--sky-a)),color-mix(in srgb,var(--laterite) 22%,var(--sky-b)))}
+}
