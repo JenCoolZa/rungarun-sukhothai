@@ -1,7 +1,0 @@
-/* shared form bits used by the learn page */
-.fld{display:block}
-.fld span{display:block;font-size:.85rem;color:var(--muted);margin-bottom:4px}
-.fld input,.fld textarea,.fld select{width:100%;box-sizing:border-box;border:1.5px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:inherit;padding:8px 10px}
-.fld input,.fld select{min-height:44px}
-.note-s{font-size:.9rem;color:var(--muted);margin:0 0 8px}
-.btn:disabled{opacity:.4;cursor:not-allowed}
