@@ -1,0 +1,2076 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>รุ่งอรุณสุโขทัย</title>
+<meta name="description" content="ไทม์ไลน์ประวัติศาสตร์ไทย สุโขทัย อยุธยา ธนบุรี รัตนโกสินทร์ พร้อมภาพประกอบและเสียงบรรยาย">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chonburi&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=Sarabun:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: hero with a sun rising behind lotus-bud chedi, then a vertical timeline whose spine fills as you scroll; large year numerals sit opposite each card. */
+:root{
+  --bg:#E8EEE9; --surface:#F1F5F0; --raise:#FBFDFA; --ink:#14241D; --muted:#4A5F55; --line:#C0CEC4;
+  --celadon:#3C7C6B; --gold:#C2831C; --laterite:#9C4C30; --slate:#4A6A8E;
+  --e1:var(--celadon); --e2:var(--gold); --e3:var(--laterite); --e4:var(--slate);
+  --sky-a:#CFE3D8; --sky-b:#F1E3BC; --sun:#F0A93E; --sun-glow:rgba(240,169,62,.35);
+  --ground:#2E5A4C; --chedi:#1E3E35; --gild:#E9B85B; --cloud:rgba(255,255,255,.6); --ray:rgba(240,169,62,.2); --art-dk:#1E3E35; --art-hill1:#6F9A86; --art-hill2:#9DBDAB; --art-ground2:#1F4538; --art-water:#5E9E9A; --art-wave:rgba(255,255,255,.55); --art-ledge:#7B5B3C; --art-ledge2:#A07A52; --art-stone:#CFC8B2; --art-ink:#14241D; --art-moon:#F6EBC4; --art-smoke:rgba(60,64,64,.55); --art-fire:#E8622A; --art-fire2:#F6B03C; --art-robe:#D88A2B; --art-brick:#B8643C; --art-white:#F6F1E4; --art-red:#A5362B; --art-leaf:#3F7A5E; --art-lotus:#E8A0B4; --art-parch:#E3D2A2; --sk-dawn-a:#BFD8CC; --sk-dawn-b:#F6E2AC; --sk-day-a:#B9D6E6; --sk-day-b:#F3ECD3; --sk-dusk-a:#7E5C86; --sk-dusk-b:#F0B77E; --sk-night-a:#0E1A33; --sk-night-b:#34476F; --sk-fire-a:#2B0F0C; --sk-fire-b:#D9632A; --sk-storm-a:#6E8390; --sk-storm-b:#C3CDCB; --menu-h:56px;
+  --shadow:0 1px 2px rgba(20,36,29,.08),0 10px 28px rgba(20,36,29,.09);
+  --font-display:'Chonburi','Noto Serif Thai',serif;
+  --font-body:'Sarabun','Noto Sans Thai',system-ui,sans-serif;
+  --font-util:'IBM Plex Sans Thai','Sarabun',system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0C1613; --surface:#121F1B; --raise:#16251F; --ink:#E6EEE8; --muted:#9BB1A5; --line:#2A3C34;
+    --celadon:#6FB8A3; --gold:#E3A83F; --laterite:#DB8C6A; --slate:#8FB0D6;
+    --sky-a:#0B1512; --sky-b:#2A2716; --sun:#E9A23B; --sun-glow:rgba(233,162,59,.28);
+    --ground:#0A1411; --chedi:#050B09; --gild:#D8A64B; --cloud:rgba(176,200,188,.12); --ray:rgba(233,162,59,.14); --art-dk:#08110E; --art-hill1:#1A3029; --art-hill2:#25423A; --art-ground2:#050B09; --art-water:#1C4846; --art-wave:rgba(150,200,190,.35); --art-ledge:#2A1E14; --art-ledge2:#3D2C1E; --art-stone:#8E8A78; --art-ink:#E6EEE8; --art-moon:#F6EBC4; --art-smoke:rgba(20,22,22,.6); --art-fire:#E8622A; --art-fire2:#F6B03C; --art-robe:#C07A22; --art-brick:#8A4A30; --art-white:#D9D6C6; --art-red:#8E2E25; --art-leaf:#17332A; --art-lotus:#C86A88; --art-parch:#B9A878; --sk-dawn-a:#1E3A33; --sk-dawn-b:#6E6234; --sk-day-a:#27485A; --sk-day-b:#667662; --sk-dusk-a:#3A2848; --sk-dusk-b:#A8643C; --sk-night-a:#070E1E; --sk-night-b:#1F2D4E; --sk-fire-a:#1A0806; --sk-fire-b:#A8461E; --sk-storm-a:#27333B; --sk-storm-b:#566A6C;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.35);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0C1613; --surface:#121F1B; --raise:#16251F; --ink:#E6EEE8; --muted:#9BB1A5; --line:#2A3C34;
+  --celadon:#6FB8A3; --gold:#E3A83F; --laterite:#DB8C6A; --slate:#8FB0D6;
+  --sky-a:#0B1512; --sky-b:#2A2716; --sun:#E9A23B; --sun-glow:rgba(233,162,59,.28);
+  --ground:#0A1411; --chedi:#050B09; --gild:#D8A64B; --cloud:rgba(176,200,188,.12); --ray:rgba(233,162,59,.14); --art-dk:#08110E; --art-hill1:#1A3029; --art-hill2:#25423A; --art-ground2:#050B09; --art-water:#1C4846; --art-wave:rgba(150,200,190,.35); --art-ledge:#2A1E14; --art-ledge2:#3D2C1E; --art-stone:#8E8A78; --art-ink:#E6EEE8; --art-moon:#F6EBC4; --art-smoke:rgba(20,22,22,.6); --art-fire:#E8622A; --art-fire2:#F6B03C; --art-robe:#C07A22; --art-brick:#8A4A30; --art-white:#D9D6C6; --art-red:#8E2E25; --art-leaf:#17332A; --art-lotus:#C86A88; --art-parch:#B9A878; --sk-dawn-a:#1E3A33; --sk-dawn-b:#6E6234; --sk-day-a:#27485A; --sk-day-b:#667662; --sk-dusk-a:#3A2848; --sk-dusk-b:#A8643C; --sk-night-a:#070E1E; --sk-night-b:#1F2D4E; --sk-fire-a:#1A0806; --sk-fire-b:#A8461E; --sk-storm-a:#27333B; --sk-storm-b:#566A6C;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.35);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:17px;line-height:1.75;margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+body.has-player{padding-bottom:104px}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:6px}
+.in{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.ic{width:1.15em;height:1.15em;flex:none;display:inline-block;vertical-align:middle}
+
+/* Hero */
+.hero{background:linear-gradient(180deg,var(--sky-a) 0%,var(--sky-b) 100%);overflow:hidden}
+.hero .in{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:24px;align-items:end;padding-top:clamp(32px,6vw,72px);padding-bottom:0}
+.hero-text{padding-bottom:clamp(24px,4vw,56px);min-width:0}
+.eyebrow{font-family:var(--font-util);font-size:.9rem;letter-spacing:.04em;color:var(--muted);margin:0 0 6px}
+h1{font-family:var(--font-display);font-weight:400;font-size:clamp(3.4rem,10vw,6.6rem);line-height:1.25;margin:0;text-wrap:balance}
+.lede{max-width:34em;margin:10px 0 0;font-size:1.08rem}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.facts{display:flex;flex-wrap:wrap;gap:6px 22px;list-style:none;padding:0;margin:26px 0 0;font-family:var(--font-util);font-size:.92rem;color:var(--muted)}
+.facts li{display:flex;align-items:center;gap:8px}
+.facts li::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--gold)}
+.hero-art{min-width:0;align-self:end}
+.hero-art svg{display:block;width:100%;height:auto;max-width:580px;margin-left:auto}
+.s-sun{fill:var(--sun)} .s-glow{fill:var(--sun-glow)}
+.s-ground{fill:var(--ground)} .s-chedi{fill:var(--chedi)} .s-gild{fill:none;stroke:var(--gild);stroke-width:2;stroke-linecap:round}
+.s-gildfill{fill:var(--gild)}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:8px 18px;border-radius:10px;border:1.5px solid var(--ink);background:var(--ink);color:var(--bg);font-weight:600;text-decoration:none;line-height:1.3;transition:transform .15s,background .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn.ghost:hover{background:var(--surface)}
+.btn.sm{min-height:42px;padding:6px 14px;font-size:.95rem}
+
+/* Stage: filter + timeline */
+.stage{padding-top:28px;padding-bottom:40px}
+.bar{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--menu-h));z-index:5;background:var(--bg);padding-top:10px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.bar .in{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px}
+.bar-label{font-family:var(--font-util);font-size:.85rem;color:var(--muted);margin-right:4px}
+.chip{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:4px 14px;border-radius:999px;border:1.5px solid var(--line);background:var(--raise);font-size:.95rem;font-weight:500}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip i{width:10px;height:10px;border-radius:50%;background:var(--c,var(--muted));display:inline-block}
+.chip[aria-pressed="true"] i{box-shadow:0 0 0 2px var(--bg)}
+.era-note{font-family:var(--font-util);font-size:.85rem;color:var(--muted);margin:14px 0 0}
+
+.tl-box{position:relative;margin-top:28px}
+.spine{position:absolute;top:0;bottom:0;left:21px;width:2px;border-radius:2px;background:linear-gradient(to bottom,var(--celadon) 0,var(--celadon) var(--p,0%),var(--line) var(--p,0%))}
+.timeline{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:22px;position:relative}
+.item{display:grid;grid-template-columns:44px minmax(0,1fr);column-gap:10px}
+.e1{--c:var(--e1)} .e2{--c:var(--e2)} .e3{--c:var(--e3)} .e4{--c:var(--e4)}
+.dot{grid-column:1;grid-row:1;justify-self:center;margin-top:18px;width:44px;height:36px;display:flex;align-items:center;justify-content:center;border-radius:14px;background:var(--bg);color:var(--c);border:2px solid var(--c);box-shadow:0 2px 8px rgba(0,0,0,.12);z-index:1}
+.dot svg{width:34px;height:26px;display:block;overflow:visible}
+.dot svg .f{fill:currentColor}.dot svg .s{fill:none;stroke:currentColor;stroke-linecap:round}
+.item.is-playing .dot{animation:pulse 1.6s ease-out infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 var(--c)}100%{box-shadow:0 0 0 14px transparent}}
+.big{display:none}
+.card{grid-column:2;grid-row:1;background:var(--raise);border:1px solid var(--line);border-radius:14px;padding:20px 20px 18px;box-shadow:var(--shadow);min-width:0;transition:outline-color .2s}
+.item.is-playing .card{outline:2px solid var(--c);outline-offset:2px}
+.meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;font-family:var(--font-util);font-size:.88rem}
+.year{font-weight:600;font-variant-numeric:tabular-nums}
+.tag{display:inline-flex;align-items:center;gap:6px;padding:1px 10px;border-radius:999px;background:var(--surface);color:var(--ink);font-size:.8rem;border:1px solid var(--line)}
+.tag::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--c)}
+.card h3{font-size:1.3rem;line-height:1.45;margin:8px 0 4px;text-wrap:balance}
+.card .sum{margin:0;color:var(--ink)}
+.acts{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+
+@media (min-width:880px){
+  .spine{left:calc(50% - 1px)}
+  .timeline{gap:30px}
+  .item{grid-template-columns:minmax(0,1fr) 64px minmax(0,1fr);column-gap:0}
+  .dot{grid-column:2}
+  .big{display:block;align-self:start;padding-top:14px;min-width:0}
+  .item.left .card{grid-column:1;margin-right:12px}
+  .item.left .big{grid-column:3;text-align:left;padding-left:28px}
+  .item.right .card{grid-column:3;margin-left:12px}
+  .item.right .big{grid-column:1;grid-row:1;text-align:right;padding-right:28px}
+  .big .pre{display:block;font-family:var(--font-util);font-size:.9rem;color:var(--muted)}
+  .big .num{display:block;font-family:var(--font-display);font-size:clamp(2.6rem,4.6vw,3.8rem);line-height:1.3;color:var(--muted);font-variant-numeric:tabular-nums}
+  .big .num.txt{font-size:clamp(1.7rem,2.8vw,2.3rem)}
+}
+@supports (color:color-mix(in srgb,red,blue)){
+  .tag{background:color-mix(in srgb,var(--c) 14%,var(--raise));border-color:color-mix(in srgb,var(--c) 40%,var(--line))}
+  @media (min-width:880px){.big .num{color:color-mix(in srgb,var(--c) 62%,var(--ink))}}
+}
+
+/* Footer */
+.foot{border-top:1px solid var(--line);background:var(--surface);padding-top:28px;padding-bottom:36px;font-size:.95rem}
+.foot h2{font-family:var(--font-display);font-weight:400;font-size:1.4rem;margin:0 0 8px}
+.foot p{margin:0 0 10px;color:var(--muted);max-width:46em}
+.foot ul{margin:6px 0 0;padding-left:1.2em;color:var(--muted)}
+.foot a{color:var(--ink);text-underline-offset:3px}
+.foot li{margin-bottom:4px;overflow-wrap:anywhere}
+
+/* Detail sheet */
+.overlay{position:fixed;inset:0;z-index:30;background:rgba(6,14,11,.62);display:flex;align-items:center;justify-content:center;padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.sheet{position:relative;width:min(740px,100%);max-height:100%;overflow-y:auto;background:var(--raise);border-radius:20px;border:1px solid var(--line);box-shadow:0 20px 60px rgba(0,0,0,.35);padding:26px clamp(18px,4vw,34px) 24px;animation:rise .25s ease-out}
+@keyframes rise{from{transform:translateY(16px);opacity:0}to{transform:none;opacity:1}}
+.x{position:absolute;top:12px;right:12px;width:44px;height:44px;display:grid;place-items:center;border-radius:50%;border:1px solid var(--line);background:var(--surface)}
+.sheet .meta{padding-right:48px}
+.sheet h2{font-family:var(--font-display);font-weight:400;font-size:clamp(1.6rem,4vw,2.2rem);line-height:1.4;margin:10px 0 6px;text-wrap:balance;padding-right:40px}
+.people{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0;padding:0;list-style:none}
+.people li{font-family:var(--font-util);font-size:.82rem;padding:2px 10px;border-radius:6px;background:var(--surface);border:1px solid var(--line)}
+.listen{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:18px 0 12px;padding:12px;border-radius:12px;background:var(--surface)}
+.listen .state{font-family:var(--font-util);font-size:.88rem;color:var(--muted)}
+.story p{margin:0 0 6px;padding:8px 12px;border-radius:10px;transition:background .2s}
+.story p.speaking{background:color-mix(in srgb,var(--c) 18%,var(--raise));background:var(--surface);box-shadow:inset 0 0 0 2px var(--c)}
+.note{margin:14px 0 0;padding:12px 14px;border-radius:10px;border:1px dashed var(--line);font-size:.95rem;color:var(--muted)}
+.note b{color:var(--ink)}
+.nav{display:flex;justify-content:space-between;gap:10px;margin-top:20px;flex-wrap:wrap}
+
+/* Player */
+.player{position:fixed;left:0;right:0;bottom:0;z-index:20;padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));pointer-events:none}
+.player-box{pointer-events:auto;max-width:820px;margin:0 auto;background:var(--ink);color:var(--bg);border-radius:16px;padding:10px 14px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;box-shadow:0 12px 40px rgba(0,0,0,.35)}
+.p-info{flex:1 1 200px;min-width:0;line-height:1.4}
+.p-info small{display:block;font-family:var(--font-util);font-size:.78rem;opacity:.75}
+.p-info strong{display:block;font-size:1rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.p-ctl{display:flex;align-items:center;gap:6px}
+.pb{width:44px;height:44px;border-radius:50%;border:1.5px solid color-mix(in srgb,var(--bg) 45%,transparent);border-color:rgba(255,255,255,.35);background:transparent;color:var(--bg);display:grid;place-items:center}
+.pb.main{background:var(--bg);color:var(--ink);border-color:var(--bg)}
+.pb:disabled{opacity:.4;cursor:default}
+.p-rate{font-family:var(--font-util);font-size:.85rem;display:flex;align-items:center;gap:6px}
+.p-rate select{min-height:40px;border-radius:8px;border:1px solid rgba(255,255,255,.35);background:transparent;color:var(--bg);padding:2px 8px;font:inherit}
+.p-rate select option{color:#14241D;background:#fff}
+.p-rate select{max-width:150px}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(112px + env(safe-area-inset-bottom,0px));z-index:40;max-width:min(520px,calc(100% - 32px));background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:10px 16px;font-size:.95rem;box-shadow:var(--shadow)}
+
+@media (max-width:760px){
+  .hero .in{grid-template-columns:minmax(0,1fr)}
+  .hero-art svg{max-width:460px;margin:0 auto}
+  .overlay{align-items:flex-end;padding-bottom:0}
+  .sheet{border-radius:20px 20px 0 0;max-height:92%}
+  body{font-size:16.5px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+
+/* ---- Motion layer ---- */
+.aurora{position:fixed;inset:-20%;z-index:0;pointer-events:none;
+  background:radial-gradient(40% 35% at 20% 30%,rgba(60,124,107,.13),transparent 70%),radial-gradient(35% 30% at 80% 70%,rgba(194,131,28,.12),transparent 70%);
+  animation:aurora 26s ease-in-out infinite alternate}
+@supports (color:color-mix(in srgb,red,blue)){
+  .aurora{background:radial-gradient(40% 35% at 20% 30%,color-mix(in srgb,var(--celadon) 18%,transparent),transparent 70%),radial-gradient(35% 30% at 80% 70%,color-mix(in srgb,var(--gold) 15%,transparent),transparent 70%)}
+}
+@keyframes aurora{to{transform:translate3d(5%,3%,0) rotate(7deg) scale(1.1)}}
+.bgfx{position:fixed;inset:0;z-index:0;pointer-events:none}
+.hero,.stage,.foot{position:relative;z-index:1}
+
+.hero-text>*{animation:fadeUp .9s cubic-bezier(.2,.8,.2,1) both}
+.hero-text>*:nth-child(2){animation-delay:.1s}
+.hero-text>*:nth-child(3){animation-delay:.2s}
+.hero-text>*:nth-child(4){animation-delay:.3s}
+.hero-text>*:nth-child(5){animation-delay:.4s}
+@keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+@supports ((-webkit-background-clip:text) or (background-clip:text)){
+  .hero-text>h1{background:linear-gradient(100deg,var(--ink) 38%,var(--laterite) 50%,var(--ink) 62%);background-size:260% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;animation:fadeUp .9s .1s cubic-bezier(.2,.8,.2,1) both,sheen 9s 1.2s linear infinite}
+}
+@keyframes sheen{0%{background-position:110% 0}100%{background-position:-110% 0}}
+
+.hero-art{will-change:transform}
+.rays{transform-box:view-box;transform-origin:300px 206px;animation:spin 90s linear infinite}
+.rays path{fill:var(--ray)}
+@keyframes spin{to{transform:rotate(360deg)}}
+.s-glow{transform-box:fill-box;transform-origin:center;animation:glow 5s ease-in-out infinite}
+@keyframes glow{0%,100%{transform:scale(1);opacity:.85}50%{transform:scale(1.1);opacity:1}}
+.s-sun{transform-box:fill-box;transform-origin:center;animation:sunrise 1.6s cubic-bezier(.2,.8,.2,1) both,breathe 6s 1.6s ease-in-out infinite}
+@keyframes sunrise{from{transform:translateY(46px);opacity:.2}to{transform:none;opacity:1}}
+@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.035)}}
+.cloud ellipse{fill:var(--cloud)}
+.cloud{animation:cloudA 38s ease-in-out infinite alternate}
+.cloud.c2{animation-name:cloudB;animation-duration:46s}
+.cloud.c3{animation-name:cloudA;animation-duration:54s;animation-delay:-20s}
+@keyframes cloudA{from{transform:translateX(-40px)}to{transform:translateX(70px)}}
+@keyframes cloudB{from{transform:translateX(50px)}to{transform:translateX(-60px)}}
+.s-bird{fill:none;stroke:var(--muted);stroke-width:2;stroke-linecap:round;transform-box:fill-box;transform-origin:center;animation:flap .55s ease-in-out infinite alternate}
+@keyframes flap{from{transform:scaleY(1)}to{transform:scaleY(.3)}}
+.bird{animation:fly 26s linear infinite}
+.bird.b2{animation-duration:34s;animation-delay:-12s}
+@keyframes fly{from{transform:translate(-40px,0)}to{transform:translate(570px,-34px)}}
+.s-gild{animation:shimmer 4s ease-in-out infinite}
+@keyframes shimmer{0%,100%{stroke-opacity:.55}50%{stroke-opacity:1}}
+.bounce{display:inline-block;animation:bob 1.4s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(-2px)}50%{transform:translateY(4px)}}
+
+.boat{position:absolute;left:50%;top:var(--p,0%);width:76px;height:50px;margin:-34px 0 0 -38px;pointer-events:none;z-index:3;transition:top .12s linear;filter:drop-shadow(0 4px 6px rgba(0,0,0,.22))}
+.boat svg{width:100%;height:100%;overflow:visible;display:block}
+.boat .hull{animation:boatBob 2.6s ease-in-out infinite;transform-box:view-box;transform-origin:40px 30px}
+.boat .wv1{animation:waveA 3.2s linear infinite}
+.boat .wv2{animation:waveB 2.2s linear infinite}
+.boat .oar{transform-box:view-box;transform-origin:54px 20px;animation:oarRow 1.8s ease-in-out infinite}
+.boat .rip{transform-box:fill-box;transform-origin:center;animation:rip 2.4s ease-out infinite;opacity:0}
+body.scrolling .boat .hull{animation-duration:.9s}
+body.scrolling .boat .oar{animation-duration:.55s}
+body.scrolling .boat .wv1{animation-duration:1.1s}
+body.scrolling .boat .wv2{animation-duration:.8s}
+body.scrolling .boat .rip{animation-duration:.8s}
+@keyframes boatBob{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(2px) rotate(2deg)}}
+@keyframes waveA{to{transform:translateX(-24px)}}
+@keyframes waveB{to{transform:translateX(24px)}}
+@keyframes oarRow{0%,100%{transform:rotate(-20deg)}50%{transform:rotate(16deg)}}
+@keyframes rip{0%{transform:scale(.3);opacity:.7}100%{transform:scale(1.6);opacity:0}}
+@media (max-width:879px){.boat{width:54px;height:36px;margin:-24px 0 0 -27px}}
+
+.dot{position:relative;transition:transform .35s cubic-bezier(.3,1.6,.5,1)}
+.dot::after{content:"";position:absolute;inset:-6px;border-radius:20px;border:2px solid var(--c);opacity:0}
+.item.active .dot{transform:scale(1.18)}
+.item.active .dot::after{animation:ringOut 1s ease-out}
+@keyframes ringOut{0%{transform:scale(.6);opacity:.9}100%{transform:scale(2.8);opacity:0}}
+.card{transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s,outline-color .2s}
+.card:hover{transform:translateY(-3px)}
+.item.active .card{box-shadow:0 0 0 1.5px var(--c),0 16px 40px rgba(0,0,0,.16);transform:translateY(-2px)}
+.item.reveal .card{animation:cardInY .65s cubic-bezier(.2,.8,.2,1) backwards}
+.item.reveal .big{animation:bigIn .9s .15s cubic-bezier(.2,.8,.2,1) backwards}
+@keyframes cardInY{from{opacity:0;transform:translateY(34px) scale(.97)}}
+@keyframes cardInL{from{opacity:0;transform:translateX(-46px) scale(.97)}}
+@keyframes cardInR{from{opacity:0;transform:translateX(46px) scale(.97)}}
+@keyframes bigIn{from{opacity:0;transform:translateY(18px) scale(.9)}}
+@media (min-width:880px){
+  .item.left.reveal .card{animation-name:cardInL}
+  .item.right.reveal .card{animation-name:cardInR}
+}
+
+/* Sticky progress bar */
+.bar{transition:box-shadow .3s}
+.bar.flash{animation:barflash .8s ease-out}
+@keyframes barflash{0%{box-shadow:inset 0 -3px 0 var(--c,transparent),0 8px 18px -10px var(--c,transparent)}100%{box-shadow:inset 0 -3px 0 transparent,0 8px 18px -10px transparent}}
+.bar .in.ticker{flex-wrap:nowrap;align-items:baseline;gap:12px;padding-top:8px;overflow:hidden}
+.t-count{font-family:var(--font-util);font-variant-numeric:tabular-nums;font-size:.85rem;color:var(--muted);flex:none}
+.t-year{font-family:var(--font-display);font-size:1.1rem;line-height:1.8;flex:none}
+.t-title{font-weight:600;line-height:1.8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.swap-down{animation:swapDown .45s cubic-bezier(.2,.8,.2,1) both}
+.swap-up{animation:swapUp .45s cubic-bezier(.2,.8,.2,1) both}
+@keyframes swapDown{from{transform:translateY(-80%);opacity:0}to{transform:none;opacity:1}}
+@keyframes swapUp{from{transform:translateY(80%);opacity:0}to{transform:none;opacity:1}}
+@supports (color:color-mix(in srgb,red,blue)){
+  .bar .t-year{color:color-mix(in srgb,var(--c,var(--ink)) 62%,var(--ink))}
+}
+.bar .in.railwrap{display:block;padding-top:4px}
+.rail{display:flex;gap:3px;align-items:flex-end;height:14px}
+.seg{position:relative;flex:1 1 0;min-width:4px;height:5px;border:0;padding:0;border-radius:3px;background:var(--line);cursor:pointer;transition:height .35s cubic-bezier(.3,1.6,.5,1),background .35s,box-shadow .35s}
+.seg::before{content:"";position:absolute;inset:-8px 0}
+.seg.done{background:var(--c)}
+.seg.on{height:12px;background:var(--c);box-shadow:0 0 0 2px var(--bg),0 0 14px var(--c)}
+@media (max-width:760px){
+  .bar #chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
+  .bar #chips::-webkit-scrollbar{display:none}
+  .chip,.bar-label{flex:none;white-space:nowrap}
+}
+
+/* ---- Menu bar ---- */
+.menu{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;background:var(--bg);border-bottom:1px solid var(--line)}
+@supports (color:color-mix(in srgb,red,blue)) and (backdrop-filter:blur(2px)){
+  .menu{background:color-mix(in srgb,var(--bg) 84%,transparent);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
+}
+.menu-in{display:flex;align-items:center;gap:14px;min-height:var(--menu-h)}
+.brand{display:flex;align-items:center;gap:8px;flex:none;font-family:var(--font-display);font-size:1.05rem;color:var(--ink);text-decoration:none;min-height:44px}
+.brand svg{width:28px;height:28px;flex:none}
+.links{position:relative;display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;flex:1 1 auto;min-width:0;justify-content:flex-end;padding-bottom:4px}
+.links::-webkit-scrollbar{display:none}
+.links a{flex:none;display:inline-flex;align-items:center;min-height:44px;padding:0 14px;border-radius:10px;color:var(--muted);text-decoration:none;font-weight:600;font-size:.97rem;white-space:nowrap;transition:color .2s,background .2s}
+.links a:hover{color:var(--ink);background:var(--surface)}
+.links a[aria-current="page"]{color:var(--ink)}
+.ind{position:absolute;left:0;bottom:2px;height:3px;width:0;border-radius:3px;background:var(--gold);transition:transform .45s cubic-bezier(.3,1.2,.4,1),width .45s;pointer-events:none}
+@media (max-width:760px){.brand span{display:none}.links{justify-content:flex-start}.links a{padding:0 12px}}
+#timeline,#homeBody{scroll-margin-top:calc(var(--menu-h) + 6px)}
+
+/* ---- Illustrations ---- */
+.pic{position:relative;aspect-ratio:16/9;overflow:hidden;background:var(--surface)}
+.pic .art{position:absolute;inset:0;width:100%;height:100%;display:block;transition:transform .9s cubic-bezier(.2,.8,.2,1)}
+.card .pic{margin:-20px -20px 16px;border-radius:13px 13px 0 0}
+.card:hover .pic .art{transform:scale(1.05)}
+.sheet .pic{margin:-26px calc(-1*clamp(18px,4vw,34px)) 18px;border-radius:19px 19px 0 0;aspect-ratio:16/8}
+.art .dk{fill:var(--art-dk)}
+.art .gd{fill:none;stroke:var(--gild);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.art .gf{fill:var(--gild)}
+.art .st{fill:var(--art-stone)}
+.art .cloud ellipse{fill:var(--cloud)}
+.art .smoke{animation:cloudA 22s ease-in-out infinite alternate}
+.art .smoke ellipse{fill:var(--art-smoke)}
+.art .gl{font-family:var(--font-display);animation:flt 6s ease-in-out infinite alternate}
+@keyframes flt{to{transform:translateY(-10px)}}
+.art .swing{transform-box:fill-box;transform-origin:50% 0;animation:swing 3s ease-in-out infinite alternate}
+@keyframes swing{from{transform:rotate(-9deg)}to{transform:rotate(9deg)}}
+.art .wv{transform-box:fill-box;transform-origin:0 50%;animation:wv 1s ease-in-out infinite alternate}
+@keyframes wv{from{transform:scaleX(.92) skewY(-2deg)}to{transform:scaleX(1.04) skewY(2deg)}}
+.art .flame{transform-box:fill-box;transform-origin:50% 100%;animation:flick .5s ease-in-out infinite alternate}
+@keyframes flick{from{transform:scale(.85,.9)}to{transform:scale(1.1,1.15)}}
+.art .twk{animation:twk 3s ease-in-out infinite}
+@keyframes twk{50%{opacity:.25}}
+.art .wave{animation:dash 6s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-140}}
+.art .plane{animation:fl2 5s ease-in-out infinite alternate}
+@keyframes fl2{to{transform:translateY(8px)}}
+.pic .art *{animation-play-state:paused}
+.item.active .pic .art *,.pic:hover .art *,.sheet .pic .art *{animation-play-state:running}
+.hero-art .art{display:block;width:100%;height:auto;max-width:580px;margin-left:auto;overflow:visible}
+h1.long{font-size:clamp(2.6rem,7.4vw,4.9rem)}
+
+/* ---- Home ---- */
+.home{padding-top:40px;padding-bottom:56px;position:relative;z-index:1}
+.sec-title{font-family:var(--font-display);font-weight:400;font-size:clamp(1.6rem,3.6vw,2.3rem);line-height:1.4;margin:0 0 6px;text-wrap:balance}
+.sec-sub{color:var(--muted);max-width:44em;margin:0 0 26px}
+.cards4{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:20px}
+.pcard{display:flex;flex-direction:column;min-width:0;background:var(--raise);border:1px solid var(--line);border-radius:16px;overflow:hidden;color:var(--ink);text-decoration:none;box-shadow:var(--shadow);transition:transform .35s cubic-bezier(.2,.8,.2,1);animation:fadeUp .7s calc(var(--i) * .1s) cubic-bezier(.2,.8,.2,1) both}
+.pcard:hover{transform:translateY(-6px)}
+.pcard .pic{aspect-ratio:16/10}
+.pcard:hover .pic .art{transform:scale(1.06);}
+.pcard:hover .pic .art *{animation-play-state:running}
+.pcard .body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:6px;flex:1}
+.pcard .rng{font-family:var(--font-util);font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.pcard h3{font-family:var(--font-display);font-weight:400;font-size:1.4rem;line-height:1.4;margin:0}
+.pcard p{margin:0;color:var(--muted);font-size:.95rem;line-height:1.65}
+.pcard .go{margin-top:auto;padding-top:12px;display:flex;align-items:center;justify-content:space-between;gap:8px;font-weight:600;font-family:var(--font-util);font-size:.92rem}
+.pcard .go .ic{transition:transform .3s}
+.pcard:hover .go .ic{transform:translateX(4px)}
+.overlap-note{margin:24px 0 0;font-family:var(--font-util);font-size:.88rem;color:var(--muted)}
+.view-in{animation:viewIn .6s cubic-bezier(.2,.8,.2,1) both}
+@keyframes viewIn{from{opacity:0;transform:translateY(16px)}}
+@supports (color:color-mix(in srgb,red,blue)){
+  body[data-p="ayutthaya"] .hero{background:linear-gradient(180deg,color-mix(in srgb,var(--laterite) 24%,var(--sky-a)),color-mix(in srgb,var(--gold) 34%,var(--sky-b)))}
+  body[data-p="thonburi"] .hero{background:linear-gradient(180deg,color-mix(in srgb,var(--slate) 30%,var(--sky-a)),color-mix(in srgb,var(--gold) 26%,var(--sky-b)))}
+  body[data-p="rattanakosin"] .hero{background:linear-gradient(180deg,color-mix(in srgb,var(--gold) 20%,var(--sky-a)),color-mix(in srgb,var(--laterite) 22%,var(--sky-b)))}
+}
+
+/* ---- Access gate ---- */
+body:not(.unlocked)>*:not(#gate):not(svg):not(script):not(style):not(link):not(meta):not(title){display:none!important}
+.gate{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,var(--sky-a),var(--sky-b));padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.gate-card{width:min(400px,100%);background:var(--raise);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:30px 26px 26px;text-align:center;animation:fadeUp .7s cubic-bezier(.2,.8,.2,1) both}
+.gate-card svg.lotus{width:48px;height:48px}
+.gate-card h1{font-family:var(--font-display);font-weight:400;font-size:1.8rem;line-height:1.4;margin:8px 0 4px;background:none;-webkit-text-fill-color:currentColor;color:var(--ink);animation:none}
+.gate-card p{margin:0 0 18px;color:var(--muted)}
+.gate-card label{display:block;font-family:var(--font-util);font-size:.9rem;color:var(--muted);text-align:left;margin-bottom:6px}
+.gate-card input{width:100%;min-height:52px;border-radius:12px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);font:600 1.5rem var(--font-util);letter-spacing:.5em;text-align:center;padding:6px 10px 6px calc(10px + .5em)}
+.gate-card input:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.gate-card .btn{width:100%;justify-content:center;margin-top:14px}
+.gate-err{min-height:1.6em;margin:10px 0 0;color:var(--laterite);font-size:.95rem}
+.gate-card.shake{animation:shake .4s}
+@keyframes shake{20%{transform:translateX(-10px)}40%{transform:translateX(10px)}60%{transform:translateX(-6px)}80%{transform:translateX(6px)}}
+
+
+.dot svg .lg{transform-box:fill-box;transform-origin:50% 0;animation:walkA .7s ease-in-out infinite alternate;animation-play-state:paused}
+.dot svg .lg.b{animation-name:walkB}
+.dot svg .bd{animation:bobE .7s ease-in-out infinite;animation-play-state:paused}
+.dot svg .tr{transform-box:fill-box;transform-origin:0 0;animation:trunkS 1.4s ease-in-out infinite alternate;animation-play-state:paused}
+.item.active .dot svg *,.item.is-playing .dot svg *{animation-play-state:running}
+@keyframes walkA{from{transform:rotate(-24deg)}to{transform:rotate(24deg)}}
+@keyframes walkB{from{transform:rotate(24deg)}to{transform:rotate(-24deg)}}
+@keyframes bobE{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.2px)}}
+@keyframes trunkS{from{transform:rotate(-6deg)}to{transform:rotate(8deg)}}
+
+/* mood backgrounds */
+.moodfx{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.moodfx i{position:absolute;inset:0;opacity:0;transition:opacity 1.5s ease}
+.moodfx i::before,.moodfx i::after{content:"";position:absolute;inset:-10% 0;opacity:.9}
+body[data-mood=peace] .m-peace,body[data-mood=war] .m-war,body[data-mood=joy] .m-joy,body[data-mood=glory] .m-glory,body[data-mood=sorrow] .m-sorrow,body[data-mood=sea] .m-sea,body[data-mood=wisdom] .m-wisdom{opacity:1}
+.m-peace{background:linear-gradient(180deg,rgba(70,150,110,.22),rgba(190,215,150,.2))}
+.m-war{background:radial-gradient(120% 65% at 50% 112%,rgba(255,96,24,.62),transparent 62%),radial-gradient(70% 45% at 12% 100%,rgba(225,30,20,.5),transparent 70%),radial-gradient(70% 45% at 90% 100%,rgba(255,150,30,.45),transparent 70%),linear-gradient(180deg,rgba(130,20,12,.34),rgba(255,110,30,.24))}
+.m-war::before{background-image:radial-gradient(circle,#ffb347 0 2px,transparent 3px),radial-gradient(circle,#ff6a2b 0 1.5px,transparent 2.5px),radial-gradient(circle,#ffd27a 0 1px,transparent 2px);background-size:170px 240px,230px 310px,120px 190px;background-position:0 0,60px 90px,30px 40px}
+body[data-mood=war] .m-war::before{animation:embers 5s linear infinite}
+.m-war::after{background:radial-gradient(60% 40% at 50% 105%,rgba(255,200,80,.55),transparent 70%);mix-blend-mode:screen}
+body[data-mood=war] .m-war::after{animation:flick 1.3s ease-in-out infinite alternate}
+@keyframes embers{to{background-position:0 -240px,60px -220px,30px -150px}}
+@keyframes flick{from{opacity:.35;transform:scale(1)}to{opacity:.95;transform:scale(1.07)}}
+.m-joy{background:linear-gradient(135deg,rgba(255,190,60,.34),rgba(235,80,140,.24) 55%,rgba(120,90,225,.2))}
+.m-joy::before{background-image:radial-gradient(circle,#ff4d8d 0 3px,transparent 4px),radial-gradient(circle,#ffd23f 0 3px,transparent 4px),radial-gradient(circle,#3ec5d6 0 2.5px,transparent 3.5px),radial-gradient(circle,#fff 0 1.5px,transparent 2.5px);background-size:140px 180px,190px 230px,160px 200px,100px 130px;background-position:0 0,50px 70px,90px 30px,20px 100px}
+body[data-mood=joy] .m-joy::before{animation:confetti 7s linear infinite}
+.m-joy::after{background:radial-gradient(40% 30% at 20% 10%,rgba(255,240,180,.55),transparent 70%),radial-gradient(40% 30% at 85% 15%,rgba(255,170,220,.45),transparent 70%)}
+body[data-mood=joy] .m-joy::after{animation:twinkle 2.4s ease-in-out infinite alternate}
+@keyframes confetti{to{background-position:0 180px,50px 300px,90px 230px,20px 230px}}
+@keyframes twinkle{from{opacity:.4}to{opacity:1}}
+.m-glory{background:radial-gradient(90% 55% at 50% -5%,rgba(255,200,70,.5),transparent 68%),linear-gradient(180deg,rgba(235,170,50,.2),rgba(200,110,40,.2))}
+.m-glory::after{background:conic-gradient(from 200deg at 50% -10%,transparent 0 10%,rgba(255,225,130,.3) 14%,transparent 18% 30%,rgba(255,225,130,.25) 34%,transparent 38% 100%)}
+body[data-mood=glory] .m-glory::after{animation:rays 9s ease-in-out infinite alternate}
+@keyframes rays{from{transform:rotate(-4deg)}to{transform:rotate(4deg)}}
+.m-sorrow{background:linear-gradient(180deg,rgba(70,70,92,.42),rgba(130,118,108,.28));}
+.m-sorrow::before{background-image:radial-gradient(circle,rgba(230,225,220,.8) 0 1.5px,transparent 2.5px),radial-gradient(circle,rgba(200,195,190,.7) 0 1px,transparent 2px);background-size:150px 210px,110px 160px}
+body[data-mood=sorrow] .m-sorrow::before{animation:ash 11s linear infinite}
+@keyframes ash{to{background-position:-40px 210px,30px 160px}}
+.m-sea{background:linear-gradient(180deg,rgba(30,150,185,.32),rgba(240,205,130,.2))}
+.m-sea::before{background:repeating-linear-gradient(180deg,transparent 0 46px,rgba(255,255,255,.18) 47px 49px,transparent 50px 96px)}
+body[data-mood=sea] .m-sea::before{animation:waves 6s ease-in-out infinite alternate}
+@keyframes waves{from{transform:translateY(-14px)}to{transform:translateY(14px)}}
+.m-wisdom{background:linear-gradient(180deg,rgba(60,90,200,.28),rgba(110,190,230,.2))}
+.m-wisdom::before{background:radial-gradient(35% 25% at 25% 30%,rgba(190,215,255,.4),transparent 70%),radial-gradient(30% 22% at 78% 65%,rgba(150,170,255,.35),transparent 70%)}
+body[data-mood=wisdom] .m-wisdom::before{animation:twinkle 4s ease-in-out infinite alternate}
+@media (prefers-reduced-motion:reduce){.moodfx i,.moodfx i::before,.moodfx i::after{animation:none!important}}
+
+.item .card{cursor:pointer;position:relative}
+.item .card:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.zoom{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;background:rgba(12,22,18,.5);color:#fff;opacity:0;transition:opacity .25s;pointer-events:none;backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px)}
+.zoom svg{width:46px;height:46px;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;transform:scale(.7);transition:transform .35s cubic-bezier(.3,1.6,.5,1)}
+.zoom b{font-weight:600;font-size:1rem;background:rgba(0,0,0,.35);padding:3px 14px;border-radius:999px}
+.item .card:hover .zoom,.item .card:focus-visible .zoom{opacity:1}
+.item .card:hover .zoom svg,.item .card:focus-visible .zoom svg{transform:scale(1)}
+@media (hover:none){.zoom{opacity:1;background:none;backdrop-filter:none;-webkit-backdrop-filter:none;justify-content:flex-end;align-items:flex-end;padding:8px}.zoom svg{width:26px;height:26px;transform:none}.zoom b{display:none}.zoom{flex-direction:row}}
+
+.vo-wrap{margin-top:44px}
+.vo{background:var(--raise);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:18px 18px 16px;position:relative;overflow:hidden}
+.vo-lane{margin-bottom:10px}
+.vo-lab{display:flex;justify-content:space-between;gap:10px;font-family:var(--font-util);font-size:.82rem;color:var(--muted);margin-bottom:3px}
+.vo-lab b{color:var(--ink);font-weight:600}
+.vo-track{position:relative;height:34px;border-radius:10px;background:repeating-linear-gradient(90deg,transparent 0 calc(12.4% - 1px),var(--line) calc(12.4% - 1px) 12.4%)}
+.vo-bar{position:absolute;top:6px;height:22px;border-radius:999px;border:0;padding:0;cursor:pointer;background:var(--c);opacity:.55;min-width:10px;transform-origin:left;animation:voGrow .9s cubic-bezier(.2,.8,.2,1) backwards;transition:opacity .25s,box-shadow .25s,filter .25s}
+.vo-bar:hover,.vo-bar.on{opacity:1;box-shadow:0 0 0 3px color-mix(in srgb,var(--c) 28%,transparent)}
+.vo-bar:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+@keyframes voGrow{from{transform:scaleX(0)}}
+.vo-tick{position:absolute;top:2px;width:12px;height:30px;margin-left:-6px;border:0;background:none;padding:0;cursor:pointer;z-index:2}
+.vo-tick::before{content:"";position:absolute;left:3px;top:9px;width:6px;height:12px;border-radius:3px;background:var(--bg);border:2px solid var(--c);transition:transform .2s}
+.vo-tick:hover::before,.vo-tick:focus-visible::before,.vo-tick.on::before{transform:scale(1.5);background:var(--c)}
+.vo-axis{position:relative;height:46px;margin-top:4px;border-top:2px solid var(--line)}
+.vo-yr{position:absolute;top:4px;transform:translateX(-50%);font:600 .75rem var(--font-util);color:var(--muted);font-variant-numeric:tabular-nums}
+.vo-ele{position:absolute;top:-24px;width:44px;height:32px;margin-left:-22px;color:var(--ink);transition:left 1s cubic-bezier(.4,.1,.2,1);pointer-events:none}
+.vo-ele svg{width:100%;height:100%;overflow:visible}
+.vo-ele svg .f{fill:currentColor}.vo-ele svg .s{fill:none;stroke:currentColor;stroke-linecap:round}
+.vo-ele svg .lg{transform-box:fill-box;transform-origin:50% 0;animation:walkA .5s ease-in-out infinite alternate;animation-play-state:paused}
+.vo-ele svg .lg.b{animation-name:walkB}
+.vo-ele svg .bd{animation:bobE .5s ease-in-out infinite;animation-play-state:paused}
+.vo-ele.walk svg *{animation-play-state:running}
+.vo-panel{margin-top:14px;padding:14px 16px;border-radius:14px;background:var(--surface);border:1px solid var(--line);min-height:150px;animation:fadeUp .5s both}
+.vo-panel h3{font-family:var(--font-display);font-weight:400;font-size:1.3rem;margin:0 0 2px;line-height:1.4}
+.vo-panel .rg{font:600 .85rem var(--font-util);color:var(--muted)}
+.vo-panel p{margin:6px 0 10px;color:var(--ink);font-size:.97rem;line-height:1.7}
+.vo-panel a{color:var(--ink);font-weight:600;text-underline-offset:3px}
+.vo-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.vo-chip{min-height:34px;padding:2px 12px;border-radius:999px;border:1px solid var(--line);background:var(--raise);color:var(--ink);font-size:.85rem;cursor:pointer}
+.vo-chip:hover{border-color:var(--ink)}
+.vo-enter-from{opacity:0;transform:translateY(10px) scale(.9)}
+.vo-enter-active{transition:opacity .4s,transform .4s cubic-bezier(.3,1.5,.5,1)}
+@media (max-width:620px){.vo{padding:12px}}
+
+.art-img{display:block;width:100%;height:100%;object-fit:cover}
+.adm-file{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+.adm-media{display:grid;gap:12px;margin-top:6px}
+.adm-mrow{display:grid;grid-template-columns:minmax(0,170px) 1fr;gap:12px;align-items:center;padding:10px;border:1px dashed var(--line);border-radius:12px}
+.adm-mp{min-width:0}.adm-mp audio{width:100%}
+.adm-thumb{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px;border:1px solid var(--line)}
+.adm-none{font-size:.82rem;color:var(--muted)}
+.adm-mc{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center}.adm-mc b{flex-basis:100%}.adm-mc .adm-note{flex-basis:100%;margin:2px 0 0}
+@media (max-width:620px){.adm-mrow{grid-template-columns:1fr}}
+
+.vo-axis{margin-top:10px}
+.vo-range{position:absolute;left:0;right:0;top:-12px;width:100%;height:24px;margin:0;background:transparent;-webkit-appearance:none;appearance:none;cursor:grab;z-index:3;touch-action:pan-y}
+.vo-range:active{cursor:grabbing}
+.vo-range::-webkit-slider-runnable-track{height:4px;background:transparent}
+.vo-range::-moz-range-track{height:4px;background:transparent}
+.vo-range::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;margin-top:-9px;border-radius:50%;background:var(--gold);border:3px solid var(--raise);box-shadow:0 0 0 2px var(--gold),0 3px 10px rgba(0,0,0,.3)}
+.vo-range::-moz-range-thumb{width:16px;height:16px;border-radius:50%;background:var(--gold);border:3px solid var(--raise);box-shadow:0 0 0 2px var(--gold),0 3px 10px rgba(0,0,0,.3)}
+.vo-range:focus-visible{outline:3px solid var(--gold);outline-offset:6px;border-radius:12px}
+.vo-ele.drag{transition:none}
+.vo-step-row{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:6px}
+.vo-year{font:600 1.05rem var(--font-util);font-variant-numeric:tabular-nums;color:var(--ink)}
+.vo-step{min-height:40px;padding:2px 12px;border-radius:999px;border:1px solid var(--line);background:var(--raise);color:var(--ink);font-size:.85rem;cursor:pointer}
+.vo-step:hover{border-color:var(--ink)}
+@media (max-width:620px){.vo-step{font-size:.78rem;padding:2px 8px}}
+
+.learn{padding-top:30px;padding-bottom:56px;position:relative;z-index:1}
+.learn-cta{text-align:center;margin:30px 0 8px}
+.ln-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.ln-tabs button,.ln-chips button{min-height:42px;padding:4px 16px;border-radius:999px;border:1.5px solid var(--line);background:var(--raise);color:var(--ink);cursor:pointer;font-size:.95rem}
+.ln-tabs button[aria-selected="true"],.ln-chips button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.ln-chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.ln-panel{animation:fadeUp .5s both}
+.ln-intro{color:var(--muted);margin:0 0 16px}
+.ln-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr));gap:14px}
+.ln-card{display:flex;gap:14px;background:var(--raise);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:14px;padding:16px;box-shadow:var(--shadow)}
+.ln-card .av{flex:none;width:52px;height:52px;border-radius:50%;background:var(--c);color:var(--bg);display:flex;align-items:center;justify-content:center;font:400 1.6rem var(--font-display)}
+.ln-card .bd{min-width:0}.ln-card h3{font-family:var(--font-display);font-weight:400;font-size:1.2rem;line-height:1.45;margin:2px 0 2px}
+.ln-card .rg{font:600 .8rem var(--font-util);color:var(--muted)}
+.ln-card .role{color:var(--c);font-weight:600;margin:0 0 6px;font-size:.92rem;filter:brightness(.85)}
+.ln-card p{margin:0 0 8px;font-size:.96rem;line-height:1.7}
+.evs{display:flex;flex-wrap:wrap;gap:6px}
+.ln-ev{min-height:36px;padding:2px 12px;border-radius:999px;border:1px solid var(--c);background:transparent;color:var(--ink);font-size:.82rem;cursor:pointer;text-align:left}
+.ln-ev:hover{background:var(--surface)}
+.ln-src{align-self:center;font-size:.82rem;color:var(--ink)}
+.ln-tl{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.ln-tl li{display:grid;grid-template-columns:170px 1fr;gap:14px;background:var(--raise);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.ln-tl .yr{font:600 .88rem var(--font-util);color:var(--muted)}.ln-tl h3{font-family:var(--font-display);font-weight:400;font-size:1.2rem;margin:0 0 2px}.ln-tl p{margin:0}
+.ln-gls{margin:0;display:grid;gap:8px}.ln-gl{background:var(--raise);border:1px solid var(--line);border-radius:12px;padding:10px 14px}
+.ln-gl dt{font-weight:700}.ln-gl dd{margin:2px 0 0;color:var(--muted)}
+.ln-search{max-width:420px;margin-bottom:12px}
+.ln-map{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:20px;align-items:start}
+.mp-side{order:1}.mp-svg{order:2;width:100%;max-width:340px;justify-self:center;background:var(--raise);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow)}
+.mp-card{background:var(--raise);border:1px solid var(--line);border-left:5px solid var(--c);border-radius:14px;padding:14px 16px;box-shadow:var(--shadow)}
+.mp-card .rg{font:600 .85rem var(--font-util);color:var(--muted)}.mp-card h3{font-family:var(--font-display);font-weight:400;font-size:1.4rem;margin:0 0 4px}.mp-card p{margin:0 0 10px;line-height:1.75}
+.mp-svg .gr{stroke:var(--line);stroke-width:1;opacity:.6}.mp-svg .sea{fill:var(--muted);font:italic .85rem var(--font-util);opacity:.7}
+.mp-svg .ct circle{fill:var(--line);transition:all .5s}.mp-svg .ct text{fill:var(--muted);font:.72rem var(--font-util)}
+.mp-svg .ct.on circle{fill:var(--c)}.mp-svg .ct.on text{fill:var(--ink);font-weight:700;font-size:.8rem}.mp-svg .ct.rc circle{fill:var(--c);opacity:.7}.mp-svg .ct.rc text{fill:var(--ink)}
+.mp-svg .ct .pu{fill:none;stroke:var(--c);stroke-width:2;animation:mpPulse 1.8s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes mpPulse{0%{transform:scale(.6);opacity:1}100%{transform:scale(2.4);opacity:0}}
+.mp-svg .ln{stroke-width:2.5;stroke-dasharray:7 6;stroke-linecap:round;animation:mpDash 1.2s linear infinite;opacity:.85}
+@keyframes mpDash{to{stroke-dashoffset:-26}}
+.gterm{font:inherit;color:inherit;background:none;border:0;border-bottom:2px dotted var(--gold);padding:0;cursor:help}
+.gterm:hover,.gterm:focus-visible{background:color-mix(in srgb,var(--gold) 22%,transparent)}
+.gl-card{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:130;width:min(560px,calc(100% - 28px));display:grid;gap:4px;background:var(--ink);color:var(--bg);border-radius:14px;padding:12px 16px;box-shadow:0 12px 40px rgba(0,0,0,.4)}
+.gl-card[hidden]{display:none}.gl-card b{font-size:1.05rem}.gl-card span{font-size:.95rem;line-height:1.65}.gl-card button{justify-self:end;min-height:36px;padding:2px 14px;border-radius:999px;border:1px solid currentColor;background:transparent;color:inherit;cursor:pointer}
+.debate{margin:14px 0;padding:12px 14px;border-radius:12px;background:var(--surface);border:1px dashed var(--gold);font-size:.95rem;line-height:1.7}
+.debate a{color:var(--ink)}
+@media (max-width:879px){.ln-map{grid-template-columns:1fr}.mp-svg{order:1;max-width:300px}.mp-side{order:2}.ln-tl li{grid-template-columns:1fr;gap:4px}}
+
+/* shared form bits used by the learn page */
+.fld{display:block}
+.fld span{display:block;font-size:.85rem;color:var(--muted);margin-bottom:4px}
+.fld input,.fld textarea,.fld select{width:100%;box-sizing:border-box;border:1.5px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:inherit;padding:8px 10px}
+.fld input,.fld select{min-height:44px}
+.note-s{font-size:.9rem;color:var(--muted);margin:0 0 8px}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs><linearGradient id="g-dawn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--sk-dawn-a)"/><stop offset="1" style="stop-color:var(--sk-dawn-b)"/></linearGradient><linearGradient id="g-day" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--sk-day-a)"/><stop offset="1" style="stop-color:var(--sk-day-b)"/></linearGradient><linearGradient id="g-dusk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--sk-dusk-a)"/><stop offset="1" style="stop-color:var(--sk-dusk-b)"/></linearGradient><linearGradient id="g-night" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--sk-night-a)"/><stop offset="1" style="stop-color:var(--sk-night-b)"/></linearGradient><linearGradient id="g-fire" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--sk-fire-a)"/><stop offset="1" style="stop-color:var(--sk-fire-b)"/></linearGradient><linearGradient id="g-storm" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--sk-storm-a)"/><stop offset="1" style="stop-color:var(--sk-storm-b)"/></linearGradient></defs></svg>
+
+<div class="gate" id="gate" role="dialog" aria-modal="true" aria-labelledby="gTitle">
+  <form class="gate-card" id="gForm" autocomplete="off">
+    <svg class="lotus" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C11.5 9.5 11.5 18 16 25C20.5 18 20.5 9.5 16 3Z" fill="var(--gold)"/><path d="M16 25C9 23 5 17 4 12C10 13 14 18 16 25Z" fill="var(--celadon)"/><path d="M16 25C23 23 27 17 28 12C22 13 18 18 16 25Z" fill="var(--celadon)"/><rect x="6" y="27" width="20" height="2.5" rx="1.2" fill="var(--ink)"/></svg>
+    <h1 id="gTitle">ประวัติศาสตร์ไทย</h1>
+    <p>กรอกรหัสผ่านเพื่อเข้าชมเว็บไซต์</p>
+    <label for="gIn">รหัสผ่าน 6 หลัก</label>
+    <input id="gIn" type="password" inputmode="numeric" pattern="[0-9]*" maxlength="6" autocomplete="off" required>
+    <p class="gate-err" id="gErr" role="alert"></p>
+    <button class="btn" type="submit"><span>เข้าสู่เว็บไซต์</span></button>
+  </form>
+</div>
+<nav class="menu" id="menu" aria-label="เมนูหลัก">
+  <div class="in menu-in">
+    <a class="brand" href="#home" data-route="home" aria-label="ประวัติศาสตร์ไทย หน้าหลัก"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C11.5 9.5 11.5 18 16 25C20.5 18 20.5 9.5 16 3Z" fill="var(--gold)"/><path d="M16 25C9 23 5 17 4 12C10 13 14 18 16 25Z" fill="var(--celadon)"/><path d="M16 25C23 23 27 17 28 12C22 13 18 18 16 25Z" fill="var(--celadon)"/><rect x="6" y="27" width="20" height="2.5" rx="1.2" fill="var(--ink)"/></svg><span>ประวัติศาสตร์ไทย</span></a>
+    <div class="links" id="menuLinks">
+      <a href="#home" data-route="home">หน้าหลัก</a>
+      <a href="#sukhothai" data-route="sukhothai">สมัยสุโขทัย</a>
+      <a href="#ayutthaya" data-route="ayutthaya">สมัยกรุงศรีอยุธยา</a>
+      <a href="#thonburi" data-route="thonburi">สมัยธนบุรี</a>
+      <a href="#rattanakosin" data-route="rattanakosin">สมัยรัตนโกสินทร์</a>
+      <a href="#learn" data-route="learn">เรื่องน่ารู้</a>
+      <span class="ind" id="menuInd" aria-hidden="true"></span>
+    </div>
+  </div>
+</nav>
+<div class="aurora" aria-hidden="true"></div>
+<header class="hero">
+  <div class="in">
+    <div class="hero-text">
+      <p class="eyebrow" id="hEyebrow">ไทม์ไลน์ประวัติศาสตร์ไทย · พ.ศ. 1781–1981</p>
+      <h1 id="hTitle">สุโขทัย</h1>
+      <p class="lede" id="hLede">ชื่อสุโขทัยมีความหมายว่า รุ่งอรุณแห่งความสุข กดเลือกเหตุการณ์เพื่ออ่านรายละเอียด หรือกดปุ่มฟังเสียงบรรยายแต่ละเรื่อง</p>
+      <div class="hero-actions">
+        <a class="btn" id="startBtn" href="#sukhothai" data-route="sukhothai" hidden><span>เริ่มที่สมัยสุโขทัย</span></a>
+        <button class="btn" id="tourBtn" type="button"></button>
+        <a class="btn ghost" id="heroLink" href="#timeline" data-scroll="timeline"><span id="heroLinkTx">เริ่มดูไทม์ไลน์</span><svg class="ic bounce" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+      </div>
+      <ul class="facts" id="hFacts">
+        <li>ราว 200 ปี</li>
+        <li>ราชวงศ์พระร่วง</li>
+        <li>กษัตริย์ 9 พระองค์ตามตำราเรียน</li>
+      </ul>
+    </div>
+    <div class="hero-art" id="heroArt" aria-hidden="true">
+      <svg viewBox="0 0 520 340" xmlns="http://www.w3.org/2000/svg" focusable="false">
+        <defs>
+          <g id="chedi">
+            <rect class="s-chedi" x="204" y="268" width="192" height="24" rx="2"/>
+            <rect class="s-chedi" x="222" y="248" width="156" height="20" rx="2"/>
+            <rect class="s-chedi" x="240" y="231" width="120" height="17" rx="2"/>
+            <rect class="s-chedi" x="262" y="203" width="76" height="28"/>
+            <path class="s-chedi" d="M300 104C319 127 337 158 337 192V205H263V192C263 158 281 127 300 104Z"/>
+            <path class="s-gild" d="M272 186Q300 168 328 186M278 168Q300 152 322 168M287 148Q300 136 313 148"/>
+            <rect class="s-chedi" x="298.5" y="74" width="3" height="34"/>
+            <circle class="s-gildfill" cx="300" cy="72" r="4"/>
+            <path class="s-gild" d="M240 231H360M222 248H378"/>
+          </g>
+        </defs>
+        <g class="rays"><path d="M300 206L294 34L306 34Z" transform="rotate(0 300 206)"/><path d="M300 206L294 34L306 34Z" transform="rotate(20 300 206)"/><path d="M300 206L294 34L306 34Z" transform="rotate(40 300 206)"/><path d="M300 206L294 34L306 34Z" transform="rotate(60 300 206)"/><path d="M300 206L294 34L306 34Z" transform="rotate(80 300 206)"/><path d="M300 206L294 34L306 34Z" transform="rotate(100 300 206)"/><path d="M300 206L294 34L306 34Z" transform="rotate(120 300 206)"/><path d="M300 206L294 34L306 34Z" transform="rotate(140 300 206)"/><path d="M300 206L294 34L306 34Z" transform="rotate(160 300 206)"/><path d="M300 206L294 34L306 34Z" transform="rotate(180 300 206)"/><path d="M300 206L294 34L306 34Z" transform="rotate(200 300 206)"/><path d="M300 206L294 34L306 34Z" transform="rotate(220 300 206)"/><path d="M300 206L294 34L306 34Z" transform="rotate(240 300 206)"/><path d="M300 206L294 34L306 34Z" transform="rotate(260 300 206)"/><path d="M300 206L294 34L306 34Z" transform="rotate(280 300 206)"/><path d="M300 206L294 34L306 34Z" transform="rotate(300 300 206)"/><path d="M300 206L294 34L306 34Z" transform="rotate(320 300 206)"/><path d="M300 206L294 34L306 34Z" transform="rotate(340 300 206)"/></g>
+        <circle class="s-glow" cx="300" cy="206" r="150"/>
+        <circle class="s-sun" cx="300" cy="206" r="92"/>
+        <g class="cloud c1"><ellipse cx="90" cy="72" rx="46" ry="12"/><ellipse cx="120" cy="63" rx="30" ry="12"/><ellipse cx="66" cy="65" rx="26" ry="10"/></g>
+        <g class="cloud c2"><ellipse cx="420" cy="122" rx="52" ry="13"/><ellipse cx="450" cy="112" rx="32" ry="12"/><ellipse cx="392" cy="115" rx="26" ry="10"/></g>
+        <g class="cloud c3"><ellipse cx="250" cy="40" rx="34" ry="9"/><ellipse cx="272" cy="34" rx="22" ry="9"/></g>
+        <g transform="translate(0 96)"><g class="bird b1"><path class="s-bird" d="M0 0q6-7 12 0q6-7 12 0"/></g></g>
+        <g transform="translate(0 150)"><g class="bird b2"><path class="s-bird" d="M0 0q5-6 10 0q5-6 10 0"/></g></g>
+        <use href="#chedi" transform="translate(-22 135) scale(.5)"/>
+        <use href="#chedi" transform="translate(322 131) scale(.5)"/>
+        <use href="#chedi"/>
+        <path class="s-ground" d="M0 292Q130 262 260 284T520 278V340H0Z"/>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<section class="home" id="homeBody" hidden>
+  <div class="in">
+    <h2 class="sec-title">เลือกเดินทางไปในแต่ละสมัย</h2>
+    <p class="sec-sub">แต่ละสมัยมีไทม์ไลน์ของตัวเอง กดการ์ดเพื่อเข้าไปดูเหตุการณ์สำคัญ ภาพประกอบ และฟังเสียงบรรยาย</p>
+    <div class="cards4" id="cards4"></div>
+    <section class="vo-wrap" id="voWrap" hidden>
+      <h2 class="sec-title">ภาพรวม 788 ปี บนเส้นเวลาเดียว</h2>
+      <p class="sec-sub">แถบแต่ละสมัยวางตามปี พ.ศ. จริง เห็นช่วงที่สุโขทัยกับอยุธยาซ้อนกัน ชี้หรือกดจุดเหตุการณ์เพื่อดูสรุป แล้วช้างจะเดินไปยังปีนั้น</p>
+      <div id="vOverview" class="vo"></div>
+    </section>
+    <p class="learn-cta"><a class="btn" href="#learn" data-route="learn"><span>เรื่องน่ารู้: แผนผังเมืองหลวง บุคคลสำคัญ วิถีชีวิต คำศัพท์</span></a></p>
+    <p class="overlap-note">ช่วงเวลาของสุโขทัยและอยุธยาซ้อนกันอยู่ราว 90 ปี (พ.ศ. 1893–1981) ตามที่ตำราเรียนกำหนด</p>
+  </div>
+</section>
+
+<section class="learn" id="learnBody" hidden><div class="in"></div></section>
+
+<main class="stage" id="timeline">
+  <div class="bar">
+    <div class="in" id="chips" role="group" aria-label="เลือกดูตามยุค"></div>
+    <div class="in ticker" id="ticker"><span class="t-count" id="tCount">00 / 17</span><span class="t-year" id="tYear">เริ่มต้น</span><span class="t-title" id="tTitle">เลื่อนลงเพื่อเดินทางตามเวลา</span></div>
+    <div class="in railwrap"><div class="rail" id="rail" role="group" aria-label="แถบความคืบหน้าของเหตุการณ์"></div></div>
+  </div>
+  <div class="in">
+    <p class="era-note" id="eraNote"></p>
+    <div class="tl-box" id="tlBox">
+      <div class="spine" id="spine" aria-hidden="true"></div>
+      <ol class="timeline" id="tl"></ol>
+    </div>
+  </div>
+</main>
+
+<footer class="foot" id="foot">
+  <div class="in">
+    <h2>เกี่ยวกับหน้านี้</h2>
+    <p>ปี พ.ศ. ในหน้านี้อ้างอิงตามตำราเรียนทั่วไป นักประวัติศาสตร์บางท่านเสนอปีที่ต่างออกไป และบางเหตุการณ์มีข้อถกเถียงทางวิชาการ ซึ่งระบุไว้ในหัวข้อ ข้อควรรู้</p>
+    <p>เสียงบรรยายใช้เสียงอ่านภาษาไทยของเบราว์เซอร์ จึงต้องมีเสียงไทยติดตั้งอยู่ในอุปกรณ์ หากไม่ได้ยินเสียง ให้ตรวจการตั้งค่าเสียงพูดของระบบและเพิ่มภาษาไทย</p>
+    <p>ภาพประกอบทุกภาพเป็นภาพวาดจำลองเชิงสัญลักษณ์ที่สร้างขึ้นสำหรับหน้านี้ ไม่ใช่ภาพถ่ายหรือภาพเขียนในประวัติศาสตร์ และบุคคลในภาพเป็นเงาทั่วไป ไม่ได้แสดงใบหน้าจริง</p>
+    <p>เนื้อหาสรุปจากตำราเรียนทั่วไปและแหล่งอ้างอิงต่อไปนี้</p>
+    <ul id="srcList"></ul>
+  </div>
+</footer>
+
+<div class="player" id="player" hidden>
+  <div class="player-box" role="region" aria-label="ตัวควบคุมเสียงบรรยาย">
+    <div class="p-info"><small id="pState">กำลังบรรยาย</small><strong id="pTitle"></strong></div>
+    <div class="p-ctl">
+      <button class="pb" id="pPrev" type="button" aria-label="เรื่องก่อนหน้า"></button>
+      <button class="pb main" id="pToggle" type="button" aria-label="หยุดชั่วคราว"></button>
+      <button class="pb" id="pNext" type="button" aria-label="เรื่องถัดไป"></button>
+      <button class="pb" id="pStop" type="button" aria-label="หยุดเสียงบรรยาย"></button>
+    </div>
+    <label class="p-rate" for="pRate">ความเร็ว
+      <select id="pRate">
+        <option value="0.85">ช้า</option>
+        <option value="1" selected>ปกติ</option>
+        <option value="1.15">เร็ว</option>
+      </select>
+    </label>
+    <label class="p-rate" id="pVoiceWrap" for="pVoiceSel" hidden>เสียง
+      <select id="pVoiceSel"></select>
+    </label>
+  </div>
+</div>
+
+<div class="overlay" id="ov" hidden>
+  <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="mTitle" tabindex="-1"></div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.4.21/vue.global.prod.min.js"></script>
+<script>window.TH_CONFIG={"gateCode":"123456","api":"/api"};window.TH_DATA={"home":{"key":"home","eyebrow":"ไทม์ไลน์ประวัติศาสตร์ไทย","title":"ประวัติศาสตร์ไทย","lede":"เดินทางผ่านสี่ราชธานี จากรุ่งอรุณแห่งสุโขทัย ผ่านอยุธยาและธนบุรี มาถึงรัตนโกสินทร์ กดเลือกสมัยเพื่อดูเหตุการณ์สำคัญ ภาพประกอบ และฟังเสียงบรรยาย","facts":["4 ราชธานี","พ.ศ. 1781 ถึงปัจจุบัน","มีเสียงบรรยายภาษาไทย"],"order":["sukhothai","ayutthaya","thonburi","rattanakosin"]},"periods":{"sukhothai":{"key":"sukhothai","label":"สมัยสุโขทัย","name":"สุโขทัย","range":"พ.ศ. 1781–1981","blurb":"รุ่งอรุณแห่งความสุข ต้นกำเนิดอักษรไทยและการปกครองแบบพ่อปกครองลูก","eyebrow":"ไทม์ไลน์ประวัติศาสตร์ไทย · พ.ศ. 1781–1981","title":"สุโขทัย","lede":"ชื่อสุโขทัยมีความหมายว่า รุ่งอรุณแห่งความสุข กดเลือกเหตุการณ์เพื่ออ่านรายละเอียด หรือกดปุ่มฟังเสียงบรรยายแต่ละเรื่อง","facts":["ราว 200 ปี","ราชวงศ์พระร่วง","กษัตริย์ 9 พระองค์ตามตำราเรียน"],"eras":{"1":{"name":"ก่อร่างสร้างเมือง","range":"ก่อน พ.ศ. 1822"},"2":{"name":"ยุครุ่งเรือง","range":"ราว พ.ศ. 1822–1841"},"3":{"name":"ธรรมราชาและการเปลี่ยนผ่าน","range":"ราว พ.ศ. 1841–1981"},"4":{"name":"มรดกที่ยังอยู่","range":"หลัง พ.ศ. 1981"}},"src":[{"t":"ไทยรัฐ: ประวัติศาสตร์สุโขทัย พ่อขุนผาเมือง","u":"https://www.thairath.co.th/newspaper/1885533"},{"t":"Dek-D: ประวัติศาสตร์ไทย 3 อาณาจักร สุโขทัย อยุธยา ธนบุรี","u":"https://today.line.me/th/v3/article/eLOEaGl"},{"t":"ศิลปวัฒนธรรม: บทความเรื่องพ่อขุนรามคำแหง","u":"https://www.silpa-mag.com/tag/%e0%b8%9e%e0%b9%88%e0%b8%ad%e0%b8%82%e0%b8%b8%e0%b8%99%e0%b8%a3%e0%b8%b2%e0%b8%a1%e0%b8%84%e0%b8%b3%e0%b9%81%e0%b8%ab%e0%b8%87"},{"t":"วารสารวิจัยราชภัฏกรุงเก่า ปีที่ 3 ฉบับที่ 3","u":"https://so01.tci-thaijo.org/index.php/rdi-aru/article/download/143760/106372"}],"events":[{"id":"khmer","era":1,"pre":"ก่อน พ.ศ.","big":"1781","title":"สุโขทัยก่อนเป็นอาณาจักร","sum":"เมืองสำคัญบนลุ่มแม่น้ำยมอยู่ภายใต้อิทธิพลของอาณาจักรขอม","people":["ขอมสบาดโขลญลำพง","เมืองราด","ศรีสัชนาลัย"],"story":["ก่อนจะมีอาณาจักรสุโขทัย บริเวณที่ราบลุ่มแม่น้ำยมตอนบนมีเมืองสำคัญหลายเมือง เช่น สุโขทัย ศรีสัชนาลัย และเมืองราด โดยมีผู้นำชาวไทยปกครองอยู่ในหลายแห่ง","ในช่วงเวลานั้น อำนาจของอาณาจักรขอมแผ่เข้ามาถึงบริเวณนี้ เมืองสุโขทัยมีขอมสบาดโขลญลำพงเป็นผู้ดูแลเมืองในนามของขอม","เมื่ออำนาจขอมอ่อนลง ผู้นำชาวไทยในแถบนี้จึงมีโอกาสรวมตัวกัน และนำไปสู่การกอบกู้เมืองสุโขทัยในเวลาต่อมา"],"note":"เรื่องราวก่อนตั้งอาณาจักรมาจากจารึกและเรื่องเล่า นักวิชาการจึงตีความรายละเอียดไม่เหมือนกัน"},{"id":"found","era":1,"pre":"ราว พ.ศ.","big":"1781","title":"ก่อตั้งอาณาจักรสุโขทัย","sum":"พ่อขุนผาเมืองและพ่อขุนบางกลางหาวร่วมกันขับไล่ขอม พ่อขุนบางกลางหาวขึ้นเป็นพ่อขุนศรีอินทราทิตย์","people":["พ่อขุนผาเมือง","พ่อขุนบางกลางหาว","พ่อขุนศรีอินทราทิตย์"],"story":["พ่อขุนผาเมือง เจ้าเมืองราด และพ่อขุนบางกลางหาว เจ้าเมืองบางยาง ซึ่งเป็นพระสหายกัน ร่วมกันยกกำลังเข้าขับไล่ขอมสบาดโขลญลำพงออกจากเมืองสุโขทัยได้สำเร็จ","ตามเรื่องเล่าดั้งเดิม พ่อขุนผาเมืองมอบเมืองสุโขทัยให้พ่อขุนบางกลางหาว พร้อมพระนาม ศรีอินทรบดินทราทิตย์ พระองค์จึงเป็นที่รู้จักในนาม พ่อขุนศรีอินทราทิตย์ ปฐมกษัตริย์แห่งราชวงศ์พระร่วง","การปกครองในช่วงแรกเป็นแบบพ่อปกครองลูก คือพระมหากษัตริย์ทรงใกล้ชิดและดูแลราษฎรเหมือนบิดาดูแลบุตร"],"note":"ตำราเรียนส่วนใหญ่ใช้ พ.ศ. 1781 แต่นักวิชาการบางท่านเสนอว่าเหตุการณ์น่าจะเกิดหลังจากนั้น และยังมีการวิเคราะห์เหตุผลที่พ่อขุนผาเมืองมอบเมืองในหลายแนวทาง"},{"id":"elephant","era":1,"pre":"รัชสมัย","big":"ศรีอินทราทิตย์","title":"ยุทธหัตถีกับขุนสามชน","sum":"เจ้าชายรามคำแหงทรงชนช้างชนะขุนสามชนเมืองฉอด ขณะมีพระชนมายุ 19 พรรษา","people":["พระรามคำแหง","ขุนสามชน","เมืองฉอด","เมืองตาก"],"story":["ศิลาจารึกหลักที่ 1 เล่าว่า เมื่อเจ้าชายรามคำแหงมีพระชนมายุ 19 พรรษา ขุนสามชน เจ้าเมืองฉอด ยกทัพเข้ามาใกล้เมืองตาก","พ่อขุนศรีอินทราทิตย์ทรงนำทัพออกไปต่อสู้ ส่วนเจ้าชายรามคำแหงทรงขับช้างเข้าชนช้างกับขุนสามชน และได้ชัยชนะ","พ่อขุนศรีอินทราทิตย์จึงพระราชทานพระนามว่า พระรามคำแหง เพื่อเป็นเกียรติแก่ความกล้าหาญในครั้งนี้"],"note":"ที่ตั้งของเมืองฉอดยังเป็นประเด็นที่นักประวัติศาสตร์ศึกษาและถกเถียงกันอยู่"},{"id":"banmueang","era":1,"pre":"รัชสมัย","big":"บานเมือง","title":"พ่อขุนบานเมืองสืบราชสมบัติ","sum":"พระราชโอรสองค์ใหญ่ทรงครองสุโขทัยต่อ โดยมีพระรามคำแหงเป็นกำลังสำคัญ","people":["พ่อขุนบานเมือง","พ่อขุนรามคำแหง"],"story":["หลังพ่อขุนศรีอินทราทิตย์สวรรคต พ่อขุนบานเมือง พระราชโอรสองค์ใหญ่ ขึ้นครองราชย์สืบต่อ ตามการสืบสายพระโลหิตของราชวงศ์พระร่วง","ศิลาจารึกหลักที่ 1 กล่าวว่าพระรามคำแหงทรงปรนนิบัติพระบิดา พระมารดา และพระเชษฐาอย่างซื่อสัตย์ จึงทรงเป็นกำลังสำคัญของราชสำนัก","ช่วงเวลานี้สุโขทัยยังคงมั่นคง และเตรียมพร้อมสำหรับการขยายอำนาจในรัชกาลถัดไป"],"note":"รัชสมัยของพ่อขุนบานเมืองมีหลักฐานน้อยกว่ารัชสมัยของพ่อขุนรามคำแหงมาก"},{"id":"expand","era":2,"pre":"ราว พ.ศ.","big":"1822","title":"พ่อขุนรามคำแหงมหาราชขยายอาณาเขต","sum":"สุโขทัยเข้าสู่ยุครุ่งเรืองสูงสุด มีอำนาจแผ่ไปไกลทั้งสี่ทิศ","people":["พ่อขุนรามคำแหงมหาราช"],"story":["พ่อขุนรามคำแหง พระราชโอรสของพ่อขุนศรีอินทราทิตย์ ขึ้นครองราชย์ต่อจากพ่อขุนบานเมือง และทรงเป็นกษัตริย์ที่มีพระปรีชาด้านการรบและการปกครองที่สุดพระองค์หนึ่ง","ตามข้อความในศิลาจารึกหลักที่ 1 อาณาเขตของสุโขทัยกว้างขวางมาก ทางตะวันออกถึงลุ่มแม่น้ำโขง ทางใต้ถึงฝั่งทะเลและนครศรีธรรมราช ทางตะวันตกถึงเมืองหงสาวดี","พระองค์ทรงใช้ทั้งการสงครามและการผูกไมตรี จนสุโขทัยมีเกียรติภูมิสูงสุดในประวัติศาสตร์ของอาณาจักร"],"note":"ขอบเขตอำนาจที่แท้จริงยังเป็นข้อถกเถียง เพราะเมืองที่อยู่ไกลอาจยอมรับอำนาจสุโขทัยอย่างหลวม ๆ ไม่ใช่การปกครองโดยตรง"},{"id":"script","era":2,"pre":"พ.ศ.","big":"1826","title":"ประดิษฐ์ลายสือไทย","sum":"ตามจารึก พ่อขุนรามคำแหงทรงประดิษฐ์อักษรไทยขึ้นใช้","people":["พ่อขุนรามคำแหง","ศิลาจารึกหลักที่ 1"],"story":["ข้อความในศิลาจารึกหลักที่ 1 ระบุว่า ในปีมะแม พ.ศ. 1826 พ่อขุนรามคำแหงทรงประดิษฐ์ลายสือไทยขึ้น","นักวิชาการเห็นว่าอักษรนี้พัฒนามาจากอักษรขอมและมอญ โดยปรับให้เหมาะกับเสียงภาษาไทย และเขียนสระกับวรรณยุกต์อยู่ในบรรทัดเดียวกัน","รูปอักษรพัฒนาต่อเนื่องมาจนเป็นอักษรไทยที่ใช้ในปัจจุบัน แม้แต่ร่องรอยของไม้ยมกก็พบมาตั้งแต่สมัยสุโขทัย"],"note":"มีนักวิชาการบางท่านตั้งคำถามเรื่องอายุของศิลาจารึกหลักที่ 1 แต่จารึกนี้ยังเป็นหลักฐานสำคัญที่สุดของยุคสุโขทัยในการเรียนการสอน"},{"id":"rule","era":2,"pre":"รัชสมัย","big":"รามคำแหง","title":"พ่อปกครองลูก และกระดิ่งหน้าประตู","sum":"ราษฎรสั่นกระดิ่งร้องทุกข์ต่อพระมหากษัตริย์ได้โดยตรง และค้าขายได้โดยไม่เสียจกอบ","people":["พ่อขุนรามคำแหง","จกอบ"],"story":["ศิลาจารึกหลักที่ 1 บรรยายภาพการปกครองแบบพ่อปกครองลูก พระมหากษัตริย์ทรงดูแลราษฎรอย่างใกล้ชิดเหมือนบิดากับบุตร","หน้าประตูพระราชวังมีกระดิ่งแขวนไว้ ผู้ใดมีเรื่องเดือดร้อนสามารถสั่นกระดิ่งเพื่อถวายเรื่องร้องทุกข์ได้ และพระมหากษัตริย์จะทรงพิจารณาด้วยพระองค์เอง","ด้านการค้า จารึกกล่าวว่าไม่เก็บจกอบ หรือภาษีผ่านด่าน พ่อค้าจึงเดินทางค้าขายได้สะดวก และราษฎรยังได้รับมรดกของบรรพบุรุษสืบต่อไป"],"note":"คำว่า พ่อปกครองลูก เป็นคำที่ตำราเรียนใช้เรียกลักษณะการปกครองของสุโขทัยตอนต้น เพื่ออธิบายความใกล้ชิดระหว่างผู้ปกครองกับราษฎร"},{"id":"water","era":2,"pre":"พุทธศตวรรษที่","big":"18–20","title":"น้ำ ตระพัง และสังคโลก","sum":"ระบบเก็บน้ำของเมือง และเครื่องเคลือบสังคโลกที่เป็นสินค้าส่งออก","people":["สรีดภงส์","ตระพัง","สังคโลก"],"story":["เมืองสุโขทัยตั้งอยู่ห่างจากแม่น้ำยม ชาวเมืองจึงสร้างระบบจัดการน้ำ ได้แก่ สรีดภงส์ ซึ่งเป็นเขื่อนดินขนาดใหญ่ชักน้ำเข้าสู่เมือง และตระพัง ซึ่งเป็นสระกักเก็บน้ำไว้อุปโภคบริโภค","เครื่องปั้นดินเผาเคลือบสีเขียวไข่กาที่เรียกว่า สังคโลก ผลิตจากเตาในเขตสุโขทัยและศรีสัชนาลัย และเป็นสินค้าที่ส่งออกไปยังดินแดนต่าง ๆ","ส่วนเรื่องว่าใครนำช่างจีนเข้ามาสอนทำเครื่องสังคโลก ยังไม่ได้ข้อยุติ บางตำราว่าเป็นพ่อขุนรามคำแหง แต่นักวิชาการบางท่านเห็นว่าอาจสับสนกับบุคคลอื่นในประวัติศาสตร์"],"note":"ที่มาของเทคโนโลยีเครื่องสังคโลกยังมีหลายข้อเสนอ หน้านี้จึงไม่ระบุตัวบุคคลที่แน่ชัด"},{"id":"buddhism","era":2,"pre":"รัชสมัย","big":"รามคำแหง","title":"พุทธศาสนาแบบลังกาวงศ์","sum":"พระสงฆ์จากนครศรีธรรมราชถูกอาราธนามาเผยแผ่ศาสนา พุทธศาสนาหยั่งรากในสังคม","people":["พ่อขุนรามคำแหง","วัดอรัญญิก","พระแท่นมนังศิลาบาตร"],"story":["ศิลาจารึกหลักที่ 1 กล่าวว่าชาวสุโขทัยนับถือพระพุทธศาสนา ทำบุญให้ทานและรักษาศีลเป็นปกติ","พ่อขุนรามคำแหงทรงอาราธนาพระสงฆ์จากนครศรีธรรมราช ซึ่งนับถือนิกายลังกาวงศ์ ให้มาจำพรรษาและเผยแผ่ศาสนาที่สุโขทัย โดยพระสงฆ์พำนักอยู่ที่วัดอรัญญิก","มีพระแท่นมนังศิลาบาตรตั้งอยู่กลางดงตาล ใช้ให้พระสงฆ์ขึ้นแสดงธรรมแก่ประชาชนในวันธรรมสวนะ"],"note":"พุทธศาสนาลัทธิลังกาวงศ์ในสุโขทัยส่งอิทธิพลต่อศิลปะ วรรณกรรม และความเชื่อของไทยในสมัยต่อมา"},{"id":"after","era":3,"pre":"ราว พ.ศ.","big":"1841","title":"หลังรัชสมัยพ่อขุนรามคำแหง","sum":"หัวเมืองเริ่มแยกตัวและอำนาจส่วนกลางอ่อนลง","people":["พญาเลอไท"],"story":["เมื่อพ่อขุนรามคำแหงสวรรคตราว พ.ศ. 1841 พญาเลอไท พระราชโอรส ขึ้นครองราชย์ต่อ","ตำราเรียนกล่าวว่ากษัตริย์รุ่นถัดมาไม่สามารถรักษาเครือข่ายเมืองประเทศราชไว้ได้เท่าเดิม เมืองบางแห่งจึงแยกตัวเป็นอิสระ","ขณะเดียวกัน ศูนย์กลางอำนาจแห่งใหม่ในที่ราบภาคกลางก็เริ่มเติบโตขึ้น"],"note":"ลำดับกษัตริย์และปีครองราชย์ในช่วงนี้มีหลักฐานจำกัด และแต่ละตำรากำหนดไม่ตรงกันนัก"},{"id":"traiphum","era":3,"pre":"ราว พ.ศ.","big":"1888","title":"ไตรภูมิพระร่วง","sum":"พญาลิไททรงนิพนธ์วรรณกรรมพระพุทธศาสนาเรื่องสำคัญ","people":["พญาลิไท","ศรีสัชนาลัย","เตภูมิกถา"],"story":["พญาลิไท พระราชนัดดาของพ่อขุนรามคำแหง ขณะดำรงตำแหน่งอุปราชครองเมืองศรีสัชนาลัย ทรงนิพนธ์ไตรภูมิพระร่วง หรือเตภูมิกถา ราว พ.ศ. 1888","เนื้อหาอธิบายสามภูมิ คือ กามภูมิ รูปภูมิ และอรูปภูมิ ว่าด้วยบาปบุญ ผลของกรรม สวรรค์ และนรก เพื่อสอนให้ผู้คนทำความดี","ไตรภูมิพระร่วงเป็นวรรณกรรมไทยเรื่องสำคัญ และช่วยให้เห็นโลกทัศน์ ความเชื่อ และภาษาของผู้คนในสมัยนั้น"],"note":"ปีที่นิพนธ์ตามตำราเรียนคือ พ.ศ. 1888 ซึ่งเป็นปีโดยประมาณ"},{"id":"lithai","era":3,"pre":"ราว พ.ศ.","big":"1890","title":"พญาลิไท พระมหาธรรมราชาที่ 1","sum":"พระมหากษัตริย์ผู้ทรงธรรม ทำนุบำรุงพระพุทธศาสนาอย่างจริงจัง","people":["พญาลิไท","มหาธรรมราชา"],"story":["พญาลิไทขึ้นครองกรุงสุโขทัยราว พ.ศ. 1890 ทรงพระนามว่า พระมหาธรรมราชาที่ 1 และทรงเป็นพระมหากษัตริย์ผู้ยึดหลักธรรมตามแนวพระพุทธศาสนา","ทรงทำนุบำรุงพระพุทธศาสนาลัทธิลังกาวงศ์อย่างกว้างขวาง ทั้งการสร้างวัดวาอาราม และการสนับสนุนพระสงฆ์ ในช่วงหนึ่งของรัชกาลพระองค์ทรงผนวชด้วย","พระองค์ทรงใช้ธรรมะเป็นแนวทางปกครองบ้านเมือง สมัยนี้จึงเรียกว่ายุคธรรมราชา"],"note":"บางตำราเรียกช่วงนี้ว่ายุคธรรมราชา เพราะกษัตริย์หลายพระองค์ใช้พระนามมหาธรรมราชา"},{"id":"ayutthaya","era":3,"pre":"พ.ศ.","big":"1893","title":"กรุงศรีอยุธยาเกิดขึ้นทางใต้","sum":"ศูนย์กลางอำนาจแห่งใหม่เติบโตขึ้นและกลายเป็นคู่แข่งของสุโขทัย","people":["พระเจ้าอู่ทอง","กรุงศรีอยุธยา"],"story":["ในปี พ.ศ. 1893 พระเจ้าอู่ทอง หรือสมเด็จพระรามาธิบดีที่ 1 สถาปนากรุงศรีอยุธยาขึ้นในที่ราบลุ่มแม่น้ำเจ้าพระยาตอนล่าง","ทำเลของอยุธยาเหมาะกับการค้าทางทะเล เมืองจึงเติบโตอย่างรวดเร็วทั้งด้านกำลังคนและความมั่งคั่ง","ขณะนั้นสุโขทัยยังเป็นอาณาจักรสำคัญของภาคเหนือ แต่ต้องเผชิญกับคู่แข่งรายใหม่ ซึ่งต่อมามีบทบาทสำคัญต่อชะตากรรมของสุโขทัย"],"note":"พงศาวดารกำหนดปีสถาปนากรุงศรีอยุธยาเป็น พ.ศ. 1893"},{"id":"vassal","era":3,"pre":"ราว พ.ศ.","big":"1921","title":"สุโขทัยยอมอ่อนน้อมต่ออยุธยา","sum":"สุโขทัยกลายเป็นเมืองประเทศราชของอยุธยา","people":["พญาไสลือไท","สมเด็จพระบรมราชาธิราชที่ 1"],"story":["ตามตำราเรียน ในรัชสมัยพญาไสลือไท สมเด็จพระบรมราชาธิราชที่ 1 แห่งอยุธยายกทัพขึ้นเหนือ และสุโขทัยยอมอ่อนน้อมในราว พ.ศ. 1921","สุโขทัยยังมีกษัตริย์ปกครองตนเองต่อไป แต่ต้องยอมรับอำนาจของอยุธยาและส่งบรรณาการ","หลังจากนั้นความสัมพันธ์ระหว่างสองอาณาจักรผันผวนอยู่หลายช่วง แต่อำนาจของอยุธยาเหนือสุโขทัยเพิ่มขึ้นเรื่อย ๆ"],"note":"ปีและรายละเอียดของเหตุการณ์นี้ในแต่ละตำราอาจไม่เหมือนกัน"},{"id":"merge","era":3,"pre":"พ.ศ.","big":"1981","title":"สุโขทัยรวมเข้ากับอยุธยา","sum":"สิ้นราชวงศ์พระร่วง สุโขทัยกลายเป็นหัวเมืองของอยุธยา","people":["พระยาบรมปาล","ราชวงศ์พระร่วง"],"story":["หลังพระยาบรมปาลสวรรคตใน พ.ศ. 1981 ตำราเรียนถือว่าสุโขทัยถูกรวมเข้ากับอยุธยาโดยสมบูรณ์","ราชวงศ์พระร่วงที่ปกครองสุโขทัยมาราว 200 ปีสิ้นสุดลง และต่อมาเมืองพิษณุโลกกลายเป็นศูนย์กลางสำคัญของหัวเมืองฝ่ายเหนือ","แม้อาณาจักรสิ้นสุดลง แต่อักษร ศาสนา วรรณกรรม และศิลปะสุโขทัยยังคงถูกส่งต่อไปยังยุคหลัง"],"note":"ปี พ.ศ. 1981 เป็นปีที่ตำราเรียนใช้เป็นจุดสิ้นสุดของอาณาจักร"},{"id":"heritage","era":4,"pre":"พ.ศ.","big":"2534","title":"อุทยานประวัติศาสตร์สุโขทัยเป็นมรดกโลก","sum":"ยูเนสโกขึ้นทะเบียนเมืองประวัติศาสตร์สุโขทัยและเมืองบริวารเป็นมรดกโลก","people":["ยูเนสโก","ศรีสัชนาลัย","กำแพงเพชร"],"story":["ใน พ.ศ. 2534 องค์การยูเนสโกขึ้นทะเบียนอุทยานประวัติศาสตร์สุโขทัย ศรีสัชนาลัย และกำแพงเพชร เป็นมรดกโลกทางวัฒนธรรม","โบราณสถานสำคัญ เช่น วัดมหาธาตุ วัดศรีชุม และวัดสระศรี ยังคงให้เห็นผังเมืองและเจดีย์ทรงพุ่มข้าวบิณฑ์ ซึ่งเป็นลักษณะเด่นของศิลปะสุโขทัย","ผู้มาเยือนสามารถเดินหรือปั่นจักรยานชมโบราณสถานภายในกำแพงเมืองเก่าได้"],"note":"มรดกโลกแห่งนี้ประกอบด้วยเมืองสุโขทัยเก่า ศรีสัชนาลัย และกำแพงเพชร"},{"id":"memory","era":4,"pre":"พ.ศ.","big":"2546","title":"ศิลาจารึกหลักที่ 1 เป็นมรดกความทรงจำของโลก","sum":"ยูเนสโกยกย่องจารึกพ่อขุนรามคำแหงเป็นเอกสารสำคัญของโลก","people":["ศิลาจารึกหลักที่ 1","พระจอมเกล้าเจ้าอยู่หัว"],"story":["ศิลาจารึกหลักที่ 1 หรือศิลาจารึกพ่อขุนรามคำแหง พบโดยพระภิกษุวชิรญาณ ซึ่งต่อมาคือพระบาทสมเด็จพระจอมเกล้าเจ้าอยู่หัว เมื่อครั้งผนวช ที่บริเวณเมืองสุโขทัยเก่า ราว พ.ศ. 2376","ใน พ.ศ. 2546 ประเทศไทยประกาศว่ายูเนสโกยกจารึกนี้ขึ้นเป็นมรดกความทรงจำของโลก","ข้อความในจารึกเล่าทั้งพระราชประวัติ การปกครอง การค้า ศาสนา และการประดิษฐ์ลายสือไทย จึงเป็นหลักฐานสำคัญที่ทำให้เรารู้จักสุโขทัยมากที่สุด"],"note":"ปัจจุบันศิลาจารึกหลักที่ 1 เก็บรักษาอยู่ที่พิพิธภัณฑสถานแห่งชาติ พระนคร กรุงเทพฯ"}]},"ayutthaya":{"key":"ayutthaya","label":"สมัยกรุงศรีอยุธยา","name":"กรุงศรีอยุธยา","range":"พ.ศ. 1893–2310","blurb":"ราชธานีกลางสายน้ำ ศูนย์กลางการค้านานาชาติ ศึกกู้เอกราช และการเสียกรุงสองครั้ง","eyebrow":"ไทม์ไลน์ประวัติศาสตร์ไทย · พ.ศ. 1893–2310","title":"กรุงศรีอยุธยา","lede":"ราชธานีบนเกาะกลางสายน้ำ ศูนย์กลางการค้านานาชาติ และเวทีของศึกใหญ่ที่หล่อหลอมความเป็นชาติ","facts":["ราว 417 ปี","กษัตริย์ 33 พระองค์ 5 ราชวงศ์","ราชธานีริมแม่น้ำ 3 สาย"],"eras":{"1":{"name":"ตั้งกรุงและวางระบบ","range":"พ.ศ. 1893–2034"},"2":{"name":"การค้า สงคราม และกู้เอกราช","range":"พ.ศ. 2034–2199"},"3":{"name":"ยุคทองถึงการเสียกรุง","range":"พ.ศ. 2199–2310"},"4":{"name":"มรดกที่ยังอยู่","range":"หลัง พ.ศ. 2310"}},"src":[{"t":"Wikipedia: Ayutthaya Historical Park","u":"https://en.wikipedia.org/wiki/Ayutthaya_Historical_Park"},{"t":"UNESCO World Heritage Centre: Historic City of Ayutthaya","u":"https://whc.unesco.org/en/list/576"},{"t":"Dek-D: ประวัติศาสตร์ไทย 3 อาณาจักร สุโขทัย อยุธยา ธนบุรี","u":"https://today.line.me/th/v3/article/eLOEaGl"}],"events":[{"id":"ay-found","era":1,"pre":"พ.ศ.","big":"1893","title":"สถาปนากรุงศรีอยุธยา","sum":"พระเจ้าอู่ทองทรงตั้งราชธานีใหม่บนเกาะกลางแม่น้ำ ที่มีสายน้ำล้อมรอบ","people":["พระเจ้าอู่ทอง","สมเด็จพระรามาธิบดีที่ 1","แม่น้ำเจ้าพระยา ลพบุรี ป่าสัก"],"story":["ในปี พ.ศ. 1893 พระเจ้าอู่ทอง หรือสมเด็จพระรามาธิบดีที่ 1 ทรงสถาปนากรุงศรีอยุธยาเป็นราชธานี ตามที่ปรากฏในพระราชพงศาวดาร","ทำเลของเมืองเป็นเกาะที่แม่น้ำเจ้าพระยา แม่น้ำลพบุรี และแม่น้ำป่าสักล้อมรอบ น้ำจึงเป็นทั้งคูเมืองป้องกันข้าศึก และเส้นทางค้าขายที่ต่อออกสู่ทะเลได้สะดวก","ตำราเรียนมักอธิบายว่าพระองค์ทรงย้ายมาจากเมืองเดิมเพราะเกิดโรคระบาด แล้วเลือกที่ตั้งใหม่ซึ่งเหมาะกับการค้าและการป้องกันเมือง"],"note":"ที่มาและพื้นเพของพระเจ้าอู่ทองยังมีหลายข้อเสนอ ตำราต่าง ๆ จึงเล่าไม่เหมือนกัน","art":{"sky":"dawn","items":[["sun",300,196,1.4],["cloud",110,70],["cloud",500,90,0.8],["hills"],["ground"],["water",0,296],["bellstupa",300,264,1.1],["prang",470,264,0.8],["junk",130,318,0.8]]}},{"id":"ay-law","era":1,"pre":"ราว พ.ศ.","big":"1998","title":"ระบบศักดินาและจตุสดมภ์","sum":"สมเด็จพระบรมไตรโลกนาถทรงจัดระเบียบการปกครองให้ชัดเจน","people":["สมเด็จพระบรมไตรโลกนาถ","สมุหนายก","สมุหพระกลาโหม","เวียง วัง คลัง นา"],"story":["ในรัชสมัยสมเด็จพระบรมไตรโลกนาถ (พ.ศ. 1991–2031) อยุธยาจัดระเบียบการปกครองครั้งใหญ่ แยกงานฝ่ายพลเรือนกับฝ่ายทหารออกจากกัน โดยมีสมุหนายกดูแลฝ่ายพลเรือน และสมุหพระกลาโหมดูแลฝ่ายทหาร","ส่วนกลางแบ่งงานเป็นจตุสดมภ์ คือ เวียง วัง คลัง และนา และมีการแบ่งหัวเมืองเป็นชั้นใน ชั้นนอก และประเทศราช","สังคมถูกจัดลำดับด้วยระบบศักดินา กำหนดสิทธิและหน้าที่ของคนแต่ละกลุ่ม เช่น เจ้านาย ขุนนาง ไพร่ และทาส"],"note":"ตำราเรียนมักระบุว่าการปฏิรูปการปกครองเกิดขึ้นราว พ.ศ. 1998 ซึ่งเป็นปีโดยประมาณ","art":{"sky":"day","items":[["cloud",120,70],["cloud",480,64,0.8],["hills"],["ground"],["hall",300,264,1.2],["figure",150,276,1.1,{"k":"plain"}],["figure",450,276,1.1,{"k":"plain"}],["figure",300,278,1.25,{"k":"king"}],["palm",555,266,0.9]]}},{"id":"ay-portugal","era":2,"pre":"พ.ศ.","big":"2054","title":"ชาติตะวันตกเข้ามาค้าขาย","sum":"โปรตุเกสส่งทูตเข้าสู่อยุธยา ท่าเรือแห่งนี้คึกคักด้วยพ่อค้าหลายชาติ","people":["โปรตุเกส","มะละกา","พ่อค้าจีน ญี่ปุ่น เปอร์เซีย","ดัตช์ อังกฤษ ฝรั่งเศส"],"story":["หลังโปรตุเกสยึดเมืองมะละกาได้ในปี พ.ศ. 2054 ก็ส่งคณะทูตเข้ามายังอยุธยา นับเป็นการติดต่อครั้งแรกระหว่างอยุธยากับชาติตะวันตก","อยุธยาเป็นเมืองท่าที่เชื่อมการค้าระหว่างทะเลจีนกับมหาสมุทรอินเดีย พ่อค้าจากจีน ญี่ปุ่น เปอร์เซีย และต่อมาคือชาวดัตช์ อังกฤษ และฝรั่งเศส เดินทางมาตั้งสถานีการค้าและชุมชนอยู่นอกกำแพงเมือง","สินค้าส่งออกสำคัญ เช่น ข้าว ของป่า หนังสัตว์ และไม้ฝาง ส่วนอาวุธปืนจากตะวันตกก็เข้ามาเป็นกำลังสำคัญในการสงคราม"],"note":"ปีที่ทูตโปรตุเกสเข้ามามักระบุเป็น พ.ศ. 2054 บางตำราเล่ารายละเอียดต่างกันเล็กน้อย","art":{"sky":"day","items":[["sun",480,110,0.9],["cloud",120,66],["cloud",320,44,0.6],["hills"],["water",0,240],["ship",210,276,1.15],["junk",440,290,0.95]]}},{"id":"ay-suriyothai","era":2,"pre":"พ.ศ.","big":"2091","title":"สมเด็จพระสุริโยทัยขับช้างเข้ารบ","sum":"พระสุริโยทัยทรงชนช้างเข้าขวางเพื่อป้องกันพระมหาจักรพรรดิ และสิ้นพระชนม์ในสนามรบ","people":["สมเด็จพระสุริโยทัย","สมเด็จพระมหาจักรพรรดิ","พระเจ้าแปร","เจดีย์ศรีสุริโยทัย"],"story":["ในปี พ.ศ. 2091 กองทัพพม่ายกเข้ามาตีกรุงศรีอยุธยา ตามพระราชพงศาวดาร สมเด็จพระมหาจักรพรรดิทรงนำทัพออกต่อสู้ และเกิดการรบบนหลังช้างกับพระเจ้าแปร","ขณะที่พระมหาจักรพรรดิทรงเพลี่ยงพล้ำ สมเด็จพระสุริโยทัยทรงแต่งกายเป็นนักรบ ขับช้างเข้าขวางเพื่อปกป้องพระสวามี และสิ้นพระชนม์ในที่รบ","เรื่องราวความกล้าหาญนี้เป็นที่จดจำมาจนปัจจุบัน และมีเจดีย์ศรีสุริโยทัยสร้างไว้เป็นอนุสรณ์ ที่วัดสวนหลวงสบสวรรค์ ในเมืองอยุธยา"],"note":"รายละเอียดของศึกครั้งนี้มาจากพระราชพงศาวดาร ซึ่งเล่าไม่เหมือนกันในแต่ละฉบับ และหลักฐานฝ่ายพม่าก็เล่าต่างออกไป","art":{"sky":"dusk","items":[["sun",470,170,1],["hills"],["ground"],["elephant",270,276,1.35,{"rider":true,"k":"king"}],["banner",100,272,1.1],["banner",500,272,1.1],["figure",560,276,1.2,{"k":"soldier"}]]}},{"id":"ay-fall1","era":2,"pre":"พ.ศ.","big":"2112","title":"เสียกรุงครั้งที่ 1","sum":"กรุงศรีอยุธยาตกเป็นเมืองขึ้นของพระเจ้าบุเรงนองแห่งพม่า","people":["พระเจ้าบุเรงนอง","สมเด็จพระมหินทราธิราช","สมเด็จพระมหาธรรมราชา"],"story":["ในปี พ.ศ. 2112 กรุงศรีอยุธยาเสียแก่กองทัพพม่าของพระเจ้าบุเรงนอง หลังการล้อมเมืองเป็นเวลานาน ขณะนั้นสมเด็จพระมหินทราธิราชทรงครองราชย์","พม่าตั้งสมเด็จพระมหาธรรมราชา เจ้าเมืองพิษณุโลก ขึ้นเป็นกษัตริย์ปกครองอยุธยาในฐานะเมืองประเทศราช และนำเชลยกับทรัพย์สินจำนวนมากกลับไป","ความพ่ายแพ้ครั้งนี้เป็นบทเรียนใหญ่ของอยุธยา และเป็นจุดเริ่มต้นของการเตรียมฟื้นกำลังในรัชสมัยต่อมา"],"note":"การเสียกรุงครั้งที่ 1 ตำราเรียนใช้ พ.ศ. 2112 แต่แต่ละแหล่งอธิบายรายละเอียดต่างกัน","art":{"sky":"storm","items":[["hills"],["ground"],["fort",300,264,1.15],["bellstupa",130,264,0.9],["banner",470,272,1.1],["flames",420,266,0.9],["cloud",120,60,1.1,{"k":"smoke"}],["cloud",470,76,1,{"k":"smoke"}]]}},{"id":"ay-independence","era":2,"pre":"พ.ศ.","big":"2127","title":"ประกาศอิสรภาพที่เมืองแครง","sum":"สมเด็จพระนเรศวรทรงประกาศว่าอยุธยาไม่ขึ้นกับพม่าอีกต่อไป","people":["สมเด็จพระนเรศวร","พระมหาอุปราชา","เมืองแครง"],"story":["ในปี พ.ศ. 2127 สมเด็จพระนเรศวร ซึ่งขณะนั้นเสด็จไปกับกองทัพพม่า ณ เมืองแครง ทรงประกาศอิสรภาพของกรุงศรีอยุธยา","พระองค์ทรงนำกำลังพลและครัวชาวไทยเดินทางกลับ และต่อมาทรงรบป้องกันพม่าหลายครั้ง","การประกาศอิสรภาพถือเป็นจุดเปลี่ยนสำคัญ ที่ทำให้อยุธยาหลุดจากฐานะเมืองขึ้นและกลับมาเป็นราชอาณาจักรที่เข้มแข็งอีกครั้ง"],"note":"ที่ตั้งของเมืองแครงและรายละเอียดของเหตุการณ์ยังมีหลายแนวคิด ตำราเรียนใช้ พ.ศ. 2127 เป็นปีประกาศอิสรภาพ","art":{"sky":"dawn","items":[["sun",300,176,1.3],["hills"],["ground"],["banner",160,272,1.1],["banner",440,272,1.1],["figure",90,276,1.2,{"k":"soldier"}],["figure",510,276,1.2,{"k":"soldier"}],["figure",300,278,1.9,{"k":"king"}],["sword",334,206,1.2]]}},{"id":"ay-elephant","era":2,"pre":"พ.ศ.","big":"2135","title":"ยุทธหัตถีที่หนองสาหร่าย","sum":"สมเด็จพระนเรศวรทรงชนช้างชนะมังสามเกียด พระมหาอุปราชาแห่งพม่า","people":["สมเด็จพระนเรศวร","สมเด็จพระเอกาทศรถ","พระมหาอุปราชา (มังสามเกียด)","หนองสาหร่าย"],"story":["ในปี พ.ศ. 2135 พม่ายกทัพใหญ่มาอีกครั้ง สมเด็จพระนเรศวรทรงนำทัพออกไปสกัดที่ทุ่งหนองสาหร่าย แขวงเมืองสุพรรณบุรี","พระองค์ทรงชนช้างกับพระมหาอุปราชาของพม่ากลางสนามรบ ขณะที่สมเด็จพระเอกาทศรถทรงชนช้างกับมังจาปะโร และได้ชัยชนะทั้งสองทาง","ชัยชนะครั้งนี้ทำให้พม่าไม่ยกทัพมาตีอยุธยาอีกเป็นเวลานาน และกองทัพไทยถือเป็นแรงบันดาลใจ จึงกำหนดวันที่ 25 มกราคม เป็นวันกองทัพไทย"],"note":"ปีของยุทธหัตถีมีข้อถกเถียง พงศาวดารไทยให้ พ.ศ. 2135 แต่บางแหล่งอ้างอิงหลักฐานพม่าและเสนอ พ.ศ. 2136","art":{"sky":"day","items":[["cloud",120,60],["cloud",470,90,0.8],["hills"],["ground"],["elephant",150,278,1.2,{"rider":true,"k":"king"}],["elephant",450,278,1.2,{"rider":true,"f":true,"k":"soldier"}],["banner",50,272,1],["banner",555,272,1]]}},{"id":"ay-narai","era":3,"pre":"พ.ศ.","big":"2228","title":"สัมพันธไมตรีกับฝรั่งเศส","sum":"ยุคสมเด็จพระนารายณ์ ที่ลพบุรีเป็นราชธานีแห่งที่สอง และทูตสองฝั่งโลกเดินทางไปมาหากัน","people":["สมเด็จพระนารายณ์มหาราช","พระเจ้าหลุยส์ที่ 14","ออกพระวิสุทธสุนทร (โกษาปาน)","เจ้าพระยาวิชเยนทร์"],"story":["สมเด็จพระนารายณ์มหาราชครองราชย์ พ.ศ. 2199–2231 พระองค์ทรงขยายการค้ากับต่างประเทศ และใช้เมืองลพบุรีเป็นราชธานีแห่งที่สอง โดยมีชาวต่างชาติช่วยออกแบบและก่อสร้างพระราชวังและป้อมต่าง ๆ","ในปี พ.ศ. 2228 คณะทูตของพระเจ้าหลุยส์ที่ 14 แห่งฝรั่งเศสเดินทางมาถึงอยุธยา ต่อมาในปี พ.ศ. 2229 ราชทูตไทยนำโดยออกพระวิสุทธสุนทร หรือโกษาปาน ก็เดินทางไปเข้าเฝ้าพระเจ้าหลุยส์ที่ 14 ที่ประเทศฝรั่งเศส","ชาวต่างชาติบางคนมีบทบาทสูงในราชสำนัก เช่น คอนสแตนติน ฟอลคอน ซึ่งได้เป็นเจ้าพระยาวิชเยนทร์ แต่ความใกล้ชิดกับต่างชาติก็ทำให้ขุนนางบางกลุ่มไม่พอใจ และนำไปสู่การเปลี่ยนแผ่นดินเมื่อสิ้นรัชกาล"],"note":"ปีของการเดินทางของคณะทูตมีหลายแหล่งต่างกันเล็กน้อย เพราะการนับปีในเอกสารไทยกับเอกสารฝรั่งเศสไม่ตรงกัน","art":{"sky":"day","items":[["sun",500,100,0.8],["cloud",120,66],["hills"],["ground"],["prang",120,264,0.85],["prasat",330,264,1],["water",0,298],["ship",480,318,0.8]]}},{"id":"ay-borom","era":3,"pre":"ราว พ.ศ.","big":"2293","title":"ยุคทองของศิลปะและวรรณกรรม","sum":"สมเด็จพระเจ้าบรมโกศทรงส่งเสริมศิลปะ วรรณกรรม และส่งสมณทูตไปลังกา","people":["สมเด็จพระเจ้าบรมโกศ","เจ้าฟ้าธรรมธิเบศร","พระอุบาลี","สยามวงศ์"],"story":["รัชสมัยสมเด็จพระเจ้าบรมโกศ (พ.ศ. 2275–2301) ถือเป็นช่วงที่บ้านเมืองสงบ และศิลปะวรรณกรรมเจริญรุ่งเรือง","เจ้าฟ้าธรรมธิเบศร พระราชโอรส ทรงนิพนธ์วรรณกรรมสำคัญ เช่น กาพย์เห่เรือ และนิราศธารทองแดง ซึ่งยังใช้เป็นแบบอย่างทางภาษามาจนถึงปัจจุบัน","ราว พ.ศ. 2293 พระสงฆ์ไทยนำโดยพระอุบาลีเดินทางไปลังกาตามคำขอของกษัตริย์ลังกา เพื่อสืบทอดการอุปสมบท ทำให้เกิดนิกายสยามวงศ์ในลังกา"],"note":"ปีที่พระอุบาลีเดินทางไปลังกา ตำราบางเล่มระบุ พ.ศ. 2293 บางเล่มระบุ พ.ศ. 2294","art":{"sky":"dawn","items":[["sun",480,140,0.9],["cloud",300,60,0.8],["hills"],["ground"],["water",0,284],["bellstupa",130,264,1],["barge",360,310,1]]}},{"id":"ay-fall2","era":3,"pre":"พ.ศ.","big":"2310","title":"เสียกรุงครั้งที่ 2","sum":"กองทัพพม่าตีกรุงศรีอยุธยาแตก ความรุ่งเรืองกว่า 400 ปีสิ้นสุดลง","people":["พระเจ้าเอกทัศ","พระเจ้ามังระ","เนเมียวสีหบดี","มังมหานรธา"],"story":["ในรัชสมัยพระเจ้าเอกทัศ พม่าภายใต้พระเจ้ามังระส่งทัพเข้าล้อมกรุงศรีอยุธยาตั้งแต่ พ.ศ. 2308 โดยยกมาทั้งทางเหนือและทางใต้","หลังการล้อมเมืองนานกว่าหนึ่งปี กรุงศรีอยุธยาแตกในวันที่ 7 เมษายน พ.ศ. 2310 วัด วัง และบ้านเมืองถูกเผาทำลาย ผู้คนจำนวนมากถูกกวาดต้อนไปเป็นเชลย","การสิ้นสุดของราชธานีที่ยืนยาวมากว่า 400 ปี เปิดทางให้เกิดการกอบกู้เอกราชในสมัยธนบุรี"],"note":"จำนวนผู้ถูกกวาดต้อนและรายละเอียดการล้อมเมืองมีหลายแหล่งต่างกัน วันที่ 7 เมษายน เป็นวันที่ตำราเรียนใช้กันทั่วไป","art":{"sky":"fire","items":[["hills"],["ground"],["bellstupa",160,264,1.2],["prang",400,264,1.1],["flames",160,262,1.4],["flames",420,262,1.5],["flames",300,266,1.1],["cloud",110,60,1.2,{"k":"smoke"}],["cloud",340,50,1.3,{"k":"smoke"}],["cloud",500,80,1,{"k":"smoke"}]]}},{"id":"ay-heritage","era":4,"pre":"พ.ศ.","big":"2534","title":"มรดกโลกพระนครศรีอยุธยา","sum":"ยูเนสโกขึ้นทะเบียนนครประวัติศาสตร์อยุธยาเป็นมรดกโลก","people":["ยูเนสโก","วัดพระศรีสรรเพชญ์","วัดมหาธาตุ","วัดไชยวัฒนาราม"],"story":["ในปี พ.ศ. 2534 ยูเนสโกขึ้นทะเบียนนครประวัติศาสตร์พระนครศรีอยุธยาเป็นมรดกโลกทางวัฒนธรรม","ซากเมืองเก่ายังเหลือเจดีย์ ปรางค์ และวัดจำนวนมากให้เห็นผังเมืองและศิลปะสถาปัตยกรรมของอยุธยา เช่น เจดีย์สามองค์ที่วัดพระศรีสรรเพชญ์ และพระปรางค์ที่วัดไชยวัฒนาราม","รากไม้ที่โอบพระเศียรพระพุทธรูปหินทรายที่วัดมหาธาตุ เป็นภาพที่คนทั่วโลกรู้จัก และเป็นสัญลักษณ์ของเมืองมรดกโลกแห่งนี้"],"note":"พื้นที่ที่ขึ้นทะเบียนครอบคลุมโบราณสถานสำคัญบางส่วนของเมืองเก่า ไม่ใช่ทั้งหมด","art":{"sky":"day","items":[["sun",480,110,0.8],["cloud",110,66],["hills"],["ground"],["prang",70,264,0.55],["bellstupa",200,264,0.95],["bellstupa",300,264,1.05],["bellstupa",400,264,0.95],["tree",520,268,1.1]]}}]},"thonburi":{"key":"thonburi","label":"สมัยธนบุรี","name":"ธนบุรี","range":"พ.ศ. 2310–2325","blurb":"ราชธานีแห่งการกอบกู้ชาติ ภายใต้สมเด็จพระเจ้าตากสินมหาราช","eyebrow":"ไทม์ไลน์ประวัติศาสตร์ไทย · พ.ศ. 2310–2325","title":"ธนบุรี","lede":"ราชธานีที่เกิดจากการกอบกู้ชาติ ช่วงเวลาสั้น ๆ ที่เต็มไปด้วยการรบและการรวมแผ่นดิน","facts":["15 ปี","กษัตริย์พระองค์เดียว","ราชธานีริมแม่น้ำเจ้าพระยา"],"eras":{"1":{"name":"กู้ชาติและตั้งราชธานี","range":"พ.ศ. 2310"},"2":{"name":"รวมแผ่นดินและขยายอำนาจ","range":"พ.ศ. 2311–2322"},"3":{"name":"ปลายสมัย","range":"พ.ศ. 2325"}},"src":[{"t":"ทรูปลูกปัญญา: พัฒนาการของอาณาจักรธนบุรี","u":"https://www.trueplookpanya.com/learning/detail/31275"},{"t":"Thai PBS: 28 ธันวาคม วันสมเด็จพระเจ้าตากสินมหาราช","u":"https://www.thaipbs.or.th/now/content/628"}],"events":[{"id":"th-break","era":1,"pre":"ต้น พ.ศ.","big":"2310","title":"ตีฝ่าวงล้อมออกจากกรุง","sum":"พระยาตากนำกำลังราว 500 คนตีฝ่าวงล้อมพม่า ก่อนกรุงศรีอยุธยาแตก","people":["พระยาตาก (พระยาวชิรปราการ)","พม่า","เมืองจันทบุรี"],"story":["ก่อนกรุงศรีอยุธยาแตกครั้งที่ 2 พระยาตาก หรือพระยาวชิรปราการ เห็นว่าสถานการณ์ในกรุงเหลือกำลังต้านทาน จึงนำทหารกลุ่มหนึ่งราว 500 คน ตีฝ่าวงล้อมของพม่าออกไปทางทิศตะวันออก","กำลังกลุ่มนี้เดินทางผ่านหัวเมืองตะวันออก ได้ผู้คนมาสมทบเรื่อย ๆ จนไปตั้งหลักที่เมืองจันทบุรีในเดือนมิถุนายน และเริ่มรวบรวมไพร่พล เสบียง และต่อเรือ","การตัดสินใจครั้งนั้นเป็นจุดเริ่มต้นของการกอบกู้ชาติ ซึ่งนำไปสู่การตั้งราชธานีใหม่"],"note":"จำนวนทหารที่ตีฝ่าวงล้อมออกไปและเส้นทางเดินทัพ มีหลายแหล่งบอกต่างกัน","art":{"sky":"night","items":[["stars"],["moon",480,76,0.9],["hills"],["ground"],["fort",460,264,0.8],["figure",100,276,1.2,{"k":"soldier"}],["figure",160,276,1.2,{"k":"soldier"}],["figure",220,276,1.3,{"k":"king"}],["figure",280,276,1.2,{"k":"soldier"}],["banner",340,272,1]]}},{"id":"th-recapture","era":1,"pre":"ปลาย พ.ศ.","big":"2310","title":"กอบกู้เอกราชคืน","sum":"ยกทัพเรือจากจันทบุรี ตีค่ายพม่าที่โพธิ์สามต้น และเอากรุงศรีอยุธยาคืนภายในราว 7 เดือน","people":["พระยาตาก","ค่ายโพธิ์สามต้น","สุกี้พระนายกอง","จันทบุรี"],"story":["หลังรวบรวมกำลังที่จันทบุรีแล้ว พระยาตากนำกองทัพเรือเข้าสู่ปากแม่น้ำเจ้าพระยา และยึดเมืองธนบุรีได้ก่อน","จากนั้นยกไปตีค่ายโพธิ์สามต้นที่พม่าตั้งอยู่ใกล้กรุงศรีอยุธยา และได้ชัยชนะ ใช้เวลาราว 7 เดือนนับจากกรุงแตก","พระองค์พบว่ากรุงศรีอยุธยาเสียหายหนักจนยากจะบูรณะ จึงเลือกตั้งราชธานีแห่งใหม่ในที่ที่เหมาะกว่า"],"note":"ลำดับการยึดเมืองและวันเวลาที่แน่ชัดมีหลายฉบับในพงศาวดาร ตำราเรียนสรุปว่าเป็นช่วงปลาย พ.ศ. 2310","art":{"sky":"dawn","items":[["sun",300,190,1.3],["hills"],["ground"],["water",0,294],["fort",420,264,1],["banner",300,272,1.1],["figure",250,276,1.3,{"k":"king"}],["ship",160,316,0.8]]}},{"id":"th-capital","era":1,"pre":"ปลาย พ.ศ.","big":"2310","title":"ตั้งธนบุรีเป็นราชธานี","sum":"ขึ้นครองราชย์วันที่ 28 ธันวาคม พ.ศ. 2310 และสถาปนาธนบุรีเป็นราชธานีแห่งใหม่","people":["สมเด็จพระเจ้าตากสินมหาราช","ป้อมวิไชยประสิทธิ์","วัดแจ้ง (วัดอรุณราชวราราม)"],"story":["วันที่ 28 ธันวาคม พ.ศ. 2310 พระองค์ขึ้นครองราชย์ มีพระนามว่า สมเด็จพระบรมราชาที่ 4 แต่เป็นที่รู้จักในนามพระเจ้าตากสิน","ตำราเรียนอธิบายเหตุผลที่เลือกธนบุรี คือเป็นเมืองเล็กที่เหมาะกับกำลังพลที่มีอยู่ มีป้อมปราการมั่นคง คุมเส้นทางออกสู่ทะเล และช่วยป้องกันไม่ให้หัวเมืองทางเหนือซื้ออาวุธจากต่างชาติได้ง่าย","พระราชวังตั้งอยู่ติดวัดแจ้ง ซึ่งภายหลังคือวัดอรุณราชวราราม พื้นที่นี้เป็นศูนย์กลางของราชธานีใหม่ตลอดสมัยธนบุรี"],"note":"บางตำรากล่าวว่าทรงสถาปนาราชธานีใน พ.ศ. 2311 แต่ตำราเรียนทั่วไปใช้ พ.ศ. 2310 เป็นปีขึ้นครองราชย์","art":{"sky":"dawn","items":[["sun",300,176,1.2],["hills"],["ground"],["water",0,292],["prang",300,264,1.25,{"k":"arun"}],["junk",130,316,0.8],["barge",480,320,0.7]]}},{"id":"th-unite","era":2,"pre":"พ.ศ.","big":"2311–13","title":"ปราบชุมนุมและรวมแผ่นดิน","sum":"หลังกรุงแตก บ้านเมืองแตกเป็นชุมนุมหลายก๊ก พระเจ้าตากสินทรงปราบทีละแห่ง","people":["ชุมนุมเจ้าพิษณุโลก","ชุมนุมเจ้าพิมาย","ชุมนุมเจ้านครศรีธรรมราช","ชุมนุมเจ้าพระฝาง"],"story":["เมื่ออยุธยาแตก อำนาจส่วนกลางหายไป หัวเมืองต่าง ๆ จึงตั้งตนเป็นชุมนุมของตัวเอง ได้แก่ ชุมนุมเจ้าพิษณุโลก ชุมนุมเจ้าพิมาย ชุมนุมเจ้านครศรีธรรมราช และชุมนุมเจ้าพระฝาง","พระเจ้าตากสินทรงปราบชุมนุมเหล่านี้ได้ทีละแห่ง โดยมีกรณีที่ครั้งแรกทำไม่สำเร็จ เพราะพระองค์ได้รับบาดเจ็บ จนรวบรวมดินแดนเดิมของอยุธยากลับคืนมาได้ภายในราว 3 ปี","การรวบรวมแผ่นดินครั้งนี้ทำให้ไทยกลับมามีรัฐที่เป็นหนึ่งเดียวและมั่นคงขึ้นอีกครั้ง"],"note":"ลำดับการปราบชุมนุมและปีที่แน่ชัดมีหลายแหล่งต่างกัน ตำราเรียนจึงมักใช้ช่วง พ.ศ. 2311–2313","art":{"sky":"day","items":[["cloud",120,66],["cloud",480,86,0.8],["hills"],["ground"],["banner",90,272,1],["elephant",230,278,1.1,{"rider":true,"k":"king"}],["banner",390,272,1.05],["banner",470,272,0.9],["banner",540,272,1]]}},{"id":"th-chiangmai","era":2,"pre":"ราว พ.ศ.","big":"2317","title":"ขับพม่าจากเชียงใหม่","sum":"กองทัพธนบุรีและผู้นำท้องถิ่นฝ่ายเหนือร่วมกันยึดเชียงใหม่คืนจากพม่า","people":["พระยาจ่าบ้าน","พระยากาวิละ","เชียงใหม่","ล้านนา"],"story":["ราว พ.ศ. 2317 พม่ายังมีอำนาจในดินแดนล้านนา พระยาจ่าบ้านและพระยากาวิละ ผู้นำท้องถิ่นฝ่ายเหนือ ขอกำลังจากธนบุรีมาช่วยขับพม่า","กองทัพธนบุรีเข้ามาช่วยสู้ และยึดเมืองเชียงใหม่ได้ ทำให้ล้านนากลับมามีความสัมพันธ์กับไทยอีกครั้ง","ล้านนาอยู่ภายใต้อิทธิพลของไทยในฐานะเมืองประเทศราช และเป็นแนวป้องกันสำคัญทางเหนือ"],"note":"รายละเอียดของศึกเชียงใหม่ในแต่ละแหล่งไม่เหมือนกัน เช่น ผู้บัญชาการทัพและช่วงเวลาที่แน่ชัด","art":{"sky":"dusk","items":[["sun",100,212,1],["hills"],["ground"],["bellstupa",200,264,1],["hall",380,264,0.9],["banner",300,272,1],["figure",490,276,1.3,{"k":"soldier"}]]}},{"id":"th-vientiane","era":2,"pre":"ราว พ.ศ.","big":"2321","title":"ตีเวียงจันทน์ อัญเชิญพระแก้วมรกต","sum":"ทัพธนบุรีตีเวียงจันทน์ได้ และอัญเชิญพระแก้วมรกตมาประดิษฐานที่ธนบุรี","people":["สมเด็จเจ้าพระยามหากษัตริย์ศึก","เวียงจันทน์","พระแก้วมรกต","วัดอรุณราชวราราม"],"story":["ราว พ.ศ. 2321 กองทัพธนบุรีภายใต้สมเด็จเจ้าพระยามหากษัตริย์ศึก ซึ่งต่อมาคือรัชกาลที่ 1 ยกไปตีเวียงจันทน์ และได้ชัยชนะ","ทัพไทยอัญเชิญพระแก้วมรกตลงมายังธนบุรี และประดิษฐานไว้ที่วัดอรุณราชวราราม","พระแก้วมรกตเป็นพระพุทธรูปคู่บ้านคู่เมืองสำคัญ ต่อมาได้ย้ายไปประดิษฐานที่วัดพระศรีรัตนศาสดาราม ในสมัยรัตนโกสินทร์"],"note":"ปีที่ตีเวียงจันทน์ ตำราบางเล่มระบุ พ.ศ. 2321 บางเล่มระบุ พ.ศ. 2322 หรือปีอื่น และรายละเอียดอื่น ๆ ก็มีหลายแหล่งต่างกัน","art":{"sky":"dusk","items":[["sun",480,200,1],["hills"],["ground"],["banner",90,272,1],["hall",300,264,1.3],["glow",300,230,0.7],["buddha",300,264,0.5,{"k":"emerald"}],["figure",130,276,1.2,{"k":"soldier"}],["figure",500,276,1.2,{"k":"soldier"}]]}},{"id":"th-end","era":3,"pre":"พ.ศ.","big":"2325","title":"สิ้นสุดสมัยธนบุรี","sum":"เกิดความวุ่นวายในพระนคร และสมเด็จเจ้าพระยามหากษัตริย์ศึกขึ้นครองราชย์","people":["พระเจ้าตากสิน","พระยาสรรค์","สมเด็จเจ้าพระยามหากษัตริย์ศึก"],"story":["ปลายสมัย เกิดความไม่สงบในพระนคร พระยาสรรค์และพวกก่อกบฏ ทำให้พระเจ้าตากสินต้องออกผนวชและถูกควบคุมพระองค์ไว้ที่วัดอรุณราชวราราม","สมเด็จเจ้าพระยามหากษัตริย์ศึกซึ่งยกทัพไปราชการนอกพระนคร เสด็จกลับมาระงับเหตุการณ์ ขุนนางและราษฎรอัญเชิญพระองค์ขึ้นเป็นพระมหากษัตริย์ ราชวงศ์จักรีจึงเริ่มต้นในปี พ.ศ. 2325","พระเจ้าตากสินสิ้นพระชนม์ในปี พ.ศ. 2325 พระชนมายุ 48 พรรษา หลังครองราชย์ 15 ปี สมัยธนบุรีจึงจบลง แต่ผลงานของพระองค์วางรากฐานให้ราชธานีใหม่ในเวลาต่อมา"],"note":"สาเหตุของเหตุการณ์ปลายรัชกาลและรายละเอียดการสิ้นพระชนม์ ยังเป็นประเด็นที่นักประวัติศาสตร์ศึกษาและถกเถียงกัน","art":{"sky":"dusk","items":[["sun",300,232,1.1],["hills"],["ground"],["water",0,296],["prang",300,264,1.4,{"k":"arun"}],["cloud",120,70],["cloud",480,90,0.8]]}}]},"rattanakosin":{"key":"rattanakosin","label":"สมัยรัตนโกสินทร์","name":"รัตนโกสินทร์","range":"พ.ศ. 2325–ปัจจุบัน","blurb":"ราชธานีฝั่งตะวันออกของแม่น้ำเจ้าพระยา จากการสถาปนากรุงสู่การปฏิรูปและประชาธิปไตย","eyebrow":"ไทม์ไลน์ประวัติศาสตร์ไทย · พ.ศ. 2325–ปัจจุบัน","title":"รัตนโกสินทร์","lede":"ราชธานีฝั่งตะวันออกของแม่น้ำเจ้าพระยา จากการสถาปนากรุง สู่การปฏิรูป ประชาธิปไตย และประเทศไทยในปัจจุบัน","facts":["กว่า 240 ปี","ราชวงศ์จักรี","รักษาเอกราชมาได้ตลอด"],"eras":{"1":{"name":"ต้นรัตนโกสินทร์","range":"พ.ศ. 2325–2394"},"2":{"name":"ปฏิรูปและรักษาเอกราช","range":"พ.ศ. 2394–2475"},"3":{"name":"ประชาธิปไตยและสมัยใหม่","range":"พ.ศ. 2475–ปัจจุบัน"}},"src":[{"t":"ทรูปลูกปัญญา: พัฒนาการไทยสมัยรัตนโกสินทร์","u":"https://www.trueplookpanya.com/learning/detail/34898"}],"events":[{"id":"rk-found","era":1,"pre":"พ.ศ.","big":"2325","title":"สถาปนากรุงรัตนโกสินทร์","sum":"รัชกาลที่ 1 ย้ายราชธานีมาฝั่งตะวันออกของแม่น้ำเจ้าพระยา และสร้างพระบรมมหาราชวัง","people":["รัชกาลที่ 1","พระบรมมหาราชวัง","วัดพระศรีรัตนศาสดาราม","ราชวงศ์จักรี"],"story":["วันที่ 6 เมษายน พ.ศ. 2325 พระบาทสมเด็จพระพุทธยอดฟ้าจุฬาโลกมหาราช ขึ้นครองราชย์เป็นปฐมกษัตริย์แห่งราชวงศ์จักรี วันนี้ถือเป็นวันจักรีในปัจจุบัน","พระองค์ย้ายราชธานีจากกรุงธนบุรีมายังฝั่งตะวันออกของแม่น้ำเจ้าพระยา ซึ่งเป็นพื้นที่กว้างขวางกว่า และมีแม่น้ำเป็นแนวป้องกันทางด้านตะวันตก แล้วสร้างพระบรมมหาราชวัง","พระแก้วมรกตถูกอัญเชิญมาประดิษฐานที่วัดพระศรีรัตนศาสดาราม หรือวัดพระแก้ว ภายในพระบรมมหาราชวัง เมื่อ พ.ศ. 2327"],"note":"ช่วงสร้างเมืองและพระราชพิธีสำคัญกินเวลาหลายปีหลัง พ.ศ. 2325 ตำราเรียนจึงใช้ พ.ศ. 2325 เป็นปีเริ่มสมัยรัตนโกสินทร์","art":{"sky":"dawn","items":[["sun",300,190,1.3],["cloud",120,70],["hills"],["ground"],["hall",130,264,0.8],["hall",470,264,0.8],["prasat",300,264,1.2],["water",0,302]]}},{"id":"rk-law","era":1,"pre":"พ.ศ.","big":"2347","title":"กฎหมายตราสามดวง","sum":"รัชกาลที่ 1 ทรงให้ชำระและรวบรวมกฎหมายเก่า แล้วประทับตราสามดวงกำกับ","people":["รัชกาลที่ 1","ตราราชสีห์","ตราคชสีห์","ตราบัวแก้ว"],"story":["หลังเสียกรุง กฎหมายเก่าของอยุธยาสูญหายและคลาดเคลื่อน รัชกาลที่ 1 จึงโปรดให้ชำระและรวบรวมกฎหมายขึ้นใหม่ ซึ่งมักระบุว่าเสร็จใน พ.ศ. 2347 เรียกว่า กฎหมายตราสามดวง","ที่เรียกว่าตราสามดวง เพราะประทับตรา 3 ดวงกำกับ คือ ตราราชสีห์ของสมุหนายก ตราคชสีห์ของสมุหพระกลาโหม และตราบัวแก้วของพระคลัง","กฎหมายชุดนี้ใช้เป็นหลักของบ้านเมืองอยู่นาน จนมีการปฏิรูปกฎหมายในรัชกาลที่ 5"],"note":"ตำราเรียนมักระบุ พ.ศ. 2347 เป็นปีที่ชำระเสร็จ ส่วนการเริ่มรวบรวมกฎหมายเกิดขึ้นก่อนหน้านั้น","art":{"sky":"day","items":[["cloud",140,66],["hills"],["ground"],["hall",140,264,0.85],["ledge"],["book",270,302,1.5],["seal",380,262,1],["seal",445,262,1],["seal",510,262,1]]}},{"id":"rk-bowring","era":2,"pre":"พ.ศ.","big":"2398","title":"สนธิสัญญาเบาว์ริง","sum":"รัชกาลที่ 4 ทรงทำสนธิสัญญาการค้ากับอังกฤษ ไทยเปิดประเทศค้าขายเสรี","people":["รัชกาลที่ 4","เซอร์จอห์น เบาว์ริง","อังกฤษ"],"story":["ในปี พ.ศ. 2398 รัชกาลที่ 4 ทรงทำสนธิสัญญากับอังกฤษ โดยมีเซอร์จอห์น เบาว์ริง เป็นผู้แทนเจรจา","สนธิสัญญายกเลิกระบบการค้าผูกขาดของหลวง เปิดให้พ่อค้าต่างชาติค้าขายได้ในอัตราภาษีที่กำหนดไว้ แต่ก็ให้สิทธิสภาพนอกอาณาเขตแก่ชาวอังกฤษด้วย","ข้าวกลายเป็นสินค้าส่งออกสำคัญ เศรษฐกิจเปลี่ยนจากการค้าของหลวงไปสู่การค้าเสรี และไทยมีสัมพันธ์กับชาติตะวันตกอย่างกว้างขวาง เป็นจุดเริ่มต้นของการปรับปรุงประเทศให้ทันสมัย"],"note":"สนธิสัญญานี้ทำให้ไทยเสียเปรียบบางด้าน เช่น สิทธิสภาพนอกอาณาเขต ซึ่งต้องใช้เวลาหลายสิบปีกว่าจะแก้ไขได้","art":{"sky":"day","items":[["sun",480,100,0.8],["cloud",130,66],["cloud",330,44,0.6],["hills"],["water",0,236],["ship",200,276,1.2,{"k":"steam"}],["ship",450,284,0.9]]}},{"id":"rk-r5","era":2,"pre":"พ.ศ.","big":"2411","title":"รัชกาลที่ 5 และการปฏิรูปประเทศ","sum":"พระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัวทรงปรับปรุงประเทศให้ทันสมัย","people":["รัชกาลที่ 5","กระทรวง 12 กระทรวง","จังหวัด อำเภอ ตำบล หมู่บ้าน"],"story":["พระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว รัชกาลที่ 5 ขึ้นครองราชย์ใน พ.ศ. 2411 ขณะพระชนมายุ 15 พรรษา และครองราชย์นาน 42 ปี","พระองค์ทรงตั้งกระทรวง 12 กระทรวงแทนระบบจตุสดมภ์ จัดการปกครองส่วนภูมิภาคเป็นจังหวัด อำเภอ ตำบล และหมู่บ้าน พร้อมปรับปรุงด้านกฎหมาย การศึกษา และเศรษฐกิจ","การศึกษาแบบใหม่ ธนาคาร และระบบสื่อสารคมนาคมสมัยใหม่ เช่น ไปรษณีย์ โทรเลข และทางรถไฟ เริ่มเกิดขึ้นในรัชสมัยนี้ ซึ่งวางรากฐานของรัฐสมัยใหม่"],"note":"การปฏิรูปเกิดขึ้นเป็นระยะตลอดรัชกาล ตำราเรียนจึงมักสรุปเป็นภาพรวมของช่วงรัชกาลที่ 5","art":{"sky":"day","items":[["sun",500,100,0.8],["cloud",120,66],["hills"],["ground"],["banner",90,272,0.95],["dome",300,264,1.2],["banner",520,272,0.95]]}},{"id":"rk-paknam","era":2,"pre":"พ.ศ.","big":"2436","title":"วิกฤตการณ์ ร.ศ. 112","sum":"เรือรบฝรั่งเศสเข้าปากแม่น้ำเจ้าพระยา ไทยต้องยอมเสียดินแดนฝั่งซ้ายแม่น้ำโขง","people":["ฝรั่งเศส","ป้อมพระจุลจอมเกล้า","รัชกาลที่ 5","ฝั่งซ้ายแม่น้ำโขง"],"story":["ในปี พ.ศ. 2436 (ร.ศ. 112) เกิดข้อพิพาทเรื่องดินแดนฝั่งตะวันออกของแม่น้ำโขงระหว่างสยามกับฝรั่งเศส เมื่อเหตุการณ์ตึงเครียด เรือรบฝรั่งเศสฝ่าป้อมที่ปากน้ำเข้ามาจอดหน้ากรุงเทพฯ","การปะทะที่ปากน้ำทำให้ทหารไทยบาดเจ็บล้มตายส่วนหนึ่ง สุดท้ายสยามต้องยอมยกดินแดนฝั่งซ้ายแม่น้ำโขงให้ฝรั่งเศส และจ่ายค่าปรับ","เหตุการณ์นี้ทำให้ผู้นำไทยตระหนักว่าต้องเร่งปรับปรุงบ้านเมือง เพื่อรักษาเอกราชท่ามกลางการล่าอาณานิคมของมหาอำนาจ"],"note":"ไทยเสียดินแดนอีกหลายครั้งในช่วงเวลาใกล้เคียงกัน ตำราเรียนมักสรุปว่าสยามรักษาเอกราชไว้ได้ด้วยการเจรจา การปรับปรุงประเทศ และการรักษาสมดุลระหว่างมหาอำนาจ","art":{"sky":"storm","items":[["hills"],["water",0,262],["fort",130,262,0.75],["flames",130,258,0.5],["ship",400,296,1.2,{"k":"steam","f":true}],["cloud",110,60,1,{"k":"smoke"}],["cloud",470,70,1,{"k":"smoke"}]]}},{"id":"rk-slave","era":2,"pre":"พ.ศ.","big":"2448","title":"เลิกทาส","sum":"ออกกฎหมายยกเลิกทาส การเป็นทาสสิ้นสุดลงทั่วราชอาณาจักร","people":["รัชกาลที่ 5","ลูกทาส","พระราชบัญญัติเลิกทาส"],"story":["การเลิกทาสทำอย่างค่อยเป็นค่อยไปเพื่อไม่ให้เศรษฐกิจและสังคมสั่นคลอน เริ่มจากการกำหนดให้ลูกทาสที่เกิดตั้งแต่ พ.ศ. 2411 เป็นไทเมื่ออายุครบ 21 ปี","จนในปี พ.ศ. 2448 ทรงตราพระราชบัญญัติเลิกทาส ห้ามการซื้อขายทาสทั้งหมด การเป็นทาสจึงสิ้นสุดลงทั่วราชอาณาจักร","การเลิกทาสทำให้ผู้คนมีอิสระมากขึ้น และเปลี่ยนโครงสร้างแรงงานของสังคม เปิดทางให้เกิดการเกษตรเพื่อการค้า"],"note":"กฎหมายที่เกี่ยวข้องมีหลายฉบับ ตำราเรียนมักยก พ.ศ. 2448 เป็นปีที่เลิกทาสสำเร็จ","art":{"sky":"dawn","items":[["sun",300,170,1.4],["cloud",110,70],["cloud",500,86,0.8],["hills"],["ground"],["figure",190,276,1.4,{"k":"plain"}],["figure",410,276,1.4,{"k":"plain"}],["figure",300,278,1.5,{"k":"plain"}],["chain",300,228,1.1]]}},{"id":"rk-1932","era":3,"pre":"พ.ศ.","big":"2475","title":"เปลี่ยนแปลงการปกครอง","sum":"คณะราษฎรเปลี่ยนการปกครองจากสมบูรณาญาสิทธิราชย์ มาเป็นระบอบที่พระมหากษัตริย์ทรงอยู่ใต้รัฐธรรมนูญ","people":["คณะราษฎร","รัชกาลที่ 7","พระยาพหลพลพยุหเสนา","ปรีดี พนมยงค์"],"story":["เช้าวันที่ 24 มิถุนายน พ.ศ. 2475 คณะราษฎร ซึ่งประกอบด้วยทหารและพลเรือน เข้ายึดอำนาจในพระนคร และประกาศเปลี่ยนแปลงการปกครอง","ระบอบสมบูรณาญาสิทธิราชย์สิ้นสุดลง พระบาทสมเด็จพระปกเกล้าเจ้าอยู่หัว รัชกาลที่ 7 ทรงยอมรับ และเปลี่ยนมาอยู่ภายใต้รัฐธรรมนูญ","รัฐธรรมนูญฉบับถาวรฉบับแรกประกาศใช้เมื่อวันที่ 10 ธันวาคม พ.ศ. 2475 ซึ่งต่อมากำหนดเป็นวันรัฐธรรมนูญ ประเทศไทยจึงเข้าสู่ระบอบประชาธิปไตยที่มีพระมหากษัตริย์เป็นประมุข"],"note":"เหตุการณ์นี้ผู้คนมีมุมมองต่างกันหลายแบบ ตำราเรียนทั่วไปเน้นว่าเป็นจุดเปลี่ยนสำคัญทางการเมือง","art":{"sky":"dawn","items":[["sun",300,180,1.3],["hills"],["ground"],["flag",70,272,0.9],["dome",170,264,1],["constitution",430,308,1.5],["flag",545,272,0.9]]}},{"id":"rk-name","era":3,"pre":"พ.ศ.","big":"2482","title":"เปลี่ยนชื่อประเทศเป็น \"ไทย\"","sum":"ประกาศเปลี่ยนชื่อประเทศจาก สยาม เป็น ไทย","people":["จอมพล ป. พิบูลสงคราม","สยาม","ประเทศไทย"],"story":["วันที่ 24 มิถุนายน พ.ศ. 2482 รัฐบาลประกาศเปลี่ยนชื่อประเทศจาก สยาม เป็น ไทย (Thailand) ในช่วงที่จอมพล ป. พิบูลสงครามเป็นนายกรัฐมนตรี","ชื่อ ไทย สื่อถึงความเป็นอิสระ และเน้นความเป็นหนึ่งเดียวของชาติ","ต่อมาในปี พ.ศ. 2488 ชื่อประเทศถูกเปลี่ยนกลับเป็น สยาม ชั่วคราว ก่อนจะกลับมาใช้ ไทย อีกครั้งอย่างถาวรใน พ.ศ. 2491"],"note":"ตำราเรียนมักยกวันที่ 24 มิถุนายน พ.ศ. 2482 เป็นวันเปลี่ยนชื่อประเทศ ส่วนการใช้ชื่อสยามหรือไทยในช่วงต่อมาเปลี่ยนไปมาตามช่วงเวลา","art":{"sky":"day","items":[["sun",300,150,1.1],["cloud",110,70],["hills"],["ground"],["text",140,110,1,{"t":"สยาม","a":0.4}],["text",470,110,1.3,{"t":"ไทย","a":0.9}],["flag",300,274,1.8]]}},{"id":"rk-ww2","era":3,"pre":"พ.ศ.","big":"2484–88","title":"สงครามโลกครั้งที่ 2 และเสรีไทย","sum":"ญี่ปุ่นเข้าสู่ไทย และขบวนการเสรีไทยทำงานใต้ดินเพื่อรักษาเอกราช","people":["ญี่ปุ่น","ขบวนการเสรีไทย","ปรีดี พนมยงค์","ฝ่ายสัมพันธมิตร"],"story":["วันที่ 8 ธันวาคม พ.ศ. 2484 กองทัพญี่ปุ่นยกพลขึ้นบกในหลายจุดของไทย หลังการปะทะกันระยะสั้น รัฐบาลตกลงให้ญี่ปุ่นเดินทัพผ่านประเทศ และต่อมาไทยเข้าร่วมกับญี่ปุ่น","ขณะเดียวกัน คนไทยกลุ่มหนึ่งทั้งในและนอกประเทศ รวมตัวเป็นขบวนการเสรีไทย ทำงานใต้ดินติดต่อกับฝ่ายสัมพันธมิตร เพื่อต่อต้านญี่ปุ่นและรักษาเอกราชของชาติ","เมื่อสงครามจบลงใน พ.ศ. 2488 บทบาทของเสรีไทยช่วยให้ไทยไม่ถูกปฏิบัติเหมือนประเทศผู้แพ้สงครามอย่างเต็มรูปแบบ"],"note":"เรื่องการเข้าร่วมสงครามและบทบาทของขบวนการเสรีไทย มีการศึกษาและตีความอย่างหลากหลาย","art":{"sky":"storm","items":[["hills"],["ground"],["plane",170,110,1],["plane",420,70,0.8,{"f":true}],["figure",110,276,1.2,{"k":"soldier"}],["flag",300,274,1.3],["figure",500,276,1.2,{"k":"soldier"}]]}},{"id":"rk-r9","era":3,"pre":"พ.ศ.","big":"2489","title":"รัชกาลที่ 9 ขึ้นครองราชย์","sum":"พระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดช ครองราชย์ยาวนาน 70 ปี","people":["รัชกาลที่ 9","พระราชพิธีบรมราชาภิเษก","โครงการอันเนื่องมาจากพระราชดำริ"],"story":["วันที่ 9 มิถุนายน พ.ศ. 2489 พระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดช รัชกาลที่ 9 เสด็จขึ้นครองราชย์ต่อจากรัชกาลที่ 8 ขณะพระชนมายุ 18 พรรษา","พระราชพิธีบรมราชาภิเษกจัดขึ้นเมื่อวันที่ 5 พฤษภาคม พ.ศ. 2493 ซึ่งต่อมากำหนดเป็นวันฉัตรมงคล","ตลอดรัชกาลพระองค์ทรงงานเพื่อประชาชนหลายด้าน โดยเฉพาะการพัฒนาชนบทและการเกษตร ที่เรียกรวมว่าโครงการอันเนื่องมาจากพระราชดำริ จนสิ้นรัชกาลเมื่อวันที่ 13 ตุลาคม พ.ศ. 2559"],"note":"ตลอด 70 ปี ประเทศไทยผ่านการเปลี่ยนแปลงทางการเมืองและเศรษฐกิจหลายครั้ง ซึ่งหน้านี้ไม่ได้ลงรายละเอียด","art":{"sky":"day","items":[["sun",300,170,1.2],["cloud",110,66],["cloud",500,90,0.8],["hills"],["ground"],["umbrella",130,268,1.1],["prasat",300,264,1.3],["umbrella",470,268,1.1]]}},{"id":"rk-r10","era":3,"pre":"พ.ศ.","big":"2559–62","title":"รัชกาลที่ 10","sum":"พระบาทสมเด็จพระวชิรเกล้าเจ้าอยู่หัวเสด็จขึ้นครองราชย์ และประกอบพระราชพิธีบรมราชาภิเษก","people":["รัชกาลที่ 10","พระราชพิธีบรมราชาภิเษก","ขบวนพยุหยาตราชลมารค"],"story":["วันที่ 1 ธันวาคม พ.ศ. 2559 พระบาทสมเด็จพระวชิรเกล้าเจ้าอยู่หัว รัชกาลที่ 10 ทรงรับอัญเชิญขึ้นครองราชย์","พระราชพิธีบรมราชาภิเษกจัดขึ้นระหว่างวันที่ 4–6 พฤษภาคม พ.ศ. 2562 ที่พระบรมมหาราชวัง","ในปีเดียวกันมีการจัดขบวนพยุหยาตราชลมารค ซึ่งใช้เรือพระราชพิธีหลายลำ เป็นประเพณีโบราณที่สืบทอดมาตั้งแต่สมัยอยุธยา"],"note":"ปัจจุบันยังอยู่ในสมัยรัตนโกสินทร์ ซึ่งนับจาก พ.ศ. 2325 มาแล้วกว่า 240 ปี","art":{"sky":"dusk","items":[["sun",300,222,1.2],["hills"],["ground"],["water",0,296],["prasat",130,264,0.9],["umbrella",560,268,1],["barge",380,318,1]]}}]}},"order":["sukhothai","ayutthaya","thonburi","rattanakosin"]};</script>
+<script>
+/* Illustration kit: every scene is composed from these SVG parts.
+   Exposes window.TH_ART = { artSVG, ARTS, HERO_SCENES, PR } */
+(function(){
+'use strict';
+/* ---------- illustration kit: every scene is composed from these parts ---------- */
+function G(o,inner){
+  var sx=o.f?-o.s:o.s;
+  return '<g transform="translate('+o.x+' '+o.y+') scale('+sx+' '+o.s+')">'+inner+'</g>';
+}
+function prangBody(){
+  return '<path class="dk" d="M-72 0V-26H-58V-54H-46V-82H-34V-112Q-22-150 0-206Q22-150 34-112V-82H46V-54H58V-26H72V0Z"/>'+
+    '<path class="gd" d="M-58-26H58M-46-54H46M-34-82H34M-26-112H26"/>'+
+    '<path class="gd" d="M-14-150Q0-176 14-150"/>'+
+    '<rect class="dk" x="-1.5" y="-228" width="3" height="24"/><circle class="gf" cx="0" cy="-230" r="3.5"/>';
+}
+var PR={
+  sun:function(o){return G(o,'<circle class="s-glow" r="64"/><circle class="s-sun" r="38"/>')},
+  moon:function(o){return G(o,'<circle r="50" fill="var(--sun-glow)"/><circle r="26" fill="var(--art-moon)"/><circle cx="-8" cy="-6" r="5" fill="var(--art-dk)" opacity=".12"/><circle cx="9" cy="8" r="7" fill="var(--art-dk)" opacity=".1"/>')},
+  glow:function(o){return G(o,'<circle class="s-glow" r="90"/>')},
+  cloud:function(o){
+    var c=o.k==='smoke'?'smoke':'cloud';
+    return G(o,'<g class="'+c+'"><ellipse cx="0" cy="0" rx="46" ry="12"/><ellipse cx="30" cy="-9" rx="30" ry="12"/><ellipse cx="-24" cy="-7" rx="26" ry="10"/></g>');
+  },
+  stars:function(){
+    var s='';
+    for(var i=0;i<30;i++){
+      var x=(i*137+23)%590+5,y=(i*71+11)%170+8,r=0.8+(i%3)*0.5;
+      s+='<circle class="twk" style="animation-delay:-'+(i%6)+'s" cx="'+x+'" cy="'+y+'" r="'+r+'" fill="#FFF6DA"/>';
+    }
+    return s;
+  },
+  hills:function(){
+    return '<path fill="var(--art-hill2)" d="M0 262V196Q50 160 110 186T240 172T380 192T500 168T600 190V262Z"/>'+
+      '<path fill="var(--art-hill1)" d="M0 262V222Q90 196 180 222T360 214T520 224T600 212V262Z"/>';
+  },
+  ground:function(){
+    return '<path fill="var(--ground)" d="M0 262Q150 246 300 258T600 252T1000 256V340H0Z"/>'+
+      '<path fill="var(--art-ground2)" opacity=".5" d="M0 300Q150 286 300 298T600 292V340H0Z"/>';
+  },
+  ledge:function(){
+    return '<rect y="296" width="600" height="44" fill="var(--art-ledge)"/><rect y="296" width="600" height="5" fill="var(--art-ledge2)"/>';
+  },
+  water:function(o){
+    var y=o.y||262,r='<rect x="0" y="'+y+'" width="1000" height="'+(340-y)+'" fill="var(--art-water)"/>';
+    for(var row=0;row<3;row++){
+      var yy=y+16+row*22;
+      if(yy>332)break;
+      var d='M-40 '+yy+' q15 -7 30 0';
+      for(var i=0;i<42;i++)d+=' t30 0';
+      r+='<path class="wave" style="animation-duration:'+(5+row*2)+'s" d="'+d+'" fill="none" stroke="var(--art-wave)" stroke-width="2" stroke-dasharray="44 26"/>';
+    }
+    return r;
+  },
+  text:function(o){
+    return '<text class="gl" x="'+o.x+'" y="'+o.y+'" font-size="'+(o.s*44)+'" text-anchor="middle" fill="'+(o.c||'var(--art-ink)')+'" opacity="'+(o.a||.8)+'">'+o.t+'</text>';
+  },
+
+  /* buildings */
+  chedi:function(o){
+    return G(o,'<g class="dk"><rect x="-96" y="-24" width="192" height="24" rx="2"/><rect x="-78" y="-44" width="156" height="20" rx="2"/><rect x="-60" y="-61" width="120" height="17" rx="2"/><rect x="-38" y="-89" width="76" height="28"/>'+
+      '<path d="M0-188C19-165 37-134 37-100V-87H-37V-100C-37-134-19-165 0-188Z"/><rect x="-1.5" y="-218" width="3" height="34"/></g>'+
+      '<circle class="gf" cx="0" cy="-220" r="4"/><path class="gd" d="M-30-100Q0-120 30-100M-24-122Q0-138 24-122M-60-61H60M-78-44H78"/>');
+  },
+  bellstupa:function(o){
+    return G(o,'<g class="dk"><rect x="-72" y="-18" width="144" height="18"/><rect x="-58" y="-34" width="116" height="16"/>'+
+      '<path d="M-40-34C-50-80-24-118 0-128C24-118 50-80 40-34Z"/><rect x="-13" y="-144" width="26" height="16"/><path d="M0-250L-8-144H8Z"/></g>'+
+      '<path class="gd" d="M-72-18H72M-58-34H58M-30-86Q0-70 30-86M-4-170H4M-5-190H5M-5-210H5M-3-230H3"/><circle class="gf" cx="0" cy="-252" r="3.5"/>');
+  },
+  prang:function(o){
+    var r=prangBody();
+    if(o.k==='arun'){
+      r+='<g transform="translate(-106 0) scale(.42)">'+prangBody()+'</g><g transform="translate(106 0) scale(.42)">'+prangBody()+'</g>';
+    }
+    return G(o,r);
+  },
+  hall:function(o){
+    return G(o,'<g class="dk"><rect x="-98" y="-14" width="196" height="14"/><rect x="-80" y="-58" width="160" height="44"/><path d="M-104-58L-72-96H72L104-58Z"/><path d="M-88-96L-58-130H58L88-96Z"/>'+
+      '<path d="M-58-130Q-70-138-64-150L-52-130ZM58-130Q70-138 64-150L52-130Z"/></g>'+
+      '<path class="gd" d="M-104-58L-72-96H72L104-58M-88-96L-58-130H58L88-96"/>'+
+      '<path d="M-60-14V-58M-30-14V-58M0-14V-58M30-14V-58M60-14V-58" stroke="var(--gild)" stroke-width="3" opacity=".7"/>');
+  },
+  prasat:function(o){
+    var t='';
+    for(var i=0;i<3;i++){
+      var y0=-14-i*40,w=92-i*16,w2=64-i*12;
+      t+='<path class="dk" d="M'+(-w)+' '+y0+'L'+(-w2)+' '+(y0-34)+'H'+w2+'L'+w+' '+y0+'Z"/><path class="gd" d="M'+(-w)+' '+y0+'L'+(-w2)+' '+(y0-34)+'H'+w2+'L'+w+' '+y0+'"/>';
+    }
+    return G(o,'<rect class="dk" x="-90" y="-14" width="180" height="14"/><rect class="dk" x="-60" y="-34" width="120" height="20"/>'+t+
+      '<path class="dk" d="M0-196L-7-136H7Z"/><circle class="gf" cx="0" cy="-198" r="3.5"/>');
+  },
+  dome:function(o){
+    var w='';
+    for(var i=0;i<9;i++)w+='<rect x="'+(-112+i*28)+'" y="-46" width="8" height="18" rx="4" fill="var(--sun)" opacity=".65"/>';
+    return G(o,'<g class="dk"><rect x="-130" y="-56" width="260" height="56"/><rect x="-40" y="-100" width="80" height="44"/>'+
+      '<path d="M-44-100C-44-148-20-164 0-170C20-164 44-148 44-100Z"/><path d="M-110-56C-110-80-92-92-80-96C-68-92-50-80-50-56Z"/>'+
+      '<path d="M110-56C110-80 92-92 80-96C68-92 50-80 50-56Z"/><rect x="-2" y="-196" width="4" height="30"/></g>'+
+      '<path class="gd" d="M-124-52H124M-130-6H130"/>'+w);
+  },
+  fort:function(o){
+    var m='';
+    for(var i=0;i<16;i++)m+='<rect x="'+(-124+i*16)+'" y="-72" width="10" height="12"/>';
+    return G(o,'<g class="dk"><rect x="-130" y="-60" width="260" height="60"/>'+m+'<rect x="-28" y="-104" width="56" height="104"/><rect x="-36" y="-116" width="72" height="14"/></g>'+
+      '<path d="M-14 0V-30Q0-46 14-30V0Z" fill="var(--art-ledge)"/><path class="gd" d="M-28-70H28"/>');
+  },
+  columns:function(o){
+    var r='<rect class="st" x="-110" y="-8" width="220" height="8"/>';
+    var hs=[84,56,92,70,98,62,80];
+    for(var i=0;i<7;i++)r+='<rect class="st" x="'+(-100+i*32)+'" y="'+(-8-hs[i])+'" width="14" height="'+hs[i]+'"/><rect class="st" x="'+(-103+i*32)+'" y="'+(-12-hs[i])+'" width="20" height="5"/>';
+    return G(o,r);
+  },
+  stele:function(o){
+    var l='';
+    for(var i=0;i<8;i++)l+='<path d="M-14 '+(-34-i*13)+'H14" stroke="var(--art-dk)" stroke-opacity=".45" stroke-width="2.5" stroke-dasharray="5 3"/>';
+    return G(o,'<rect class="st" x="-34" y="-12" width="68" height="12"/><path class="st" d="M-24-12V-130L0-158L24-130V-12Z"/>'+l+'<path d="M0-158V-12" stroke="var(--art-dk)" stroke-opacity=".25"/>');
+  },
+  bell:function(o){
+    return G(o,'<rect class="dk" x="-50" y="-170" width="100" height="10" rx="3"/><rect class="dk" x="-48" y="-170" width="8" height="170"/><rect class="dk" x="40" y="-170" width="8" height="170"/>'+
+      '<g class="swing"><line x1="0" y1="-160" x2="0" y2="-138" stroke="var(--art-dk)" stroke-width="3"/><path fill="var(--gild)" d="M-26-74C-26-112-14-138 0-138C14-138 26-112 26-74Z"/><rect x="-30" y="-76" width="60" height="7" rx="3" fill="var(--gild)"/><circle class="dk" cx="0" cy="-64" r="6"/></g>');
+  },
+
+  /* nature */
+  tree:function(o){
+    return G(o,'<path class="dk" d="M-8 0Q-6-40-14-70H14Q6-40 8 0Z"/><ellipse cx="0" cy="-96" rx="54" ry="34" fill="var(--art-leaf)"/><ellipse cx="-30" cy="-78" rx="34" ry="24" fill="var(--art-leaf)"/><ellipse cx="32" cy="-80" rx="34" ry="24" fill="var(--art-leaf)"/>');
+  },
+  palm:function(o){
+    var r='<path d="M0 0Q10-60-4-110" stroke="var(--art-dk)" stroke-width="7" fill="none"/>';
+    [200,235,270,305,340].forEach(function(a){
+      var rad=a*Math.PI/180,ex=-4+Math.cos(rad)*62,ey=-110+Math.sin(rad)*34+16,cx=-4+Math.cos(rad)*36,cy=-110+Math.sin(rad)*52-10;
+      r+='<path d="M-4-110Q'+cx.toFixed(1)+' '+cy.toFixed(1)+' '+ex.toFixed(1)+' '+ey.toFixed(1)+'" stroke="var(--art-leaf)" stroke-width="5" fill="none" stroke-linecap="round"/>';
+    });
+    return G(o,r);
+  },
+  lotus:function(o){
+    var p='';
+    [-50,-25,0,25,50].forEach(function(a){p+='<path transform="rotate('+a+')" d="M0 0C-10-10-10-24 0-32C10-24 10-10 0 0Z" fill="var(--art-lotus)"/>'});
+    return G(o,'<ellipse cx="0" cy="2" rx="32" ry="7" fill="var(--art-leaf)"/>'+p+'<circle cy="-6" r="3" fill="var(--gild)"/>');
+  },
+  meru:function(o){
+    return G(o,'<path fill="var(--art-hill2)" d="M-170 0L-70-120H70L170 0Z"/><path fill="var(--art-hill1)" d="M-120 0L-44-176H44L120 0Z"/><path class="dk" opacity=".85" d="M-60 0L-18-236H18L60 0Z"/><path class="gd" d="M-40-80H40M-30-140H30M-22-190H22"/><circle class="gf" cx="0" cy="-246" r="6"/>');
+  },
+
+  /* creatures and people */
+  elephant:function(o){
+    var r='<g class="dk"><ellipse cx="0" cy="-62" rx="58" ry="38"/><rect x="-44" y="-40" width="17" height="40" rx="5"/><rect x="-20" y="-38" width="17" height="38" rx="5"/><rect x="16" y="-38" width="17" height="38" rx="5"/><rect x="40" y="-40" width="17" height="40" rx="5"/>'+
+      '<circle cx="64" cy="-84" r="27"/><path d="M80-74C104-68 116-50 111-26C109-17 99-16 99-25C101-42 95-52 79-58Z"/></g>'+
+      '<path d="M-56-72Q-76-60-70-34" fill="none" stroke="var(--art-dk)" stroke-width="5" stroke-linecap="round"/>'+
+      '<path d="M86-66Q116-64 124-82Q112-70 88-58Z" fill="#F4EAD0"/>'+
+      '<ellipse cx="46" cy="-80" rx="15" ry="22" fill="var(--art-dk)" stroke="rgba(255,255,255,.2)" stroke-width="2"/>'+
+      '<path class="gf" d="M-36-98H36L30-84H-30Z"/>';
+    if(o.rider)r+=PR.figure({x:0,y:-96,s:.85,k:o.k||'soldier'});
+    return G(o,r);
+  },
+  figure:function(o){
+    var k=o.k||'plain',r;
+    r=(k==='monk'?'<path fill="var(--art-robe)" d="M-18 0L-13-52Q0-62 13-52L18 0Z"/>':'<path class="dk" d="M-16 0L-12-50Q0-58 12-50L16 0Z"/>')+'<circle class="dk" cx="0" cy="-64" r="10"/>';
+    if(k==='king')r+='<path class="gf" d="M-9-70L-7-90L-2-79L0-94L2-79L7-90L9-70Z"/><path class="gd" d="M-14-48L14-48"/>';
+    if(k==='soldier')r+='<path class="dk" d="M-11-68Q0-84 11-68Z"/><line x1="22" y1="0" x2="22" y2="-102" stroke="var(--art-dk)" stroke-width="3"/><path class="gf" d="M22-106L18-92H26Z"/>';
+    return G(o,r);
+  },
+  sword:function(o){
+    return G(o,'<path fill="var(--art-white)" stroke="var(--art-dk)" stroke-width="1" d="M-3 0L-2-70L0-78L2-70L3 0Z"/><rect class="gf" x="-9" y="0" width="18" height="4"/><rect class="dk" x="-2" y="4" width="4" height="12"/>');
+  },
+  buddha:function(o){
+    var c=o.k==='emerald'?'var(--celadon)':'var(--gild)';
+    return G(o,'<circle r="70" cy="-62" fill="var(--sun-glow)"/><g fill="'+c+'"><ellipse cx="0" cy="-10" rx="54" ry="14"/><path d="M-30-14L-22-74Q0-84 22-74L30-14Z"/><circle cx="0" cy="-92" r="16"/><path d="M0-106C-4-112-2-120 0-126C2-120 4-112 0-106Z"/></g>'+
+      '<path d="M-36-14Q0-4 36-14" stroke="var(--art-dk)" stroke-width="2" fill="none" opacity=".35"/>');
+  },
+  umbrella:function(o){
+    var t='';
+    for(var i=0;i<5;i++){var y=-44-i*18,w=48-i*7;t+='<path d="M'+(-w)+' '+y+'Q0 '+(y-16)+' '+w+' '+y+'Q0 '+(y-5)+' '+(-w)+' '+y+'Z" fill="var(--art-white)" stroke="var(--gild)" stroke-width="1.5"/>';}
+    return G(o,'<rect class="gf" x="-2" y="-140" width="4" height="140"/>'+t+'<circle class="gf" cx="0" cy="-146" r="4"/>');
+  },
+  banner:function(o){
+    return G(o,'<rect class="dk" x="-2" y="-130" width="4" height="130"/><path class="wv" fill="var(--laterite)" d="M2-128H48L38-114L48-100H2Z"/>');
+  },
+  flag:function(o){
+    return G(o,'<rect class="dk" x="-2" y="-156" width="4" height="156"/><g class="wv"><rect x="2" y="-150" width="92" height="10" fill="#A51931"/><rect x="2" y="-140" width="92" height="10" fill="#F4F5F8"/><rect x="2" y="-130" width="92" height="20" fill="#2D2A4A"/><rect x="2" y="-110" width="92" height="10" fill="#F4F5F8"/><rect x="2" y="-100" width="92" height="10" fill="#A51931"/></g>');
+  },
+  flames:function(o){
+    var r='';
+    [[-30,0,1],[-10,6,1.3],[14,0,1.1],[34,5,.8],[0,-4,1.6]].forEach(function(f,i){
+      r+='<g transform="translate('+f[0]+' '+f[1]+') scale('+f[2]+')"><path class="flame" style="animation-delay:-'+(i*.15)+'s" fill="var(--art-fire)" d="M0 0C-16-18-8-36 0-62C8-36 16-18 0 0Z"/><path class="flame" style="animation-delay:-'+(i*.2)+'s" fill="var(--art-fire2)" d="M0 0C-8-10-4-20 0-34C4-20 8-10 0 0Z"/></g>';
+    });
+    return G(o,r);
+  },
+
+  /* water craft */
+  ship:function(o){
+    var r='<path class="dk" d="M-86-16H86Q74 14 34 14H-34Q-74 14-86-16Z"/><path class="gd" d="M-80-8H80"/>';
+    if(o.k==='steam'){
+      r+='<rect fill="var(--art-white)" x="-60" y="-34" width="120" height="20"/><rect class="dk" x="-36" y="-72" width="22" height="40"/><rect class="dk" x="8" y="-62" width="18" height="30"/><rect fill="var(--art-red)" x="-36" y="-72" width="22" height="6"/>'+
+        '<path class="dk" d="M-60-34L-40-34M40-34L60-34"/><rect class="dk" x="48" y="-70" width="3" height="40"/>'+
+        '<g class="smoke"><ellipse cx="-24" cy="-84" rx="20" ry="9"/><ellipse cx="-6" cy="-102" rx="24" ry="10"/><ellipse cx="20" cy="-120" rx="28" ry="11"/></g>';
+    }else{
+      r+='<rect class="dk" x="-3" y="-120" width="6" height="106"/><rect class="dk" x="-52" y="-62" width="4" height="46"/><rect class="dk" x="46" y="-56" width="4" height="40"/>'+
+        '<path fill="var(--art-white)" d="M-34-112Q0-102 34-112V-74Q0-64-34-74Z"/><path fill="var(--art-white)" d="M-40-68Q0-58 40-68V-28Q0-18-40-28Z"/><path fill="var(--art-white)" d="M-70-56Q-52-50-34-56V-36Q-52-30-70-36Z"/>'+
+        '<path class="wv" fill="var(--art-red)" d="M3-120H30L22-112L30-104H3Z"/>';
+    }
+    return G(o,r);
+  },
+  junk:function(o){
+    return G(o,'<path class="dk" d="M-70-14H74Q60 12 26 12H-30Q-62 12-70-14Z"/><rect class="dk" x="-2" y="-100" width="4" height="88"/>'+
+      '<path fill="var(--art-brick)" d="M2-98H58L52-24H2Z"/><path fill="var(--art-brick)" d="M-2-86H-44L-40-30H-2Z"/>'+
+      '<path d="M2-76H55M2-54H54M2-34H52M-2-66H-42M-2-46H-41" stroke="var(--art-dk)" stroke-opacity=".5" stroke-width="2"/>');
+  },
+  barge:function(o){
+    var r='<path class="dk" d="M-124-12H112Q134-12 144-44Q150-54 146-64Q138-56 134-50Q120-20 100-4H-100Q-116-6-124-12Z"/><path class="gf" d="M-122-12H110L100-4H-110Z"/>'+
+      '<rect class="dk" x="-46" y="-36" width="86" height="26"/><path class="gf" d="M-56-36L-40-62H34L50-36Z"/><path class="gd" d="M-46-36V-12M40-36V-12"/>';
+    for(var i=0;i<10;i++){var x=-104+i*20;r+='<circle class="dk" cx="'+x+'" cy="-20" r="5"/><line x1="'+x+'" y1="-14" x2="'+(x-14)+'" y2="16" stroke="var(--art-dk)" stroke-width="2.5"/>';}
+    return G(o,r);
+  },
+
+  /* objects */
+  bowl:function(o){
+    return G(o,'<ellipse cx="0" cy="-34" rx="38" ry="9" fill="var(--celadon)"/><path fill="var(--celadon)" d="M-38-34C-34-6-18 0 0 0C18 0 34-6 38-34Z"/><ellipse cx="0" cy="-34" rx="30" ry="6" fill="var(--art-dk)" opacity=".25"/><path d="M-26-20Q0-12 26-20" stroke="var(--art-white)" stroke-width="2" fill="none" opacity=".6"/>');
+  },
+  jar:function(o){
+    return G(o,'<path fill="var(--celadon)" d="M-14-70Q-14-78-8-78H8Q14-78 14-70L18-60C34-50 34-14 22 0H-22C-34-14-34-50-18-60Z"/><path d="M-26-40H26" stroke="var(--gild)" stroke-width="3" opacity=".8"/>');
+  },
+  palmleaf:function(o){
+    var r='';
+    for(var i=0;i<4;i++)r+='<rect x="-80" y="'+(-12-i*11)+'" width="160" height="10" rx="3" fill="var(--art-parch)" stroke="var(--art-dk)" stroke-opacity=".3"/><path d="M-62 '+(-7-i*11)+'H62" stroke="var(--art-dk)" stroke-opacity=".35" stroke-width="2" stroke-dasharray="6 3"/>';
+    r+='<path class="gd" d="M-56-48V0M56-48V0"/>';
+    return G(o,r);
+  },
+  book:function(o){
+    return G(o,'<rect x="-40" y="-14" width="80" height="14" fill="var(--laterite)"/><rect x="-36" y="-28" width="76" height="14" fill="var(--celadon)"/><rect x="-42" y="-42" width="78" height="14" fill="var(--slate)"/>'+
+      '<path class="gd" d="M-34-7H34M-30-21H34M-36-35H30"/>');
+  },
+  seal:function(o){
+    return G(o,'<circle r="30" fill="var(--art-red)"/><circle r="24" fill="none" stroke="var(--art-white)" stroke-width="2" opacity=".8"/><path fill="var(--art-white)" d="M0-14L4-4L14-4L6 3L9 13L0 7L-9 13L-6 3L-14-4L-4-4Z"/>');
+  },
+  constitution:function(o){
+    return G(o,'<ellipse cx="0" cy="-10" rx="48" ry="9" fill="var(--gild)"/><rect class="gf" x="-6" y="-10" width="12" height="10"/><rect class="gf" x="-18" y="-3" width="36" height="4"/>'+
+      '<rect x="-30" y="-56" width="60" height="44" rx="3" fill="var(--art-red)" stroke="var(--gild)" stroke-width="3"/><path class="gf" d="M-8-34L0-46L8-34L0-24Z"/>');
+  },
+  chain:function(o){
+    return G(o,'<g fill="none" stroke="var(--art-dk)" stroke-width="5"><ellipse cx="-44" cy="0" rx="14" ry="8"/><ellipse cx="-20" cy="0" rx="14" ry="8"/><ellipse cx="22" cy="-6" rx="14" ry="8" transform="rotate(-24 22 -6)"/><ellipse cx="46" cy="-14" rx="14" ry="8" transform="rotate(-28 46 -14)"/></g><path class="gd" d="M0-18L-4-2L4-8L0 8"/>');
+  },
+  plane:function(o){
+    return G(o,'<g class="plane"><path class="dk" d="M-60 0Q-60-8-40-10H40Q70-10 78-2Q70 6 40 6H-40Q-60 6-60 0Z"/><path class="dk" d="M-6-8L-26-36H-12L16-8ZM-6 4L-26 32H-12L16 4Z"/><path class="dk" d="M-56-6L-66-24H-56L-44-8Z"/><circle cx="70" cy="-2" r="3" fill="var(--sun)"/><path class="gd" opacity=".45" d="M-70 0H-190" stroke-dasharray="10 8"/></g>');
+  }
+};
+
+function artSVG(spec,label,bare,cls){
+  var h='<svg class="'+(cls||'art')+'" viewBox="0 0 600 340" preserveAspectRatio="xMidYMid slice" role="img" aria-label="'+(label||'')+'" focusable="false">';
+  if(!bare)h+='<rect width="600" height="340" fill="url(#g-'+(spec.sky||'day')+')"/>';
+  spec.items.forEach(function(it){
+    var n=it[0],o={x:it[1]||0,y:it[2]||0,s:it[3]||1},ex=it[4]||{};
+    for(var k in ex)o[k]=ex[k];
+    if(PR[n])h+=PR[n](o);
+  });
+  return h+'</svg>';
+}
+
+/* ---------- scenes for the Sukhothai events ---------- */
+var ARTS={
+  khmer:{sky:'dusk',items:[['sun',470,176,.9],['hills'],['ground'],['prang',290,266,1.25],['palm',100,266,1],['palm',520,266,.9],['figure',420,274,1.1,{k:'soldier'}],['figure',160,274,1.1,{k:'soldier'}]]},
+  found:{sky:'dawn',items:[['sun',300,196,1.5],['cloud',110,70],['cloud',500,90,.8],['hills'],['ground'],['chedi',300,264,.95],['figure',150,276,1.35,{k:'king'}],['figure',450,276,1.35,{k:'soldier'}]]},
+  elephant:{sky:'day',items:[['cloud',120,60],['cloud',470,90,.8],['hills'],['ground'],['elephant',180,276,1.05,{rider:true}],['elephant',430,276,1.05,{rider:true,f:true}],['banner',60,272,1],['banner',545,272,1]]},
+  banmueang:{sky:'day',items:[['cloud',140,70],['cloud',470,60,.8],['hills'],['ground'],['hall',300,264,1.25],['figure',140,276,1.1,{k:'king'}],['palm',520,266,1],['palm',70,266,.9]]},
+  expand:{sky:'day',items:[['sun',480,120,.9],['cloud',120,66],['hills'],['ground'],['elephant',270,276,1.25,{rider:true,k:'king'}],['banner',90,272,1.05],['banner',440,272,1.05],['banner',510,272,.9]]},
+  script:{sky:'dawn',items:[['sun',300,170,1.3],['hills'],['ground'],['stele',300,270,1.5],['text',120,110,1,{t:'ก',a:.55}],['text',200,70,.8,{t:'ข',a:.5}],['text',420,92,1,{t:'ค',a:.55}],['text',500,150,.8,{t:'ง',a:.5}],['text',80,190,.7,{t:'จ',a:.45}]]},
+  rule:{sky:'day',items:[['cloud',130,66],['cloud',480,80,.8],['hills'],['ground'],['hall',190,264,1],['bell',420,268,1.15],['figure',510,276,1.1,{k:'plain'}],['figure',345,276,1.1,{k:'plain'}]]},
+  water:{sky:'day',items:[['cloud',110,64],['hills'],['ground'],['water',0,270],['chedi',250,268,.75],['lotus',120,284,1],['lotus',420,290,1.1],['ledge'],['bowl',420,302,1.5],['jar',510,302,1.3],['bowl',90,302,1.2]]},
+  buddhism:{sky:'dawn',items:[['sun',470,150,1],['hills'],['ground'],['chedi',140,264,.8],['figure',320,276,1.4,{k:'monk'}],['figure',385,276,1.4,{k:'monk'}],['tree',520,268,1.05]]},
+  after:{sky:'dusk',items:[['sun',300,226,1.2],['hills'],['ground'],['chedi',200,264,.9],['banner',380,272,1],['figure',440,276,1.3,{k:'soldier'}]]},
+  traiphum:{sky:'night',items:[['stars'],['moon',500,70,.9],['cloud',130,150],['cloud',470,170,.9],['meru',300,262,1.1],['ground'],['ledge'],['palmleaf',300,302,1.4]]},
+  lithai:{sky:'dawn',items:[['sun',300,190,1.2],['hills'],['ground'],['chedi',170,264,.95],['umbrella',330,172,1],['figure',330,276,1.45,{k:'king'}],['figure',430,276,1.3,{k:'monk'}]]},
+  ayutthaya:{sky:'dusk',items:[['sun',150,210,1],['hills'],['ground'],['bellstupa',380,264,1.1],['bellstupa',470,264,.8],['water',0,296],['junk',200,318,.8]]},
+  vassal:{sky:'dusk',items:[['sun',100,216,1.1],['hills'],['ground'],['hall',170,264,.95],['banner',300,272,1],['elephant',440,276,1.05,{rider:true,f:true}]]},
+  merge:{sky:'night',items:[['stars'],['moon',120,80,1],['hills'],['ground'],['chedi',300,264,1.2],['chedi',470,264,.7]]},
+  heritage:{sky:'day',items:[['sun',470,120,.9],['cloud',110,70],['hills'],['ground'],['chedi',140,264,.75],['buddha',300,268,1.3],['chedi',470,264,.75]]},
+  memory:{sky:'night',items:[['stars'],['moon',500,70,.9],['hills'],['ground'],['glow',300,200,1.3],['ledge'],['stele',300,302,1.45],['text',130,150,1,{t:'ก',c:'#FFF6DA',a:.45}],['text',470,140,.9,{t:'ข',c:'#FFF6DA',a:.45}]]}
+};
+
+var HERO_SCENES={
+  home:[['sun',300,200,1.5],['cloud',90,70],['cloud',500,100,.8],['ground'],['chedi',110,276,.55],['bellstupa',225,276,.72],['prang',350,276,.7,{k:'arun'}],['prasat',480,276,.66]],
+  ayutthaya:[['sun',300,190,1.4],['cloud',100,70],['cloud',490,96,.8],['ground'],['water',0,302],['bellstupa',200,278,1.0],['bellstupa',300,278,1.25],['bellstupa',400,278,1.0],['prang',510,278,.6]],
+  thonburi:[['sun',300,200,1.4],['cloud',100,76],['cloud',500,100,.8],['ground'],['water',0,298],['prang',300,280,1.5,{k:'arun'}],['barge',130,322,.65],['junk',500,316,.65]],
+  rattanakosin:[['sun',300,200,1.4],['cloud',100,70],['cloud',500,100,.8],['ground'],['water',0,304],['prasat',300,280,1.35],['hall',140,280,.8],['hall',460,280,.8]]
+};
+window.TH_ART={artSVG:artSVG,ARTS:ARTS,HERO_SCENES:HERO_SCENES,PR:PR};
+})();
+
+</script>
+<script>
+/* Talks to the Cloudflare Pages Functions API. Exposes window.TH_CONTENT = { fetchLatest, track } */
+(function(){
+'use strict';
+var API=(window.TH_CONFIG&&window.TH_CONFIG.api)||'/api';
+var sid='';
+try{
+  sid=localStorage.getItem('th-sid')||'';
+  if(!sid){sid=(crypto.randomUUID?crypto.randomUUID():String(Math.random()).slice(2)+Date.now());localStorage.setItem('th-sid',sid)}
+}catch(e){sid=sid||'anon'}
+
+function fetchLatest(cb){
+  if(!window.fetch)return;
+  fetch(API+'/content',{headers:{accept:'application/json'}})
+    .then(function(r){return r.ok?r.json():null})
+    .then(function(d){if(d)cb(d)})
+    .catch(function(){});
+}
+
+var lastKey='';
+function track(type,period,eventId){
+  try{
+    var key=type+'|'+(period||'')+'|'+(eventId||'');
+    if(key===lastKey)return;lastKey=key;
+    var body=JSON.stringify({type:type,period:period||'',event:eventId||'',sid:sid,
+      ref:document.referrer?new URL(document.referrer).hostname:'',w:window.innerWidth});
+    if(navigator.sendBeacon){navigator.sendBeacon(API+'/track',new Blob([body],{type:'application/json'}))}
+    else if(window.fetch){fetch(API+'/track',{method:'POST',headers:{'content-type':'application/json'},body:body,keepalive:true}).catch(function(){})}
+  }catch(e){}
+}
+window.TH_CONTENT={fetchLatest:fetchLatest,track:track};
+})();
+
+</script>
+<script>
+/* Main app. Content comes from window.TH_DATA (baked JSON) and is refreshed from /api/content (D1). */
+(function(){
+'use strict';
+var TH=window.TH_CONTENT, ART=window.TH_ART, D=window.TH_DATA, CFG=window.TH_CONFIG||{};
+var artSVG=ART.artSVG, ARTS=ART.ARTS, HERO_SCENES=ART.HERO_SCENES;
+function clone(o){return JSON.parse(JSON.stringify(o))}
+var ORDER=(D.home.order||[]).slice();
+var HOME={eyebrow:D.home.eyebrow,title:D.home.title,lede:D.home.lede,facts:(D.home.facts||[]).slice()};
+var PERIODS={};
+function visible(p){p.events=(p.events||[]).filter(function(e){return !e.hidden});return p}
+ORDER.forEach(function(k){PERIODS[k]=visible(clone(D.periods[k]))});
+var ERAS={},EVENTS=[];
+
+/* swap in newer content from the database */
+function applyContent(doc){
+  if(!doc||!doc.periods)return false;
+  var changed=false;
+  ORDER.forEach(function(k){
+    if(!doc.periods[k])return;
+    var n=visible(clone(doc.periods[k]));
+    if(JSON.stringify(n)!==JSON.stringify(PERIODS[k])){PERIODS[k]=n;changed=true}
+  });
+  if(doc.home){
+    var h={eyebrow:doc.home.eyebrow,title:doc.home.title,lede:doc.home.lede,facts:doc.home.facts||[]};
+    if(JSON.stringify(h)!==JSON.stringify(HOME)){HOME=h;changed=true}
+  }
+  return changed;
+}
+
+function artFor(e){return e.art||ARTS[e.id]||{sky:'day',items:[['hills'],['ground']]}}
+
+/* ---------- helpers ---------- */
+var $=function(s,r){return (r||document).querySelector(s)};
+var $$=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
+var svg=function(inner,sw){return '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"'+(sw?' fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"':'')+'>'+inner+'</svg>'};
+var ICON={
+  play:svg('<path fill="currentColor" d="M8 5.6v12.8a1 1 0 0 0 1.5.86l10.4-6.4a1 1 0 0 0 0-1.72L9.5 4.74A1 1 0 0 0 8 5.6Z"/>'),
+  pause:svg('<rect x="6" y="5" width="4" height="14" rx="1" fill="currentColor"/><rect x="14" y="5" width="4" height="14" rx="1" fill="currentColor"/>'),
+  stop:svg('<rect x="6" y="6" width="12" height="12" rx="1.5" fill="currentColor"/>'),
+  next:svg('<path fill="currentColor" d="M6 6.2v11.6a.8.8 0 0 0 1.3.6l7.4-5.8a.8.8 0 0 0 0-1.2L7.3 5.6A.8.8 0 0 0 6 6.2Z"/><rect x="16" y="5.5" width="2.4" height="13" rx="1" fill="currentColor"/>'),
+  prev:svg('<path fill="currentColor" d="M18 6.2v11.6a.8.8 0 0 1-1.3.6l-7.4-5.8a.8.8 0 0 1 0-1.2l7.4-5.8a.8.8 0 0 1 1.3.6Z"/><rect x="5.6" y="5.5" width="2.4" height="13" rx="1" fill="currentColor"/>'),
+  close:svg('<path d="M6 6l12 12M18 6L6 18"/>',true),
+  info:svg('<circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.6v.2"/>',true)
+};
+var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function byId(id){for(var i=0;i<EVENTS.length;i++){if(EVENTS[i].id===id)return EVENTS[i]}return null}
+function yearLabel(e){return e.pre+' '+e.big}
+function scriptOf(e){return [e.title+'. '+yearLabel(e)].concat(e.story)}
+
+/* ---------- build timeline ---------- */
+var tl=$('#tl');
+function mediaSrc(v){
+  if(!v||typeof v!=='string')return '';
+  if(/["'<>\s]/.test(v))return '';
+  if(/^https:\/\//.test(v)||/^\/[A-Za-z0-9_\-.\/]+$/.test(v))return v;
+  return '';
+}
+function picOf(e,label){
+  if(mediaSrc(e.img))return '<img class="art-img" data-eid="'+e.id+'" src="'+mediaSrc(e.img)+'" alt="'+String(label).replace(/"/g,'&quot;')+'" loading="lazy" decoding="async">';
+  return artSVG(artFor(e),label);
+}
+document.addEventListener('error',function(ev){
+  var im=ev.target;
+  if(!im||!im.classList||!im.classList.contains('art-img'))return;
+  var e=byId(im.dataset.eid),box=im.parentNode;
+  if(!e||!box)return;
+  var d=document.createElement('div');d.innerHTML=artSVG(artFor(e),'ภาพประกอบ: '+e.title);
+  if(d.firstChild)box.replaceChild(d.firstChild,im);
+},true);
+var ELE='<svg viewBox="0 0 44 32" aria-hidden="true"><g class="lg"><rect class="f" x="9" y="20" width="5" height="10" rx="2.2"/></g><g class="lg b"><rect class="f" x="15.5" y="20" width="5" height="10" rx="2.2"/></g><g class="bd"><path class="s" d="M8.5 13Q4 15 4.5 22" stroke-width="2"/><ellipse class="f" cx="20" cy="15" rx="12.5" ry="8"/><circle class="f" cx="32.5" cy="12" r="6"/><ellipse cx="29" cy="13" rx="3.4" ry="5" fill="var(--bg)" opacity=".55"/><g class="tr"><path class="s" d="M36 14Q41.5 15 41 22Q40.7 26 37.6 25.2" stroke-width="3.6"/></g><path d="M36.5 17.5Q40 18.5 41 16.6" fill="none" stroke="var(--bg)" stroke-width="1.6" stroke-linecap="round"/><circle cx="34.6" cy="10.6" r="1" fill="var(--bg)"/></g><g class="lg b"><rect class="f" x="24" y="20" width="5" height="10" rx="2.2"/></g><g class="lg"><rect class="f" x="30" y="20" width="5" height="10" rx="2.2"/></g></svg>';
+function buildTimeline(){
+tl.innerHTML='';
+EVENTS.forEach(function(e){
+  var li=document.createElement('li');
+  li.className='item e'+e.era;
+  li.dataset.id=e.id;
+  li.dataset.era=e.era;
+  li.innerHTML=
+    '<span class="dot" aria-hidden="true">'+ELE+'</span>'+
+    '<div class="big" aria-hidden="true"><span class="pre">'+e.pre+'</span><span class="num'+(e.big.length>5?' txt':'')+'">'+e.big+'</span></div>'+
+    '<article class="card" data-open="'+e.id+'" tabindex="0" role="button" aria-label="อ่านข้อมูลเพิ่มเติม: '+e.title.replace(/"/g,'&quot;')+'">'+
+      '<div class="pic">'+picOf(e,'ภาพประกอบ: '+e.title)+'<span class="zoom" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21M10.5 7.5v6M7.5 10.5h6"/></svg><b>อ่านข้อมูลเพิ่มเติม</b></span></div>'+
+      '<div class="meta"><span class="year">'+yearLabel(e)+'</span><span class="tag">'+ERAS[e.era].name+'</span></div>'+
+      '<h3>'+e.title+'</h3>'+
+      '<p class="sum">'+e.sum+'</p>'+
+      '<div class="acts">'+
+        '<button class="btn sm" type="button" data-play="'+e.id+'"></button>'+
+      '</div>'+
+    '</article>';
+  tl.appendChild(li);
+});
+}
+
+/* ---------- era filter ---------- */
+var chips=$('#chips'), eraNote=$('#eraNote'), curEra=0;
+function buildChips(){
+  chips.innerHTML='';
+  var lab=document.createElement('span');lab.className='bar-label';lab.textContent='ยุค';chips.appendChild(lab);
+  function mk(n,text){
+    var b=document.createElement('button');b.type='button';b.className='chip e'+n;b.dataset.era=n;
+    b.setAttribute('aria-pressed',n===0?'true':'false');
+    b.innerHTML=(n?'<i></i>':'')+'<span>'+text+'</span>';
+    if(n)b.title=ERAS[n].range;
+    chips.appendChild(b);
+  }
+  mk(0,'ทั้งหมด');
+  Object.keys(ERAS).forEach(function(k){mk(+k,ERAS[k].name)});
+}
+function applyFilter(){
+  var idx=0;
+  $$('.item',tl).forEach(function(li){
+    var show=!curEra||+li.dataset.era===curEra;
+    li.hidden=!show;
+    if(show){li.classList.toggle('left',idx%2===0);li.classList.toggle('right',idx%2===1);idx++}
+  });
+  $$('.chip',chips).forEach(function(c){c.setAttribute('aria-pressed',(+c.dataset.era===curEra)?'true':'false')});
+  eraNote.textContent=curEra?(ERAS[curEra].name+' · '+ERAS[curEra].range+' · '+idx+' เหตุการณ์'):('เหตุการณ์สำคัญทั้งหมด '+idx+' เรื่อง เรียงตามเวลา');
+  if(S.id){var cur=$('.item[data-id="'+S.id+'"]',tl);if(cur&&cur.hidden)stopAudio()}
+  activeId=undefined;buildRail();setupReveal();progress();
+}
+chips.addEventListener('click',function(ev){
+  var b=ev.target.closest('.chip');if(!b)return;
+  curEra=+b.dataset.era;applyFilter();
+});
+function visibleIds(){return $$('.item',tl).filter(function(li){return !li.hidden}).map(function(li){return li.dataset.id})}
+
+/* ---------- scroll progress on spine ---------- */
+var spine=$('#spine'), box=$('#tlBox'), tick=false, heroArt=$('.hero-art');
+var BOAT='<svg viewBox="0 0 80 50" aria-hidden="true"><defs><linearGradient id="boatFade" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".22" stop-color="#fff"/><stop offset=".78" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="boatMask" maskUnits="userSpaceOnUse" x="-6" y="0" width="92" height="52"><rect x="-6" y="0" width="92" height="52" fill="url(#boatFade)"/></mask></defs>'+
+'<g mask="url(#boatMask)"><g class="wv2" opacity=".55"><path d="M-24 36Q-18 31 -12 36T0 36T12 36T24 36T36 36T48 36T60 36T72 36T84 36T96 36V50H-24Z" fill="#4C9FCF"/></g></g>'+
+'<g class="hull"><path d="M5 19Q9 31 24 34H56Q71 31 75 19Q62 26 40 26Q18 26 5 19Z" fill="#9C4C30"/>'+
+'<path d="M8 22.5Q22 28.5 40 28.5Q58 28.5 72 22.5" fill="none" stroke="#F0C36A" stroke-width="1.8" stroke-linecap="round"/>'+
+'<path d="M4 17Q3 13 7 12Q6 16 9 18Z" fill="#9C4C30"/><path d="M76 17Q77 13 73 12Q74 16 71 18Z" fill="#9C4C30"/>'+
+'<circle cx="46" cy="9" r="3.4" fill="#3A2A20"/><path d="M42.5 13Q46 11.5 49.5 13L50.5 25H41.5Z" fill="#E3A83F"/><path d="M41 12.5Q46 5.5 51 12.5Z" fill="#C2831C"/>'+
+'<g class="oar"><path d="M54 20L63 42" stroke="#5A3A22" stroke-width="2.2" stroke-linecap="round"/><path d="M60.5 38L66 41Q64.5 45 61 43Z" fill="#5A3A22"/></g></g>'+
+'<g mask="url(#boatMask)"><g class="wv1"><path d="M-24 35Q-18 30 -12 35T0 35T12 35T24 35T36 35T48 35T60 35T72 35T84 35T96 35V50H-24Z" fill="#2F86BC" opacity=".9"/><path d="M-24 40Q-18 36 -12 40T0 40T12 40T24 40T36 40T48 40T60 40T72 40T84 40T96 40V50H-24Z" fill="#1F6E9E" opacity=".8"/></g></g>'+
+'<ellipse class="rip" cx="64" cy="42" rx="9" ry="2.5" fill="none" stroke="#fff" stroke-width="1.2"/></svg>';
+var boatEl=document.createElement('span');boatEl.className='boat';boatEl.setAttribute('aria-hidden','true');boatEl.innerHTML=BOAT;spine.appendChild(boatEl);
+(function(){var tm=0;function go(){document.body.classList.add('scrolling');clearTimeout(tm);tm=setTimeout(function(){document.body.classList.remove('scrolling')},220)}
+window.addEventListener('scroll',go,{passive:true});window.addEventListener('wheel',go,{passive:true});})();
+var tCount=$('#tCount'), tYear=$('#tYear'), tTitle=$('#tTitle'), rail=$('#rail'), barEl=$('.bar');
+var view='home', activeId, lastScroll=window.scrollY, dirDown=true, io=null;
+function pad(n){return n<10?'0'+n:''+n}
+function buildRail(){
+  rail.innerHTML='';
+  visibleIds().forEach(function(id){
+    var e=byId(id),b=document.createElement('button');
+    b.type='button';b.className='seg e'+e.era;b.dataset.id=id;
+    b.setAttribute('aria-label',e.title+' '+yearLabel(e));b.title=e.title;
+    rail.appendChild(b);
+  });
+}
+function updateTicker(idx,id,down){
+  var ids=visibleIds();
+  ['e1','e2','e3','e4'].forEach(function(c){barEl.classList.remove(c)});
+  if(!id){
+    tCount.textContent='00 / '+pad(ids.length);tYear.textContent='เริ่มต้น';tTitle.textContent='เลื่อนลงเพื่อเดินทางตามเวลา';
+  }else{
+    var e=byId(id);
+    tCount.textContent=pad(idx+1)+' / '+pad(ids.length);tYear.textContent=yearLabel(e);tTitle.textContent=e.title;
+    barEl.classList.add('e'+e.era);
+  }
+  barEl.classList.remove('flash');void barEl.offsetWidth;barEl.classList.add('flash');
+  [tCount,tYear,tTitle].forEach(function(el){
+    el.classList.remove('swap-down','swap-up');void el.offsetWidth;el.classList.add(down?'swap-down':'swap-up');
+  });
+}
+function setActive(id){
+  if(id===activeId)return;
+  activeId=id;
+  $$('.item',tl).forEach(function(li){li.classList.toggle('active',li.dataset.id===id)});
+  var ids=visibleIds(),idx=id?ids.indexOf(id):-1;
+  $$('.seg',rail).forEach(function(sg,i){sg.classList.toggle('on',i===idx);sg.classList.toggle('done',idx>=0&&i<idx)});
+  updateTicker(idx,id,dirDown);
+  setMood(id?moodOf(byId(id)):'');
+}
+function progress(){
+  if(view==='home'||view==='learn')return;
+  var r=box.getBoundingClientRect();
+  var p=(window.innerHeight*0.5-r.top)/Math.max(r.height,1);
+  p=Math.max(0,Math.min(1,p));
+  spine.style.setProperty('--p',(p*100).toFixed(1)+'%');
+  var y=window.scrollY;
+  if(Math.abs(y-lastScroll)>1){dirDown=y>lastScroll;lastScroll=y}
+  var items=$$('.item',tl).filter(function(li){return !li.hidden});
+  var mid=window.innerHeight*0.45,best=null,bd=1e9;
+  items.forEach(function(li){
+    var c=li.querySelector('.card').getBoundingClientRect();
+    var d=Math.abs(c.top+c.height/2-mid);
+    if(d<bd){bd=d;best=li}
+  });
+  var started=items.length&&items[0].getBoundingClientRect().top<window.innerHeight*0.8;
+  setActive(started&&best?best.dataset.id:null);
+  if(!reduce&&heroArt&&y<window.innerHeight*1.3){heroArt.style.transform='translate3d(0,'+(y*0.1).toFixed(1)+'px,0)'}
+}
+function countUp(li){
+  var n=li.querySelector('.num');if(!n||reduce)return;
+  var txt=n.dataset.final||n.textContent;
+  if(!/^\d+$/.test(txt))return;
+  n.dataset.final=txt;
+  var end=+txt,start=end-50,t0=null;
+  function f(ts){
+    if(!t0)t0=ts;
+    var k=Math.min((ts-t0)/900,1),e=1-Math.pow(1-k,3);
+    n.textContent=k<1?Math.round(start+(end-start)*e):txt;
+    if(k<1)requestAnimationFrame(f);
+  }
+  requestAnimationFrame(f);
+}
+function reveal(li){
+  if(li.classList.contains('reveal'))return;
+  li.classList.add('reveal');countUp(li);
+}
+function setupReveal(){
+  $$('.item',tl).forEach(function(li){li.classList.remove('reveal')});
+  if(!('IntersectionObserver' in window)){$$('.item',tl).forEach(reveal);return}
+  if(!io){
+    io=new IntersectionObserver(function(es){
+      es.forEach(function(en){if(en.isIntersecting){reveal(en.target);io.unobserve(en.target)}});
+    },{threshold:0.12,rootMargin:'0px 0px -6% 0px'});
+  }
+  $$('.item',tl).forEach(function(li){if(!li.hidden)io.observe(li)});
+}
+rail.addEventListener('click',function(ev){
+  var b=ev.target.closest('.seg');if(!b)return;
+  var li=$('.item[data-id="'+b.dataset.id+'"]',tl);
+  if(li)li.scrollIntoView({behavior:reduce?'auto':'smooth',block:'center'});
+});
+window.addEventListener('scroll',function(){if(!tick){tick=true;requestAnimationFrame(function(){tick=false;progress()})}},{passive:true});
+window.addEventListener('resize',progress);
+
+/* ---------- speech ---------- */
+var supported=('speechSynthesis' in window)&&('SpeechSynthesisUtterance' in window);
+var S={id:null,idx:0,state:'idle',token:0,tour:false,rate:1,pitch:1.08,au:false};
+var AUD=(window.Audio?new Audio():null);
+if(AUD){AUD.preload='auto';AUD.addEventListener('ended',function(){if(S.au&&S.state==='playing')finishEvent(S.token)});AUD.addEventListener('error',function(){if(S.au&&S.state==='playing'){S.state='idle';S.tour=false;refresh();toast('เล่นไฟล์เสียงไม่สำเร็จ ลองอัปโหลดไฟล์ใหม่')}})}
+var voices=[], noticeShown=false, keepUtter=[], toastTimer=null, chosenVoice='';
+try{chosenVoice=window.localStorage.getItem('sk-voice')||''}catch(e){}
+function loadVoices(){if(supported){voices=window.speechSynthesis.getVoices()||[];populateVoices()}}
+if(supported){loadVoices();if('onvoiceschanged' in window.speechSynthesis)window.speechSynthesis.onvoiceschanged=loadVoices}
+function isThai(v){return /^th/i.test(v.lang||'')}
+function scoreVoice(v){
+  var n=(v.name||'').toLowerCase(),sc=1;
+  if(/natural|neural|online|enhanced|premium/.test(n))sc+=6;
+  if(/google/.test(n))sc+=3;
+  if(/premwadee|kanya|narisa|achara|pattara|ploy/.test(n))sc+=3;
+  if(/niwat/.test(n))sc+=1;
+  return sc;
+}
+function pickVoice(){
+  var th=voices.filter(isThai);
+  if(!th.length)return null;
+  if(chosenVoice){for(var i=0;i<th.length;i++){if(th[i].name===chosenVoice)return th[i]}}
+  var best=th[0],bs=-1;
+  th.forEach(function(v){var sc=scoreVoice(v);if(sc>bs){bs=sc;best=v}});
+  return best;
+}
+function populateVoices(){
+  var sel=document.getElementById('pVoiceSel'),wrap=document.getElementById('pVoiceWrap');
+  if(!sel||!wrap)return;
+  var th=voices.filter(isThai);
+  wrap.hidden=th.length<2;
+  sel.innerHTML='';
+  var auto=document.createElement('option');auto.value='';auto.textContent='อัตโนมัติ (แนะนำ)';sel.appendChild(auto);
+  th.forEach(function(v){
+    var o=document.createElement('option');o.value=v.name;
+    o.textContent=v.name.replace(/^(Microsoft|Google)\s+/i,'');
+    sel.appendChild(o);
+  });
+  sel.value=chosenVoice;
+  if(sel.value!==chosenVoice)sel.value='';
+}
+function toast(msg){
+  var t=$('#toast');t.textContent=msg;t.hidden=false;
+  clearTimeout(toastTimer);toastTimer=setTimeout(function(){t.hidden=true},5200);
+}
+function speechText(t){
+  return t.replace(/พ\.ศ\./g,'พุทธศักราช').replace(/(\d)\s*–\s*(\d)/g,'$1 ถึง $2').replace(/[–—]/g,' ');
+}
+function segmentsFrom(e,from){
+  var parts=scriptOf(e),segs=[];
+  for(var p=from;p<parts.length;p++){
+    var words=speechText(parts[p]).split(/\s+/),cur='';
+    for(var k=0;k<words.length;k++){
+      var w=words[k];
+      if(cur&&(cur+' '+w).length>110){segs.push({t:cur,p:p});cur=w}
+      else cur=cur?cur+' '+w:w;
+    }
+    if(cur)segs.push({t:cur,p:p});
+  }
+  return segs;
+}
+function speakQueue(token,segs){
+  var v=pickVoice();
+  keepUtter=[];
+  segs.forEach(function(sg,i){
+    var u=new SpeechSynthesisUtterance(sg.t);
+    u.lang=(v&&v.lang)||'th-TH';u.rate=S.rate;u.pitch=S.pitch;u.volume=1;
+    if(v)u.voice=v;
+    u.onstart=function(){
+      if(token!==S.token)return;
+      if(S.idx!==sg.p){S.idx=sg.p;refresh()}
+    };
+    if(i===segs.length-1){u.onend=function(){if(token===S.token)finishEvent(token)}}
+    u.onerror=function(ev){
+      if(token!==S.token)return;
+      if(ev&&(ev.error==='canceled'||ev.error==='interrupted'))return;
+      S.state='idle';S.tour=false;refresh();
+      toast('เล่นเสียงไม่สำเร็จ ลองตรวจสอบว่าอุปกรณ์มีเสียงอ่านภาษาไทย');
+    };
+    keepUtter.push(u);
+  });
+  try{window.speechSynthesis.resume()}catch(e){}
+  keepUtter.forEach(function(u){window.speechSynthesis.speak(u)});
+}
+function finishEvent(token){
+  if(token!==S.token)return;
+  if(S.tour){
+    var ids=visibleIds(),i=ids.indexOf(S.id);
+    if(i>=0&&i<ids.length-1){startPlay(ids[i+1],0,true,true);return}
+  }
+  S.state='idle';S.idx=0;S.tour=false;S.id=null;refresh();
+}
+function startPlay(id,from,tour,quick){
+  var ev0=byId(id),useAu=!!(ev0&&AUD&&mediaSrc(ev0.audio));
+  if(!supported&&!useAu){toast('เบราว์เซอร์นี้ยังไม่รองรับเสียงบรรยาย ลองเปิดด้วย Chrome, Edge หรือ Safari');return}
+  loadVoices();
+  if(!noticeShown&&voices.length&&!pickVoice()){
+    noticeShown=true;
+    toast('ไม่พบเสียงภาษาไทยในอุปกรณ์นี้ เสียงที่ได้ยินอาจไม่ชัด ลองเพิ่มเสียงไทยในการตั้งค่าระบบ');
+  }
+  if(supported)window.speechSynthesis.cancel();
+  if(AUD){try{AUD.pause()}catch(e){}}
+  var token=++S.token;
+  S.id=id;S.idx=from||0;S.state='playing';S.tour=!!tour;S.au=useAu;
+  refresh();
+  if(tour){
+    var li=$('.item[data-id="'+id+'"]',tl);
+    if(li)li.scrollIntoView({behavior:reduce?'auto':'smooth',block:'center'});
+  }
+  if(useAu){
+    AUD.src=mediaSrc(ev0.audio);AUD.playbackRate=S.rate;S.idx=0;
+    var pr=AUD.play();if(pr&&pr.catch)pr.catch(function(){if(token===S.token){S.state='idle';S.tour=false;refresh();toast('เล่นไฟล์เสียงไม่สำเร็จ')}});
+    return;
+  }
+  var segs=segmentsFrom(byId(id),S.idx);
+  setTimeout(function(){if(token===S.token)speakQueue(token,segs)},quick?20:70);
+}
+function pauseAudio(){
+  if(S.state!=='playing')return;
+  S.token++;
+  if(S.au&&AUD)AUD.pause();else window.speechSynthesis.cancel();
+  S.state='paused';refresh();
+}
+function resumeAudio(){
+  if(S.state!=='paused')return;
+  if(S.au&&AUD){S.state='playing';refresh();var q=AUD.play();if(q&&q.catch)q.catch(function(){});return}
+  startPlay(S.id,S.idx,S.tour);
+}
+function stopAudio(){
+  S.token++;
+  if(AUD){try{AUD.pause()}catch(e){}}
+  S.au=false;
+  if(supported)window.speechSynthesis.cancel();
+  S.state='idle';S.id=null;S.idx=0;S.tour=false;refresh();
+}
+function toggleFor(id){
+  if(S.id===id&&S.state==='playing')pauseAudio();
+  else if(S.id===id&&S.state==='paused')resumeAudio();
+  else startPlay(id,0,false);
+}
+function jump(dir){
+  var ids=visibleIds(),i=ids.indexOf(S.id);if(i<0)return;
+  var n=i+dir;if(n<0||n>=ids.length)return;
+  startPlay(ids[n],0,S.tour);
+  if(!S.tour){var li=$('.item[data-id="'+ids[n]+'"]',tl);if(li)li.scrollIntoView({behavior:reduce?'auto':'smooth',block:'center'})}
+}
+window.addEventListener('beforeunload',function(){if(supported)window.speechSynthesis.cancel()});
+
+/* ---------- UI sync ---------- */
+function labelFor(id){
+  if(S.id===id&&S.state==='playing')return {icon:ICON.pause,text:'หยุดชั่วคราว'};
+  if(S.id===id&&S.state==='paused')return {icon:ICON.play,text:'ฟังต่อ'};
+  return {icon:ICON.play,text:'ฟังเสียงบรรยาย'};
+}
+function setBtn(btn,id){
+  var l=labelFor(id);
+  btn.innerHTML=l.icon+'<span>'+l.text+'</span>';
+  btn.setAttribute('aria-label',l.text+' '+byId(id).title);
+}
+var player=$('#player'), pTitle=$('#pTitle'), pState=$('#pState'), pToggle=$('#pToggle');
+function refresh(){
+  $$('[data-play]',tl).forEach(function(b){setBtn(b,b.dataset.play)});
+  $$('.item',tl).forEach(function(li){li.classList.toggle('is-playing',li.dataset.id===S.id&&S.state==='playing')});
+  var active=S.id!==null&&S.state!=='idle';
+  player.hidden=!active;
+  document.body.classList.toggle('has-player',active);
+  if(active){
+    var e=byId(S.id),parts=scriptOf(e);
+    pTitle.textContent=e.title;
+    pState.textContent=(S.state==='paused'?'หยุดชั่วคราว':'กำลังบรรยาย')+(S.tour?' · โหมดฟังต่อเนื่อง':'')+' · ตอนที่ '+Math.min(S.idx+1,parts.length)+' จาก '+parts.length;
+    pToggle.innerHTML=S.state==='playing'?ICON.pause:ICON.play;
+    pToggle.setAttribute('aria-label',S.state==='playing'?'หยุดชั่วคราว':'เล่นต่อ');
+    var ids=visibleIds(),i=ids.indexOf(S.id);
+    $('#pPrev').disabled=i<=0;$('#pNext').disabled=i<0||i>=ids.length-1;
+  }
+  tourBtn.innerHTML=(S.tour&&S.state!=='idle')?ICON.stop+'<span>หยุดฟังต่อเนื่อง</span>':ICON.play+'<span>ฟังเรื่องราวต่อเนื่อง</span>';
+  syncModal();
+}
+var tourBtn=$('#tourBtn');
+$('#pPrev').innerHTML=ICON.prev;$('#pNext').innerHTML=ICON.next;$('#pStop').innerHTML=ICON.stop;
+
+/* ---------- detail sheet ---------- */
+var ov=$('#ov'), sheet=$('#sheet'), openId=null, lastFocus=null;
+function renderSheet(id){
+  var e=byId(id);openId=id;
+  var ids=visibleIds(),i=ids.indexOf(id);
+  sheet.className='sheet e'+e.era;
+  sheet.innerHTML=
+    '<button class="x" type="button" data-close aria-label="ปิดหน้าต่าง">'+ICON.close+'</button>'+
+    '<div class="pic">'+picOf(e,'ภาพประกอบ: '+e.title)+'</div>'+
+    '<div class="meta"><span class="year">'+yearLabel(e)+'</span><span class="tag">'+ERAS[e.era].name+'</span></div>'+
+    '<h2 id="mTitle">'+e.title+'</h2>'+
+    '<ul class="people" aria-label="คำสำคัญ">'+e.people.map(function(p){return '<li>'+p+'</li>'}).join('')+'</ul>'+
+    '<div class="listen"><button class="btn" type="button" data-mplay></button><span class="state" id="mState"></span></div>'+
+    '<div class="story">'+(function(){var used={};return e.story.map(function(p,k){return '<p data-i="'+k+'">'+glossify(p,used)+'</p>'}).join('')})()+'</div>'+
+    '<div class="note"><b>ข้อควรรู้</b> '+e.note+'</div>'+debateBox(e)+
+    '<div class="nav">'+
+      '<button class="btn ghost sm" type="button" data-nav="-1"'+(i<=0?' disabled':'')+'>'+ICON.prev+'<span>เรื่องก่อนหน้า</span></button>'+
+      '<button class="btn ghost sm" type="button" data-nav="1"'+(i>=ids.length-1?' disabled':'')+'><span>เรื่องถัดไป</span>'+ICON.next+'</button>'+
+    '</div>';
+  syncModal();
+}
+function syncModal(){
+  if(!openId||ov.hidden)return;
+  var b=$('[data-mplay]',sheet);if(b)setBtn(b,openId);
+  var st=$('#mState',sheet);
+  var mine=S.id===openId&&S.state!=='idle';
+  if(st)st.textContent=mine?(S.state==='paused'?'หยุดชั่วคราว':'กำลังอ่านออกเสียง'):'ฟังเรื่องนี้ประมาณ 1 นาที';
+  $$('.story p',sheet).forEach(function(p){
+    p.classList.toggle('speaking',mine&&(+p.dataset.i===S.idx-1));
+  });
+}
+function openSheet(id){
+  TH.track('event',view,id);
+  lastFocus=document.activeElement;
+  renderSheet(id);
+  ov.hidden=false;
+  syncModal();
+  document.documentElement.style.overflow='hidden';
+  sheet.scrollTop=0;
+  var x=$('.x',sheet);if(x)x.focus();
+}
+function closeSheet(){
+  ov.hidden=true;openId=null;
+  document.documentElement.style.overflow='';
+  if(lastFocus&&lastFocus.focus)lastFocus.focus();
+}
+ov.addEventListener('click',function(ev){
+  if(ev.target===ov||ev.target.closest('[data-close]')){closeSheet();return}
+  var m=ev.target.closest('[data-mplay]');if(m){toggleFor(openId);return}
+  var n=ev.target.closest('[data-nav]');
+  if(n&&!n.disabled){
+    var ids=visibleIds(),i=ids.indexOf(openId)+(+n.dataset.nav);
+    if(i>=0&&i<ids.length){renderSheet(ids[i]);sheet.scrollTop=0;var x=$('.x',sheet);if(x)x.focus()}
+  }
+});
+document.addEventListener('keydown',function(ev){
+  if(ov.hidden)return;
+  if(ev.key==='Escape'){closeSheet();return}
+  if(ev.key==='Tab'){
+    var f=$$('button:not([disabled])',sheet);if(!f.length)return;
+    var first=f[0],last=f[f.length-1];
+    if(ev.shiftKey&&document.activeElement===first){ev.preventDefault();last.focus()}
+    else if(!ev.shiftKey&&document.activeElement===last){ev.preventDefault();first.focus()}
+  }
+});
+
+/* ---------- wiring ---------- */
+tl.addEventListener('click',function(ev){
+  var p=ev.target.closest('[data-play]');if(p){toggleFor(p.dataset.play);return}
+  var o=ev.target.closest('[data-open]');if(o){openSheet(o.dataset.open)}
+});
+tl.addEventListener('keydown',function(ev){
+  if((ev.key==='Enter'||ev.key===' ')&&ev.target.matches&&ev.target.matches('.card[data-open]')){ev.preventDefault();openSheet(ev.target.dataset.open)}
+});
+tourBtn.addEventListener('click',function(){
+  if(S.tour&&S.state!=='idle'){stopAudio();return}
+  var ids=visibleIds();if(!ids.length)return;
+  startPlay(ids[0],0,true);
+});
+pToggle.addEventListener('click',function(){
+  if(S.state==='playing')pauseAudio();else resumeAudio();
+});
+$('#pStop').addEventListener('click',stopAudio);
+$('#pPrev').addEventListener('click',function(){jump(-1)});
+$('#pNext').addEventListener('click',function(){jump(1)});
+$('#pRate').addEventListener('change',function(ev){
+  S.rate=parseFloat(ev.target.value)||1;
+  if(AUD)AUD.playbackRate=S.rate;
+  if(S.state==='playing'&&!S.au)startPlay(S.id,S.idx,S.tour);
+});
+
+/* ---------- floating petals and fireflies ---------- */
+(function(){
+  var cv=document.createElement('canvas');
+  cv.className='bgfx';cv.setAttribute('aria-hidden','true');
+  document.body.insertBefore(cv,document.body.firstChild);
+  var ctx=cv.getContext&&cv.getContext('2d');if(!ctx)return;
+  var W=0,H=0,ps=[],cols=['#3C7C6B','#C2831C','#9C4C30'],last=0,frame=0;
+  function readCols(){
+    var cs=getComputedStyle(document.documentElement);
+    cols=['--celadon','--gold','--laterite'].map(function(k,i){return (cs.getPropertyValue(k)||'').trim()||cols[i]});
+  }
+  function mk(init){
+    return {x:Math.random()*W,y:init?Math.random()*H:H+24,s:6+Math.random()*9,vy:0.12+Math.random()*0.3,
+      sw:Math.random()*6.28,sa:18+Math.random()*34,r:Math.random()*6.28,vr:(Math.random()-0.5)*0.008,
+      k:Math.floor(Math.random()*3),a:0.16+Math.random()*0.2,fly:Math.random()<0.35,tw:Math.random()*6.28};
+  }
+  function size(){
+    var dpr=Math.min(window.devicePixelRatio||1,2);
+    W=window.innerWidth;H=window.innerHeight;
+    cv.width=W*dpr;cv.height=H*dpr;cv.style.width=W+'px';cv.style.height=H+'px';
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+    var n=W<600?14:28;
+    while(ps.length<n)ps.push(mk(true));
+    ps.length=n;
+  }
+  function draw(ts){
+    var dt=Math.min((ts-last)/16.7||1,3);last=ts;frame++;
+    if(frame%90===1)readCols();
+    ctx.clearRect(0,0,W,H);
+    for(var i=0;i<ps.length;i++){
+      var p=ps[i];
+      p.y-=p.vy*dt;p.sw+=0.012*dt;p.r+=p.vr*dt;p.tw+=0.04*dt;
+      if(p.y<-30)ps[i]=p=mk(false);
+      var x=p.x+Math.sin(p.sw)*p.sa;
+      ctx.save();
+      ctx.translate(x,p.y);
+      if(p.fly){
+        var a=p.a*1.8*(0.5+0.5*Math.sin(p.tw));
+        var g=ctx.createRadialGradient(0,0,0,0,0,p.s);
+        g.addColorStop(0,cols[1]);g.addColorStop(1,'rgba(0,0,0,0)');
+        ctx.globalAlpha=Math.min(a,0.7);ctx.fillStyle=g;
+        ctx.beginPath();ctx.arc(0,0,p.s,0,6.28);ctx.fill();
+      }else{
+        ctx.rotate(p.r);ctx.globalAlpha=p.a;ctx.fillStyle=cols[p.k];
+        ctx.beginPath();ctx.moveTo(-p.s,0);
+        ctx.quadraticCurveTo(0,-p.s*0.75,p.s,0);
+        ctx.quadraticCurveTo(0,p.s*0.75,-p.s,0);
+        ctx.fill();
+      }
+      ctx.restore();
+    }
+    if(!reduce)requestAnimationFrame(draw);
+  }
+  readCols();size();
+  window.addEventListener('resize',size);
+  requestAnimationFrame(draw);
+})();
+
+$('#pVoiceSel').addEventListener('change',function(ev){
+  chosenVoice=ev.target.value;
+  try{window.localStorage.setItem('sk-voice',chosenVoice)}catch(e){}
+  if(S.state==='playing')startPlay(S.id,S.idx,S.tour);
+});
+populateVoices();
+
+/* ---------- pages and menu ---------- */
+var heroSK=$('#heroArt').innerHTML;
+var menuLinks=$('#menuLinks'), menuInd=$('#menuInd'), homeBody=$('#homeBody'), stageEl=$('#timeline');
+var hEyebrow=$('#hEyebrow'), hTitle=$('#hTitle'), hLede=$('#hLede'), hFacts=$('#hFacts'), heroArtEl=$('#heroArt');
+var startBtn=$('#startBtn'), heroLink=$('#heroLink'), heroLinkTx=$('#heroLinkTx'), srcList=$('#srcList');
+function esc(t){return String(t).replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+function moveInd(){
+  var a=$('a[aria-current="page"]',menuLinks);if(!a)return;
+  menuInd.style.width=(a.offsetWidth-20)+'px';
+  menuInd.style.transform='translateX('+(a.offsetLeft+10)+'px)';
+  try{menuLinks.scrollTo({left:a.offsetLeft-(menuLinks.clientWidth-a.offsetWidth)/2,behavior:reduce?'auto':'smooth'})}catch(e){}
+}
+function buildHome(){
+  var h='';
+  var cover={sukhothai:'found',ayutthaya:'ay-elephant',thonburi:'th-capital',rattanakosin:'rk-found'};
+  ORDER.forEach(function(k,i){
+    var p=PERIODS[k],ev=p.events.filter(function(e){return e.id===cover[k]})[0]||p.events[0];
+    h+='<a class="pcard" style="--i:'+i+'" href="#'+k+'" data-route="'+k+'">'+
+      '<div class="pic">'+artSVG(artFor(ev),'ภาพประกอบ: '+p.name)+'</div>'+
+      '<div class="body"><span class="rng">'+p.range+' · '+p.events.length+' เหตุการณ์</span><h3>'+p.name+'</h3><p>'+p.blurb+'</p>'+
+      '<span class="go"><span>เข้าสู่'+p.label.replace('สมัย','สมัย ')+'</span>'+ICON.next+'</span></div></a>';
+  });
+  $('#cards4').innerHTML=h;
+}
+function sourcesFor(key){
+  var list=[],seen={};
+  if(key==='learn'){LEARN.src.forEach(function(x){list.push(x)});ORDER.forEach(function(k){PERIODS[k].src.forEach(function(x){if(!seen[x.u]){seen[x.u]=1;list.push(x)}})})}
+  else (key==='home'?ORDER:[key]).forEach(function(k){PERIODS[k].src.forEach(function(x){if(!seen[x.u]){seen[x.u]=1;list.push(x)}})});
+  srcList.innerHTML=list.map(function(x){return '<li><a href="'+x.u+'" target="_blank" rel="noopener">'+esc(x.t)+'</a></li>'}).join('');
+}
+function restart(el){if(!el)return;el.classList.remove('view-in');void el.offsetWidth;el.classList.add('view-in')}
+function route(key){
+  if(key!=='home'&&key!=='learn'&&!PERIODS[key])key='home';
+  stopMapPlay();
+  if(S.state!=='idle'||S.id)stopAudio();
+  if(!ov.hidden)closeSheet();
+  view=key;
+  TH.track('view',key);
+  document.body.dataset.p=key;setMood('');
+  $$('a[data-route]',menuLinks).forEach(function(a){
+    if(a.dataset.route===key)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');
+  });
+  var isHome=key==='home',isLearn=key==='learn',hero=isHome?HOME:isLearn?LEARN:PERIODS[key];
+  hEyebrow.textContent=hero.eyebrow;
+  hTitle.textContent=hero.title;hTitle.classList.toggle('long',hero.title.length>8);
+  hLede.textContent=hero.lede;
+  hFacts.innerHTML=hero.facts.map(function(f){return '<li>'+f+'</li>'}).join('');
+  heroArtEl.innerHTML=key==='sukhothai'?heroSK:artSVG({items:HERO_SCENES[isLearn?'home':key]},'',true,'art');
+  homeBody.hidden=!isHome;learnBody.hidden=!isLearn;stageEl.hidden=isHome||isLearn;
+  tourBtn.hidden=isHome||isLearn;startBtn.hidden=!isHome;
+  heroLink.dataset.scroll=isHome?'homeBody':isLearn?'learnBody':'timeline';
+  heroLinkTx.textContent=isHome?'เลือกสมัย':isLearn?'เริ่มเรียนรู้':'เริ่มดูไทม์ไลน์';
+  if(isHome){
+    tl.innerHTML='';chips.innerHTML='';rail.innerHTML='';
+    buildHome();mountOverview();
+  }else if(isLearn){
+    tl.innerHTML='';chips.innerHTML='';rail.innerHTML='';
+    buildLearn();
+  }else{
+    ERAS=PERIODS[key].eras;EVENTS=PERIODS[key].events;curEra=0;
+    buildTimeline();buildChips();applyFilter();
+  }
+  sourcesFor(key);
+  restart($('.hero .in'));restart(isHome?homeBody:isLearn?learnBody:stageEl);
+  window.scrollTo(0,0);
+  moveInd();refresh();
+}
+document.addEventListener('click',function(ev){
+  var a=ev.target.closest('a[data-route]');
+  if(a){
+    ev.preventDefault();
+    var k=a.dataset.route;
+    try{history.replaceState(null,'','#'+k)}catch(e){}
+    if(k!==view)route(k);else window.scrollTo(0,0);
+    return;
+  }
+  var sc=ev.target.closest('a[data-scroll]');
+  if(sc){
+    ev.preventDefault();
+    var t=document.getElementById(sc.dataset.scroll);
+    if(t)t.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
+  }
+});
+function fromHash(){var h=(location.hash||'').replace('#','');return (h==='home'||h==='learn'||PERIODS[h])?h:null}
+window.addEventListener('hashchange',function(){if(!document.body.classList.contains('unlocked'))return;var k=fromHash();if(k&&k!==view)route(k)});
+window.addEventListener('resize',moveInd);
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(moveInd);
+
+/* ---------- learn page: map, people, life, before, glossary, debates ---------- */
+var LEARN={
+  eyebrow:"ชวนรู้เพิ่ม · นอกเหนือจากไทม์ไลน์",
+  title:"เรื่องน่ารู้",
+  lede:"แผนผังเมืองหลวง บุคคลสำคัญ วิถีชีวิตของผู้คน บ้านเมืองก่อนสุโขทัย คำศัพท์ และเรื่องที่นักประวัติศาสตร์ยังเห็นต่างกัน",
+  facts:["แผนผังเมืองสำคัญ","บุคคลสำคัญ 13 พระองค์","คำศัพท์ที่กดดูความหมายได้"],
+  src:[
+    {t:"ข้อถกเถียงเรื่องจารึกหลักที่ 1 ศิลปวัฒนธรรม",u:"https://www.silpa-mag.com/?p=2203"},
+    {t:"วิวาทะเจดีย์ยุทธหัตถี ศิลปวัฒนธรรม",u:"https://www.silpa-mag.com/?p=104968"},
+    {t:"การสถาปนาอาณาจักรอยุธยา ทรูปลูกปัญญา",u:"https://www.trueplookpanya.com/learning/detail/31344"}
+  ]
+};
+var CITY={
+  sukhothai:{n:"สุโขทัย",lat:17.02,lon:99.70},satchanalai:{n:"ศรีสัชนาลัย",lat:17.5,lon:99.8},
+  chiangmai:{n:"เชียงใหม่",lat:18.79,lon:98.98},phrae:{n:"แพร่",lat:18.14,lon:100.14},nan:{n:"น่าน",lat:18.78,lon:100.78},
+  luang:{n:"หลวงพระบาง",lat:19.89,lon:102.13},vientiane:{n:"เวียงจันทน์",lat:17.97,lon:102.6},
+  nakhon:{n:"นครศรีธรรมราช",lat:8.43,lon:99.96},ayutthaya:{n:"อยุธยา",lat:14.36,lon:100.56},lopburi:{n:"ลพบุรี",lat:14.8,lon:100.65},
+  chanthaburi:{n:"จันทบุรี",lat:12.61,lon:102.1},bangkok:{n:"ธนบุรี และกรุงเทพฯ",lat:13.75,lon:100.5}
+};
+var MAPSTEPS=[
+  {k:"sukhothai",label:"สุโขทัย",yr:"ราว พ.ศ. 1781",on:["sukhothai","satchanalai"],lines:[["sukhothai","phrae"],["sukhothai","nan"],["sukhothai","luang"],["sukhothai","vientiane"],["sukhothai","nakhon"]],reach:["phrae","nan","luang","vientiane","nakhon"],
+   text:"ศูนย์กลางอยู่ที่สุโขทัยและศรีสัชนาลัย จารึกหลักที่ 1 กล่าวถึงบ้านเมืองที่อยู่ใต้อำนาจของพ่อขุนรามคำแหง เช่น แพร่ น่าน หลวงพระบาง เวียงจันทน์ และนครศรีธรรมราช (เส้นประ) แต่ขอบเขตอำนาจจริงเป็นเรื่องที่นักวิชาการยังถกเถียงกัน"},
+  {k:"ayutthaya",label:"กรุงศรีอยุธยา",yr:"พ.ศ. 1893",on:["ayutthaya","lopburi"],lines:[["sukhothai","ayutthaya"]],reach:[],
+   text:"พระเจ้าอู่ทองสถาปนากรุงศรีอยุธยาบนเกาะกลางแม่น้ำ ใกล้ปากทางสู่ทะเล เหมาะกับการค้าทางน้ำ ลพบุรียังเป็นเมืองสำคัญ และสมเด็จพระนารายณ์เคยประทับที่นั่นเป็นเวลานาน"},
+  {k:"thonburi",label:"ธนบุรี",yr:"พ.ศ. 2310",on:["chanthaburi","bangkok"],lines:[["chanthaburi","bangkok"]],reach:[],
+   text:"หลังเสียกรุงครั้งที่ 2 พระเจ้าตากรวบรวมกำลังจากจันทบุรี แล้วยกกลับมากอบกู้เอกราช และตั้งธนบุรีเป็นราชธานีใหม่ ซึ่งอยู่ใกล้ทะเลและป้องกันง่ายกว่าอยุธยาที่ถูกทำลาย"},
+  {k:"rattanakosin",label:"รัตนโกสินทร์",yr:"พ.ศ. 2325",on:["bangkok"],lines:[],reach:[],
+   text:"รัชกาลที่ 1 ย้ายราชธานีข้ามแม่น้ำมาฝั่งตะวันออก สร้างกรุงรัตนโกสินทร์ ซึ่งภายหลังคือกรุงเทพมหานคร ใช้คลองรอบเมืองและแม่น้ำเจ้าพระยาเป็นปราการ"}
+];
+var PEOPLE=[
+ {id:"ps1",n:"พ่อขุนศรีอินทราทิตย์",era:"sukhothai",yr:"ราว พ.ศ. 1781",role:"ปฐมกษัตริย์แห่งสุโขทัย",
+  t:"เดิมคือพ่อขุนบางกลางหาว ร่วมกับพ่อขุนผาเมืองขับไล่ขอมสบาดโขลญลำพงออกจากสุโขทัย แล้วขึ้นครองราชย์เป็นกษัตริย์องค์แรกของราชวงศ์พระร่วง",ev:["found"]},
+ {id:"ps2",n:"พ่อขุนรามคำแหงมหาราช",era:"sukhothai",yr:"ราว พ.ศ. 1822–1841",role:"กษัตริย์ผู้ขยายอาณาจักรและประดิษฐ์ลายสือไทย",
+  t:"ตามจารึกหลักที่ 1 ทรงขยายอำนาจ ประดิษฐ์ลายสือไทยเมื่อ พ.ศ. 1826 ปกครองแบบพ่อปกครองลูก และแขวนกระดิ่งหน้าประตูให้ราษฎรมาร้องทุกข์ได้",ev:["expand","script","rule"]},
+  {id:"ps3",n:"พญาลิไท (พระมหาธรรมราชาที่ 1)",era:"sukhothai",yr:"ราว พ.ศ. 1890",role:"กษัตริย์นักปราชญ์ ผู้แต่งไตรภูมิพระร่วง",
+  t:"ทรงเป็นกษัตริย์ผู้เคร่งในพระพุทธศาสนา ตามประวัติทรงแต่งไตรภูมิพระร่วง และทรงส่งเสริมพุทธศาสนาแบบลังกาวงศ์",ev:["traiphum","lithai"]},
+ {id:"pa1",n:"สมเด็จพระรามาธิบดีที่ 1 (พระเจ้าอู่ทอง)",era:"ayutthaya",yr:"ครองราชย์ พ.ศ. 1893–1912",role:"ผู้สถาปนากรุงศรีอยุธยา",
+  t:"ทรงสถาปนากรุงศรีอยุธยาเมื่อ พ.ศ. 1893 และวางระบบการปกครองและกฎหมายเริ่มแรกของอาณาจักร",ev:["ay-found"]},
+ {id:"pa2",n:"สมเด็จพระสุริโยทัย",era:"ayutthaya",yr:"พ.ศ. 2091",role:"พระอัครมเหสีผู้ทรงออกศึก",
+  t:"พระอัครมเหสีของสมเด็จพระมหาจักรพรรดิ ตามพระราชพงศาวดารทรงออกศึกสงครามช้างเผือก และสิ้นพระชนม์บนคอช้างขณะเข้าขวางเพื่อป้องกันพระสวามี",ev:["ay-suriyothai"]},
+ {id:"pa3",n:"สมเด็จพระนเรศวรมหาราช",era:"ayutthaya",yr:"ครองราชย์ พ.ศ. 2133–2148",role:"กษัตริย์นักรบผู้กอบกู้เอกราช",
+  t:"ทรงประกาศอิสรภาพจากพม่าเมื่อ พ.ศ. 2127 และเป็นพระมหากษัตริย์ในเรื่องยุทธหัตถี ซึ่งเป็นการรบบนหลังช้างตามพระราชพงศาวดาร",ev:["ay-independence","ay-elephant"]},
+ {id:"pa4",n:"สมเด็จพระนารายณ์มหาราช",era:"ayutthaya",yr:"ครองราชย์ พ.ศ. 2199–2231",role:"กษัตริย์ผู้ติดต่อค้าขายและเจริญสัมพันธ์กับต่างประเทศ",
+  t:"รัชสมัยของพระองค์เป็นยุคที่อยุธยาติดต่อกับฝรั่งเศส เปอร์เซีย และชาติต่าง ๆ มีการส่งและรับคณะทูตและการค้าอย่างคึกคัก",ev:["ay-narai"]},
+ {id:"pt1",n:"สมเด็จพระเจ้าตากสินมหาราช",era:"thonburi",yr:"พ.ศ. 2310–2325",role:"ผู้กอบกู้เอกราชและสถาปนากรุงธนบุรี",
+  t:"หลังเสียกรุงครั้งที่ 2 ทรงรวบรวมกำลังตีฝ่าวงล้อมออกจากกรุงศรีอยุธยา กอบกู้เอกราช ตั้งธนบุรีเป็นราชธานี และรวมแผ่นดินที่แตกเป็นชุมนุม",ev:["th-break","th-recapture","th-capital","th-unite"]},
+ {id:"pr1",n:"พระบาทสมเด็จพระพุทธยอดฟ้าจุฬาโลกมหาราช (รัชกาลที่ 1)",era:"rattanakosin",yr:"ครองราชย์ พ.ศ. 2325–2352",role:"ปฐมกษัตริย์แห่งราชวงศ์จักรี",
+  t:"ทรงสถาปนากรุงรัตนโกสินทร์เมื่อ พ.ศ. 2325 และโปรดให้ชำระกฎหมายจนเป็นกฎหมายตราสามดวง",ev:["rk-found","rk-law"]},
+ {id:"pr2",n:"พระบาทสมเด็จพระจอมเกล้าเจ้าอยู่หัว (รัชกาลที่ 4)",era:"rattanakosin",yr:"ครองราชย์ พ.ศ. 2394–2411",role:"ผู้เปิดประเทศค้าขายกับตะวันตก",
+  t:"ในรัชสมัยของพระองค์ไทยทำสนธิสัญญาเบาว์ริงกับอังกฤษเมื่อ พ.ศ. 2398 ซึ่งเปิดการค้าเสรีและเปลี่ยนเศรษฐกิจของประเทศ",ev:["rk-bowring"]},
+ {id:"pr3",n:"พระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว (รัชกาลที่ 5)",era:"rattanakosin",yr:"ครองราชย์ พ.ศ. 2411–2453",role:"ผู้ปฏิรูปประเทศให้ทันสมัย",
+  t:"ทรงปฏิรูปการปกครอง การศึกษา และการคมนาคม ทรงเลิกทาสจนสำเร็จเมื่อ พ.ศ. 2448 และต้องรับมือวิกฤตการณ์ ร.ศ. 112 ในปี พ.ศ. 2436",ev:["rk-r5","rk-slave","rk-paknam"]},
+ {id:"pr4",n:"พระบาทสมเด็จพระปกเกล้าเจ้าอยู่หัว (รัชกาลที่ 7)",era:"rattanakosin",yr:"ครองราชย์ พ.ศ. 2468–2477",role:"พระมหากษัตริย์ในช่วงเปลี่ยนแปลงการปกครอง",
+  t:"ในรัชสมัยของพระองค์เกิดการเปลี่ยนแปลงการปกครองเมื่อ พ.ศ. 2475 จากระบอบสมบูรณาญาสิทธิราชย์ เป็นระบอบประชาธิปไตยที่มีพระมหากษัตริย์ทรงเป็นประมุข",ev:["rk-1932"]},
+ {id:"pr5",n:"พระบาทสมเด็จพระบรมชนกาธิเบศร มหาภูมิพลอดุลยเดชมหาราช (รัชกาลที่ 9)",era:"rattanakosin",yr:"ครองราชย์ พ.ศ. 2489–2559",role:"พระมหากษัตริย์ผู้ครองราชย์ยาวนานที่สุดของไทย",
+  t:"ทรงครองราชย์ 70 ปี พระราชกรณียกิจจำนวนมากเน้นการพัฒนาชนบท การเกษตร และแหล่งน้ำ",ev:["rk-r9"]}
+];
+var LIFE={
+ sukhothai:[
+  {h:"ในน้ำมีปลา ในนามีข้าว",t:"จารึกหลักที่ 1 บรรยายความอุดมสมบูรณ์ของสุโขทัยด้วยประโยคนี้ ผู้คนทำนา หาปลา และเก็บของป่า ชาวเมืองใช้ตระพังและทำนบกักน้ำไว้ใช้ตลอดปี"},
+  {h:"การค้าเสรี",t:"จารึกกล่าวว่าเจ้าเมืองไม่เก็บจกอบ (ภาษีผ่านด่าน) จากพ่อค้าที่ผ่านไปมา ทำให้พ่อค้าเดินทางค้าขายได้สะดวก"},
+  {h:"อักษรและภาษา",t:"ลายสือไทยประดิษฐ์ขึ้นราว พ.ศ. 1826 ตามจารึกหลักที่ 1 และเป็นรากของอักษรไทยที่ใช้อยู่ในปัจจุบัน"},
+  {h:"ศาสนาและศิลปะ",t:"รับพุทธศาสนาแบบลังกาวงศ์ ศิลปะสุโขทัยเด่นที่พระพุทธรูปปางลีลาที่ดูเหมือนก้าวเดิน และเจดีย์ทรงพุ่มข้าวบิณฑ์"},
+  {h:"เครื่องสังคโลก",t:"เครื่องปั้นดินเผาเคลือบจากสุโขทัยและศรีสัชนาลัย ใช้ในชีวิตประจำวันและส่งออกไปขายต่างแดน"},
+  {h:"ประเพณีลอยกระทง (ตำนาน)",t:"เล่ากันว่านางนพมาศประดิษฐ์กระทงรูปดอกบัวถวายพระร่วง แต่นักวิชาการเห็นว่าเรื่องนี้เป็นตำนานที่เล่าต่อกันมาภายหลัง"}],
+ ayutthaya:[
+  {h:"เมืองท่านานาชาติ",t:"กรุงศรีอยุธยาเป็นเมืองท่านานาชาติ มีชุมชนพ่อค้าต่างชาติ เช่น จีน ญี่ปุ่น เปอร์เซีย โปรตุเกส ฮอลันดา และฝรั่งเศส"},
+  {h:"เมืองบนเกาะ",t:"เกาะเมืองล้อมด้วยแม่น้ำเจ้าพระยา ป่าสัก และลพบุรี ผู้คนเดินทางด้วยเรือเป็นหลัก ตลาดน้ำและบ้านเรือนริมน้ำเป็นภาพคุ้นตา"},
+  {h:"ศักดินาและไพร่",t:"สังคมแบ่งเป็นชนชั้น ใช้ศักดินากำหนดฐานะ ไพร่ต้องสังกัดมูลนายและถูกเกณฑ์แรงงานหรือไปรบ"},
+  {h:"กองทัพช้าง",t:"ช้างเป็นพาหนะในการรบและเป็นสัญลักษณ์ของพระราชอำนาจ ช้างเผือกมีความสำคัญต่อพระมหากษัตริย์"},
+  {h:"ขนมหวานที่เล่ากันว่ามีมาตั้งแต่อยุธยา",t:"มีเรื่องเล่าว่าขนมอย่างทองหยิบ ทองหยอด ฝอยทอง เผยแพร่ในสมัยพระนารายณ์ โดยมารี กีมาร์ หรือท้าวทองกีบม้า นักวิชาการบางคนยังไม่แน่ใจรายละเอียดของเรื่องนี้"},
+  {h:"วรรณคดีและศิลปะ",t:"กาพย์เห่เรือเจ้าฟ้ากุ้งเป็นวรรณคดีสำคัญสมัยอยุธยา ศิลปะอยุธยามีพระปรางค์ เจดีย์ และจิตรกรรมตามวัด"}],
+ thonburi:[
+  {h:"เมืองหลวงริมน้ำ",t:"ธนบุรีเป็นราชธานีเล็กที่อยู่ติดแม่น้ำเจ้าพระยา ใกล้ทะเลกว่าอยุธยา ใช้เรือและคลองในการสัญจร"},
+  {h:"ฟื้นฟูบ้านเมืองหลังสงคราม",t:"หลังเสียกรุง บ้านเมืองแตกเป็นชุมนุม ผู้คนอดอยาก พระเจ้าตากต้องรวมแผ่นดิน ส่งเสริมการเกษตร และฟื้นฟูการค้า"},
+  {h:"การค้ากับจีน",t:"ธนบุรีค้าขายกับจีนอย่างคึกคัก และมีชาวจีนจำนวนมากอยู่ในเมือง"},
+  {h:"วรรณคดีและศาสนา",t:"สมัยนี้มีการรวบรวมและสร้างวรรณคดีขึ้นใหม่ เช่น พระราชนิพนธ์รามเกียรติ์ บางตอน และมีการฟื้นฟูวัดวาอาราม"}],
+ rattanakosin:[
+  {h:"ถนนและรถไฟ",t:"ถนนเจริญกรุงสร้างเสร็จเมื่อ พ.ศ. 2407 และรถไฟสายแรกวิ่งระหว่างกรุงเทพฯ กับปากน้ำเมื่อ พ.ศ. 2436 เปลี่ยนการเดินทางและเมืองไปตลอดกาล"},
+  {h:"ไปรษณีย์และการสื่อสาร",t:"ไทยเริ่มมีบริการไปรษณีย์เมื่อ พ.ศ. 2426 ในรัชกาลที่ 5 ทำให้ข่าวสารเดินทางได้ไกลและเร็วขึ้น"},
+  {h:"การศึกษาและการเลิกทาส",t:"รัชกาลที่ 5 ทรงตั้งโรงเรียนและขยายการศึกษา และเลิกทาสจนสำเร็จเมื่อ พ.ศ. 2448"},
+  {h:"วรรณกรรม",t:"สุนทรภู่เป็นกวีเอกที่ประพันธ์พระอภัยมณี และนิราศหลายเรื่องในต้นรัตนโกสินทร์"},
+  {h:"ธงไตรรงค์",t:"ไทยใช้ธงไตรรงค์เป็นธงชาติตั้งแต่ พ.ศ. 2460 ในสมัยรัชกาลที่ 6"},
+  {h:"ชื่อประเทศ",t:"ชื่อประเทศเปลี่ยนจากสยามเป็นไทยอย่างเป็นทางการเมื่อ พ.ศ. 2482"}]
+};
+var BEFORE=[
+ {n:"ทวารวดี",yr:"ราวพุทธศตวรรษที่ 12–16",t:"กลุ่มบ้านเมืองที่นับถือพุทธศาสนา ในที่ราบภาคกลาง เช่น นครปฐม อู่ทอง ลพบุรี มีธรรมจักรศิลาและพระพุทธรูปเป็นหลักฐานสำคัญ"},
+ {n:"ศรีวิชัย",yr:"ราว พ.ศ. 1200–1800",t:"อาณาจักรทางทะเลที่มีศูนย์กลางอยู่ที่เกาะสุมาตรา มีอิทธิพลถึงภาคใต้ของไทย เช่น ไชยา และตามพรลิงค์ (นครศรีธรรมราช)"},
+ {n:"ลพบุรีและอิทธิพลขอม",yr:"ราวพุทธศตวรรษที่ 16–18",t:"ศิลปะและการปกครองแบบเขมรโบราณแพร่เข้ามาในภาคกลางและอีสาน เห็นได้จากปราสาทหินพิมายและปราสาทพนมรุ้ง"},
+ {n:"หริภุญไชย",yr:"ราวพุทธศตวรรษที่ 13–19",t:"เมืองสำคัญทางภาคเหนือตอนบน มีลำพูนเป็นศูนย์กลาง จนถูกพญามังรายผนวกเมื่อ พ.ศ. 1835"},
+ {n:"ล้านนา",yr:"ตั้งเมืองเชียงใหม่ พ.ศ. 1839",t:"พญามังรายรวมบ้านเมืองทางเหนือ และสร้างเมืองเชียงใหม่ เป็นศูนย์กลางของล้านนา ซึ่งมีวัฒนธรรมและภาษาเป็นของตนเอง"},
+ {n:"ล้านช้าง",yr:"ตั้งเมื่อ พ.ศ. 1896",t:"พญาฟ้างุ่มสถาปนาอาณาจักรล้านช้างบริเวณลุ่มน้ำโขง มีหลวงพระบางเป็นศูนย์กลาง"},
+ {n:"พม่า (ตองอูและคองบอง)",yr:"ราว พ.ศ. 2053–2428",t:"ราชวงศ์ตองอูและคองบองเป็นคู่ศึกสำคัญที่ผลัดกันทำสงครามกับอยุธยา ธนบุรี และรัตนโกสินทร์ ตามเรื่องเล่าในประวัติศาสตร์ไทย"}
+];
+var GLOSS=[
+ {w:"ศักดินา",d:"ระบบที่ใช้ตัวเลขจำนวนที่นากำหนดฐานะและสิทธิของคนแต่ละระดับในสังคมสมัยอยุธยา"},
+ {w:"จตุสดมภ์",d:"เสาหลัก 4 ด้านของการปกครองสมัยอยุธยา คือ เวียง วัง คลัง นา"},
+ {w:"ไพร่",d:"สามัญชนชายที่ต้องสังกัดมูลนายและถูกเกณฑ์แรงงานหรือไปรบ"},
+ {w:"ทาส",d:"คนที่ถูกซื้อขายหรือติดหนี้ และต้องทำงานให้นาย รัชกาลที่ 5 ทรงเลิกทาสจนสำเร็จเมื่อ พ.ศ. 2448"},
+ {w:"จกอบ",d:"ภาษีผ่านด่านที่เก็บจากสินค้าและพ่อค้า จารึกหลักที่ 1 บอกว่าสุโขทัยไม่เก็บ"},
+ {w:"ลายสือไทย",d:"ตัวอักษรไทยแบบแรก ประดิษฐ์ราว พ.ศ. 1826 ตามจารึกหลักที่ 1"},
+ {w:"จารึก",d:"ข้อความที่เขียนหรือสลักไว้บนหิน โลหะ หรือวัสดุอื่น"},
+ {w:"สังคโลก",d:"เครื่องปั้นดินเผาเคลือบจากสุโขทัยและศรีสัชนาลัย ส่งออกไปขายต่างแดน"},
+ {w:"ตระพัง",d:"สระน้ำใหญ่ที่ขุดไว้เก็บน้ำในเมืองสุโขทัย เช่น ตระพังเงิน ตระพังทอง"},
+ {w:"ลังกาวงศ์",d:"พุทธศาสนาเถรวาทแบบที่รับมาจากลังกา (ศรีลังกา) แพร่หลายในสุโขทัยและต่อมาทั่วประเทศ"},
+ {w:"พุ่มข้าวบิณฑ์",d:"รูปทรงเจดีย์ยอดคล้ายดอกบัวตูมหรือพุ่มข้าว เป็นเอกลักษณ์ของศิลปะสุโขทัย"},
+ {w:"ยุทธหัตถี",d:"การรบกันตัวต่อตัวบนหลังช้างระหว่างแม่ทัพหรือกษัตริย์ของสองฝ่าย"},
+ {w:"เสียกรุง",d:"การที่กรุงศรีอยุธยาถูกข้าศึกตีแตกและยึดเมืองหลวงได้ เกิดสองครั้ง คือ พ.ศ. 2112 และ 2310"},
+ {w:"ราชธานี",d:"เมืองหลวงที่เป็นที่ประทับของพระมหากษัตริย์"},
+ {w:"ประเทศราช",d:"เมืองหรืออาณาจักรที่อ่อนน้อมต่อศูนย์กลาง ส่งเครื่องบรรณาการ แต่ปกครองตนเองได้บางส่วน"},
+ {w:"สำเภา",d:"เรือเดินทะเลขนาดใหญ่แบบจีน ใช้บรรทุกสินค้าไปค้าขาย"},
+ {w:"เกาะเมือง",d:"ส่วนใจกลางกรุงศรีอยุธยาที่มีแม่น้ำล้อมรอบเป็นเกาะ"},
+ {w:"กฎหมายตราสามดวง",d:"ประมวลกฎหมายที่ชำระในรัชกาลที่ 1 เมื่อ พ.ศ. 2347 ประทับตราสามดวงกำกับ"},
+ {w:"สนธิสัญญาเบาว์ริง",d:"สนธิสัญญากับอังกฤษ พ.ศ. 2398 ที่เปิดการค้าเสรี และเก็บภาษีขาเข้าในอัตราคงที่"},
+ {w:"ร.ศ.",d:"รัตนโกสินทรศก ปีนับจากการสถาปนากรุงรัตนโกสินทร์ พ.ศ. 2325 เป็นปีที่ 1 เช่น ร.ศ. 112 คือ พ.ศ. 2436"},
+ {w:"เปลี่ยนแปลงการปกครอง",d:"เหตุการณ์วันที่ 24 มิถุนายน พ.ศ. 2475 ที่เปลี่ยนจากสมบูรณาญาสิทธิราชย์ เป็นระบอบประชาธิปไตยที่มีพระมหากษัตริย์ทรงเป็นประมุข"},
+ {w:"พุทธศตวรรษ",d:"ช่วงเวลา 100 ปีที่นับจากปีพุทธศักราช เช่น พุทธศตวรรษที่ 18 คือ พ.ศ. 1701–1800"},
+ {w:"มรดกโลก",d:"แหล่งที่องค์การยูเนสโกขึ้นทะเบียนว่ามีคุณค่าโดดเด่นต่อมนุษยชาติ"},
+ {w:"ธรรมราชา",d:"พระราชาผู้ปกครองตามหลักธรรม"}
+];
+var DEBATES=[
+ {ev:"script",era:"sukhothai",h:"จารึกหลักที่ 1 สร้างสมัยใคร",t:"นักวิชาการส่วนใหญ่เห็นว่าข้อความตอนต้นของจารึกมาจากสมัยพ่อขุนรามคำแหง ส่วนตอนท้ายเพิ่มภายหลัง แต่ศรีศักร วัลลิโภดมเห็นว่าจารึกทั้งหลักน่าจะสร้างหลังรัชกาล ในสมัยพญาลิไท",src:"https://www.silpa-mag.com/?p=2203"},
+ {ev:"ay-found",era:"ayutthaya",h:"พระเจ้าอู่ทองมาจากไหน",t:"มีสองแนวคิดหลัก คือ ทรงอพยพมาจากเมืองอื่นแล้วสถาปนากรุงศรีอยุธยา หรือทรงปกครองบริเวณใกล้เคียงอยุธยามาก่อน ส่วนปีสถาปนา พ.ศ. 1893 เป็นปีที่ใช้กันทั่วไป",src:"https://www.trueplookpanya.com/learning/detail/31344"},
+ {ev:"ay-elephant",era:"ayutthaya",h:"ยุทธหัตถีเกิดที่ไหน",t:"สถานที่ยุทธหัตถีมีหลายความเห็น ได้แก่ สุพรรณบุรี (ตามสมเด็จฯ กรมพระยาดำรงราชานุภาพ พ.ศ. 2456) ดอนเจดีย์ที่พนมทวน กาญจนบุรี เจดีย์ภูเขาทองที่อยุธยา และมีผู้เสนอว่าเรื่องการสร้างเจดีย์อาจเป็นโวหารในพงศาวดาร",src:"https://www.silpa-mag.com/?p=104968"},
+ {ev:"th-vientiane",era:"thonburi",h:"ตีเวียงจันทน์ปีไหน",t:"แหล่งข้อมูลที่ใช้อ้างอิงบางแห่งระบุปี พ.ศ. 2312 ขณะที่เว็บนี้ใช้ ราว พ.ศ. 2321 ตามหลายแหล่ง จึงควรตรวจสอบกับหลายแหล่งก่อนนำไปอ้างอิง",src:""}
+];
+
+var learnBody=document.getElementById('learnBody'),LT='map',LERA='all',LLIFE='sukhothai',MSTEP=0,mtimer=0,GQ='';
+var ECOL={sukhothai:'var(--celadon)',ayutthaya:'var(--laterite)',thonburi:'var(--slate)',rattanakosin:'var(--gold)'};
+var LTABS=[['map','แผนผังเมืองหลวง'],['people','บุคคลสำคัญ'],['life','วิถีชีวิต'],['before','ก่อนสุโขทัย'],['gloss','คำศัพท์'],['debate','นักวิชาการเห็นต่าง']];
+function evBtn(k,id){
+  var e=null;PERIODS[k].events.forEach(function(x){if(x.id===id)e=x});
+  return e?'<button type="button" class="ln-ev" data-ev="'+k+'|'+id+'" style="--c:'+ECOL[k]+'">'+esc(e.big+' '+e.title)+'</button>':'';
+}
+function eraChips(cur,attr){
+  var h='<div class="ln-chips" role="group">';
+  h+='<button type="button" '+attr+'="all" aria-pressed="'+(cur==='all')+'">ทุกสมัย</button>';
+  ORDER.forEach(function(k){h+='<button type="button" '+attr+'="'+k+'" aria-pressed="'+(cur===k)+'">'+esc(PERIODS[k].name)+'</button>'});
+  return h+'</div>';
+}
+function mapPos(c){return {x:(c.lon-96.5)*40+20,y:(21-c.lat)*40+20}}
+function mapHTML(){
+  var st=MAPSTEPS[MSTEP],h='<div class="ln-map">';
+  h+='<div class="mp-side"><div class="ln-chips" role="group" aria-label="เลือกช่วงเวลา">';
+  MAPSTEPS.forEach(function(s,i){h+='<button type="button" data-ms="'+i+'" aria-pressed="'+(i===MSTEP)+'">'+s.label+'</button>'});
+  h+='</div><div class="mp-card" style="--c:'+ECOL[st.k]+'"><span class="rg">'+st.yr+'</span><h3>'+esc(st.label)+'</h3><p>'+esc(st.text)+'</p>';
+  h+='<button type="button" class="btn ghost sm" data-mplay><span>'+(mtimer?'หยุดเดินทาง':'เดินทางตามเมืองหลวง')+'</span></button>';
+  h+='<p class="note-s">แผนผังนี้วางตำแหน่งเมืองตามละติจูดและลองจิจูดโดยประมาณ ไม่ใช่แผนที่ละเอียดและไม่แสดงเส้นพรมแดน</p></div></div>';
+  h+='<svg class="mp-svg" viewBox="0 0 340 580" role="img" aria-label="แผนผังตำแหน่งเมืองสำคัญ">';
+  for(var la=8;la<=20;la+=2){var y=(21-la)*40+20;h+='<line x1="0" x2="340" y1="'+y+'" y2="'+y+'" class="gr"/>'}
+  for(var lo=97;lo<=104;lo+=1){var x=(lo-96.5)*40+20;h+='<line y1="0" y2="580" x1="'+x+'" x2="'+x+'" class="gr"/>'}
+  h+='<text x="190" y="430" class="sea">อ่าวไทย</text><text x="20" y="500" class="sea">ทะเลอันดามัน</text>';
+  st.lines.forEach(function(l){var a=mapPos(CITY[l[0]]),b=mapPos(CITY[l[1]]);h+='<line class="ln" x1="'+a.x.toFixed(1)+'" y1="'+a.y.toFixed(1)+'" x2="'+b.x.toFixed(1)+'" y2="'+b.y.toFixed(1)+'" style="stroke:'+ECOL[st.k]+'"/>'});
+  var side={sukhothai:'l',chiangmai:'l',ayutthaya:'l'};
+  Object.keys(CITY).forEach(function(id){
+    var c=CITY[id],p=mapPos(c),on=st.on.indexOf(id)>=0,rc=st.reach.indexOf(id)>=0,l=side[id]==='l';
+    h+='<g class="ct'+(on?' on':'')+(rc?' rc':'')+'" style="--c:'+ECOL[st.k]+'">';
+    if(on)h+='<circle class="pu" cx="'+p.x.toFixed(1)+'" cy="'+p.y.toFixed(1)+'" r="7"/>';
+    h+='<circle cx="'+p.x.toFixed(1)+'" cy="'+p.y.toFixed(1)+'" r="'+(on?6:4)+'"/><text x="'+(p.x+(l?-10:10)).toFixed(1)+'" y="'+(p.y+4).toFixed(1)+'" text-anchor="'+(l?'end':'start')+'">'+esc(c.n)+'</text></g>';
+  });
+  return h+'</svg></div>';
+}
+function peopleHTML(){
+  var h=eraChips(LERA,'data-le')+'<div class="ln-grid">';
+  PEOPLE.filter(function(p){return LERA==='all'||p.era===LERA}).forEach(function(p){
+    h+='<article class="ln-card" style="--c:'+ECOL[p.era]+'"><div class="av" aria-hidden="true">'+esc(p.n.replace(/^(สมเด็จพระ|พระบาทสมเด็จพระ|พ่อขุน|พญา)/,'').charAt(0)||'ท')+'</div>'+
+      '<div class="bd"><span class="rg">'+esc(PERIODS[p.era].name+' · '+p.yr)+'</span><h3>'+esc(p.n)+'</h3><p class="role">'+esc(p.role)+'</p><p>'+esc(p.t)+'</p><div class="evs">'+p.ev.map(function(i){return evBtn(p.era,i)}).join('')+'</div></div></article>';
+  });
+  return h+'</div>';
+}
+function lifeHTML(){
+  var h='<div class="ln-chips" role="group">';
+  ORDER.forEach(function(k){h+='<button type="button" data-ll="'+k+'" aria-pressed="'+(LLIFE===k)+'">'+esc(PERIODS[k].name)+'</button>'});
+  h+='</div><div class="ln-grid">';
+  LIFE[LLIFE].forEach(function(c){h+='<article class="ln-card flat" style="--c:'+ECOL[LLIFE]+'"><div class="bd"><h3>'+esc(c.h)+'</h3><p>'+esc(c.t)+'</p></div></article>'});
+  return h+'</div>';
+}
+function beforeHTML(){
+  var h='<p class="ln-intro">ก่อนสุโขทัยและตลอดสมัยที่เรียนมา ยังมีบ้านเมืองและอาณาจักรอื่นที่เกี่ยวข้องกับประวัติศาสตร์ไทย รายการนี้เรียงตามช่วงเวลาโดยประมาณ</p><ol class="ln-tl">';
+  BEFORE.forEach(function(b){h+='<li><span class="yr">'+esc(b.yr)+'</span><div><h3>'+esc(b.n)+'</h3><p>'+esc(b.t)+'</p></div></li>'});
+  return h+'</ol>';
+}
+function glossListHTML(){
+  var q=GQ.trim(),h='';
+  GLOSS.filter(function(g){return !q||g.w.indexOf(q)>=0||g.d.indexOf(q)>=0}).forEach(function(g){h+='<div class="ln-gl"><dt>'+esc(g.w)+'</dt><dd>'+esc(g.d)+'</dd></div>'});
+  return h||'<p class="ln-intro">ไม่พบคำที่ค้นหา</p>';
+}
+function glossHTML(){
+  return '<label class="fld ln-search" for="gq"><span>ค้นหาคำศัพท์</span><input id="gq" type="search" value="'+esc(GQ).replace(/"/g,'&quot;')+'" placeholder="เช่น ศักดินา"></label><p class="ln-intro">คำศัพท์เหล่านี้ยังปรากฏเป็นปุ่มขีดเส้นใต้ในหน้ารายละเอียดของแต่ละเหตุการณ์ กดแล้วดูความหมายได้</p><dl class="ln-gls" id="glList">'+glossListHTML()+'</dl>';
+}
+function debateHTML(){
+  var h='<p class="ln-intro">ประวัติศาสตร์ไม่ได้มีคำตอบเดียวเสมอไป เรื่องเหล่านี้คือที่ที่นักวิชาการและหลักฐานยังชี้ไปคนละทาง</p><div class="ln-grid">';
+  DEBATES.forEach(function(d){
+    h+='<article class="ln-card flat" style="--c:'+ECOL[d.era]+'"><div class="bd"><span class="rg">สมัย'+esc(PERIODS[d.era].name)+'</span><h3>'+esc(d.h)+'</h3><p>'+esc(d.t)+'</p><div class="evs">'+evBtn(d.era,d.ev)+(d.src?'<a class="ln-src" href="'+d.src+'" target="_blank" rel="noopener">แหล่งอ้างอิง</a>':'')+'</div></div></article>';
+  });
+  return h+'</div>';
+}
+function buildLearn(){
+  if(!learnBody)return;
+  var tabs='<div class="ln-tabs" role="tablist" aria-label="หมวดเรื่องน่ารู้">';
+  LTABS.forEach(function(t){tabs+='<button type="button" role="tab" data-lt="'+t[0]+'" aria-selected="'+(LT===t[0])+'">'+t[1]+'</button>'});
+  tabs+='</div>';
+  var body=LT==='map'?mapHTML():LT==='people'?peopleHTML():LT==='life'?lifeHTML():LT==='before'?beforeHTML():LT==='gloss'?glossHTML():debateHTML();
+  learnBody.querySelector('.in').innerHTML=tabs+'<div class="ln-panel" role="tabpanel">'+body+'</div>';
+}
+function stopMapPlay(){clearInterval(mtimer);mtimer=0}
+function gotoEv(pair){
+  var q=pair.split('|');stopMapPlay();
+  try{history.replaceState(null,'','#'+q[0])}catch(e){}
+  route(q[0]);
+  setTimeout(function(){if(byId(q[1]))openSheet(q[1])},60);
+}
+if(learnBody){
+  learnBody.addEventListener('click',function(ev){
+    var b=ev.target.closest('button');if(!b)return;
+    if(b.dataset.lt){stopMapPlay();LT=b.dataset.lt;buildLearn();return}
+    if(b.dataset.le){LERA=b.dataset.le;buildLearn();return}
+    if(b.dataset.ll){LLIFE=b.dataset.ll;buildLearn();return}
+    if(b.dataset.ms!==undefined){stopMapPlay();MSTEP=+b.dataset.ms;buildLearn();return}
+    if(b.hasAttribute('data-mplay')){
+      if(mtimer){stopMapPlay();buildLearn();return}
+      MSTEP=0;buildLearn();
+      mtimer=setInterval(function(){if(view!=='learn'||LT!=='map'){stopMapPlay();return}if(MSTEP>=MAPSTEPS.length-1){stopMapPlay();buildLearn();return}MSTEP++;buildLearn()},3600);
+      buildLearn();return;
+    }
+    if(b.dataset.ev){gotoEv(b.dataset.ev)}
+  });
+  learnBody.addEventListener('input',function(ev){
+    if(ev.target.id==='gq'){GQ=ev.target.value;var l=document.getElementById('glList');if(l)l.innerHTML=glossListHTML()}
+  });
+}
+/* glossary buttons inside the detail sheet */
+function glossify(txt,used){
+  var out=String(txt),marks=[];
+  GLOSS.map(function(g,i){return {g:g,i:i}}).sort(function(a,b){return b.g.w.length-a.g.w.length}).forEach(function(o){
+    if(used[o.g.w])return;var i=out.indexOf(o.g.w);if(i<0)return;used[o.g.w]=1;
+    var tok='\u0001'+marks.length+'\u0002';
+    marks.push('<button type="button" class="gterm" data-gl="'+o.i+'">'+o.g.w+'</button>');
+    out=out.slice(0,i)+tok+out.slice(i+o.g.w.length);
+  });
+  return out.replace(/\u0001(\d+)\u0002/g,function(m,n){return marks[+n]});
+}
+function debateBox(e){
+  var d=null;DEBATES.forEach(function(x){if(x.ev===e.id)d=x});
+  if(!d)return '';
+  return '<div class="debate"><b>นักประวัติศาสตร์ยังเห็นต่าง: '+esc(d.h)+'</b> '+esc(d.t)+(d.src?' <a href="'+d.src+'" target="_blank" rel="noopener">แหล่งอ้างอิง</a>':'')+'</div>';
+}
+var glCard=document.createElement('div');glCard.className='gl-card';glCard.hidden=true;glCard.setAttribute('role','status');
+document.body.appendChild(glCard);
+var glTimer=0;
+function showGl(i){
+  var g=GLOSS[i];if(!g)return;
+  glCard.innerHTML='<b>'+esc(g.w)+'</b><span>'+esc(g.d)+'</span><button type="button" aria-label="ปิดคำอธิบาย">ปิด</button>';
+  glCard.hidden=false;clearTimeout(glTimer);glTimer=setTimeout(function(){glCard.hidden=true},12000);
+}
+glCard.addEventListener('click',function(ev){if(ev.target.closest('button'))glCard.hidden=true});
+sheet.addEventListener('click',function(ev){var b=ev.target.closest('.gterm');if(b){showGl(+b.dataset.gl)}});
+
+/* ---------- Vue overview (render functions, no template compiler) ---------- */
+var vapp=null;
+function mountOverview(){
+  var el=document.getElementById('vOverview'),wrap=document.getElementById('voWrap');
+  if(!el||!window.Vue||!window.Vue.createApp){if(wrap)wrap.hidden=true;return}
+  try{
+    if(vapp){vapp.unmount();vapp=null}
+    var V=window.Vue,h=V.h,Y0=1770,Y1=2580,SPAN=Y1-Y0;
+    var RANGES={sukhothai:[1781,1981],ayutthaya:[1893,2310],thonburi:[2310,2325],rattanakosin:[2325,2569]};
+    var COL={sukhothai:'var(--celadon)',ayutthaya:'var(--laterite)',thonburi:'var(--slate)',rattanakosin:'var(--gold)'};
+    function pct(y){return (y-Y0)/SPAN*100}
+    function yr(e){var n=parseInt(String(e.big),10);return n>=1000?n:null}
+    vapp=V.createApp({setup:function(){
+      var sel=V.ref('ayutthaya'),tip=V.ref(null),year=V.ref(2100),ex=V.ref(pct(2100)),walk=V.ref(false),drag=V.ref(false),wt=null;
+      var ALL=[];ORDER.forEach(function(k){PERIODS[k].events.forEach(function(e){var y=yr(e);if(y)ALL.push({k:k,e:e,y:y})})});
+      ALL.sort(function(a,b){return a.y-b.y});
+      function eraAt(y){return y>=2325?'rattanakosin':y>=2310?'thonburi':y>=1893?'ayutthaya':'sukhothai'}
+      function onSlide(y){
+        year.value=y;ex.value=pct(y);drag.value=true;walk.value=true;clearTimeout(wt);wt=setTimeout(function(){walk.value=false;drag.value=false},350);
+        var best=null,bd=1e9;ALL.forEach(function(o){var d=Math.abs(o.y-y);if(d<bd){bd=d;best=o}});
+        if(best&&bd<=12){sel.value=best.k;tip.value={k:best.k,e:best.e}}else{sel.value=eraAt(y);tip.value=null}
+      }
+      function step(d){
+        var n=null;
+        if(tip.value){var idx=-1;ALL.forEach(function(o,i){if(o.e.id===tip.value.e.id)idx=i});n=ALL[idx+d]||null}
+        else{
+          if(d>0){for(var i=0;i<ALL.length;i++){if(ALL[i].y>year.value){n=ALL[i];break}}}
+          else{for(var j=ALL.length-1;j>=0;j--){if(ALL[j].y<year.value){n=ALL[j];break}}}
+        }
+        if(n)pickEv(n.k,n.e);
+      }
+      function go(x){if(Math.abs(ex.value-x)<.1)return;ex.value=x;walk.value=true;clearTimeout(wt);wt=setTimeout(function(){walk.value=false},1000)}
+      function pickEra(k){sel.value=k;tip.value=null;var r=RANGES[k]||[Y0,Y1];year.value=Math.round((r[0]+r[1])/2);go(pct(year.value))}
+      function pickEv(k,e){sel.value=k;tip.value={k:k,e:e};var y=yr(e);if(y){year.value=y;go(pct(y))}}
+      return function(){
+        var lanes=ORDER.map(function(k,i){
+          var p=PERIODS[k],r=RANGES[k]||[Y0,Y1],on=sel.value===k;
+          var ticks=p.events.map(function(e){
+            var y=yr(e);if(!y)return null;
+            var ton=tip.value&&tip.value.e.id===e.id;
+            return h('button',{key:e.id,type:'button',class:'vo-tick'+(ton?' on':''),style:{left:pct(y).toFixed(2)+'%','--c':COL[k]},'aria-label':e.pre+' '+e.big+' '+e.title,
+              onMouseenter:function(){pickEv(k,e)},onFocus:function(){pickEv(k,e)},onClick:function(){pickEv(k,e)}});
+          });
+          return h('div',{class:'vo-lane',key:k,style:{'--c':COL[k]}},[
+            h('div',{class:'vo-lab'},[h('b',null,PERIODS[k].name),h('span',null,'พ.ศ. '+r[0]+'–'+(k==='rattanakosin'?'ปัจจุบัน':r[1]))]),
+            h('div',{class:'vo-track'},[
+              h('button',{type:'button',class:'vo-bar'+(on?' on':''),'aria-label':'เลือกสมัย'+PERIODS[k].name,style:{left:pct(r[0]).toFixed(2)+'%',width:Math.max(pct(r[1])-pct(r[0]),1.2).toFixed(2)+'%',animationDelay:(i*.12)+'s'},onClick:function(){pickEra(k)},onMouseenter:function(){pickEra(k)}}),
+              ticks
+            ])
+          ]);
+        });
+        var axis=[1800,2000,2200,2400,2500].map(function(y){return h('span',{class:'vo-yr',key:y,style:{left:pct(y).toFixed(2)+'%'}},String(y))});
+        var k=sel.value,p=PERIODS[k],cur=tip.value;
+        var panel;
+        if(cur){
+          panel=h('div',{class:'vo-panel',key:'t'+cur.e.id,style:{'--c':COL[k]}},[
+            h('span',{class:'rg'},cur.e.pre+' '+cur.e.big+' · สมัย'+p.name),
+            h('h3',null,cur.e.title),h('p',null,cur.e.sum),
+            h('a',{href:'#'+k},'เข้าไปอ่านทั้งสมัย'+p.name+' →')
+          ]);
+        }else{
+          panel=h('div',{class:'vo-panel',key:'e'+k},[
+            h('span',{class:'rg'},p.range||''),h('h3',null,'สมัย'+p.name),h('p',null,p.blurb||''),
+            h('a',{href:'#'+k},'เข้าไปอ่านทั้งสมัย'+p.name+' →'),
+            h(V.TransitionGroup,{name:'vo',tag:'div',class:'vo-chips',appear:true},function(){
+              return p.events.map(function(e,i){return h('button',{key:e.id,type:'button',class:'vo-chip',style:{transitionDelay:(i*35)+'ms'},onClick:function(){pickEv(k,e)}},e.big+' '+e.title)});
+            })
+          ]);
+        }
+        return h('div',null,[
+          lanes,
+          h('div',{class:'vo-axis'},[axis,
+            h('input',{type:'range',class:'vo-range',min:Y0,max:Y1,step:1,value:year.value,'aria-label':'เลื่อนดูปี พ.ศ. บนเส้นเวลา','aria-valuetext':'พ.ศ. '+year.value,onInput:function(ev){onSlide(+ev.target.value)}}),
+            h('span',{class:'vo-ele'+(walk.value?' walk':'')+(drag.value?' drag':''),'aria-hidden':'true',style:{left:'calc('+ex.value.toFixed(2)+'% + '+((0.5-ex.value/100)*22).toFixed(1)+'px)'},innerHTML:ELE})]),
+          h('div',{class:'vo-step-row'},[
+            h('button',{type:'button',class:'vo-step',onClick:function(){step(-1)}},'◀ เหตุการณ์ก่อนหน้า'),
+            h('span',{class:'vo-year'},'พ.ศ. '+year.value),
+            h('button',{type:'button',class:'vo-step',onClick:function(){step(1)}},'เหตุการณ์ถัดไป ▶')
+          ]),
+          panel
+        ]);
+      };
+    }});
+    vapp.mount(el);
+    if(wrap)wrap.hidden=false;
+  }catch(err){if(wrap)wrap.hidden=true;try{console.warn(err)}catch(e2){}}
+}
+/* ---------- mood backgrounds ---------- */
+var MOODS={peace:'สงบเขียวชอุ่ม',war:'สงคราม (ไฟ)',joy:'เฉลิมฉลอง',glory:'รุ่งโรจน์ (ทอง)',sorrow:'สูญเสีย (เถ้าถ่าน)',sea:'ค้าขายและทะเล',wisdom:'ปัญญาและปฏิรูป (น้ำเงิน)'};
+var MOODMAP={khmer:'peace',found:'joy',elephant:'war',banmueang:'glory',expand:'glory',script:'wisdom',rule:'glory',water:'sea',buddhism:'glory',after:'sorrow',traiphum:'wisdom',lithai:'glory',ayutthaya:'peace',vassal:'sorrow',merge:'sorrow',heritage:'joy',memory:'joy',
+'ay-found':'joy','ay-law':'wisdom','ay-portugal':'sea','ay-suriyothai':'war','ay-fall1':'war','ay-independence':'glory','ay-elephant':'war','ay-narai':'sea','ay-borom':'glory','ay-fall2':'war','ay-heritage':'joy',
+'th-break':'war','th-recapture':'war','th-capital':'joy','th-unite':'war','th-chiangmai':'war','th-vientiane':'war','th-end':'sorrow',
+'rk-found':'joy','rk-law':'wisdom','rk-bowring':'sea','rk-r5':'wisdom','rk-paknam':'war','rk-slave':'joy','rk-1932':'wisdom','rk-name':'wisdom','rk-ww2':'war','rk-r9':'joy','rk-r10':'joy'};
+function moodOf(e){
+  if(!e)return '';
+  if(e.mood&&MOODS[e.mood])return e.mood;
+  if(MOODMAP[e.id])return MOODMAP[e.id];
+  var t=(e.title||'')+' '+(e.sum||'');
+  if(/สงคราม|ศึก|ยุทธ|รบ|ปราบ|กบฏ|ตีเมือง|เสียกรุง|ทัพ/.test(t))return 'war';
+  if(/ฉลอง|สถาปนา|ราชาภิเษก|พิธี|ก่อตั้ง|เอกราช|มรดกโลก|เฉลิม/.test(t))return 'joy';
+  if(/สิ้นสุด|ล่มสลาย|สวรรคต|สูญเสีย|เสียดินแดน/.test(t))return 'sorrow';
+  if(/ค้า|สนธิสัญญา|ทะเล|สำเภา|ต่างชาติ|ทูต/.test(t))return 'sea';
+  if(/ปฏิรูป|กฎหมาย|การศึกษา|อักษร|ปัญญา|ประชาธิปไตย|รัฐธรรมนูญ/.test(t))return 'wisdom';
+  if(/มหาราช|รุ่งเรือง|ยุคทอง|พระมหากษัตริย์/.test(t))return 'glory';
+  return 'peace';
+}
+var moodfx=document.createElement('div');moodfx.className='moodfx';moodfx.setAttribute('aria-hidden','true');
+moodfx.innerHTML=Object.keys(MOODS).map(function(k){return '<i class="m-'+k+'"></i>'}).join('');
+document.body.insertBefore(moodfx,document.body.firstChild);
+function setMood(m){if(document.body.dataset.mood!==m)document.body.dataset.mood=m||''}
+
+/* ---------- access gate ---------- */
+var GATE=(typeof CFG.gateCode==='string')?CFG.gateCode:'';
+var gate=$('#gate'), gIn=$('#gIn'), gErr=$('#gErr'), gCard=$('#gForm');
+function unlock(save){
+  document.body.classList.add('unlocked');gate.hidden=true;
+  if(save){try{sessionStorage.setItem('th-ok','1')}catch(e){}}
+  route(fromHash()||'home');
+  TH.track('visit',fromHash()||'home');
+  TH.fetchLatest(function(doc){
+    if(!applyContent(doc))return;
+    if(window.scrollY<200&&S.state==='idle')route(view);
+  });
+}
+gCard.addEventListener('submit',function(ev){
+  ev.preventDefault();
+  if(!GATE||gIn.value===GATE){unlock(true);return}
+  gErr.textContent='รหัสไม่ถูกต้อง ลองกรอกใหม่อีกครั้ง';
+  gIn.value='';gCard.classList.remove('shake');void gCard.offsetWidth;gCard.classList.add('shake');gIn.focus();
+});
+gIn.addEventListener('input',function(){gErr.textContent='';gIn.value=gIn.value.replace(/\D/g,'')});
+var ok=false;try{ok=sessionStorage.getItem('th-ok')==='1'}catch(e){}
+if(ok||!GATE)unlock(false);else{gate.hidden=false;try{gIn.focus()}catch(e){}}
+})();
+
+</script>
+</body>
+</html>
